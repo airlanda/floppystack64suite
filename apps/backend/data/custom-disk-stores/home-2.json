@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "1",
+    "sideA": [
+      {
+        "gameName": "Pitstop II"
+      },
+      {
+        "gameName": "Airwolf"
+      }
+    ],
+    "sideB": [
+      {
+        "gameName": "One On One"
+      },
+      {
+        "gameName": "The Living Daylights"
+      }
+    ]
+  }
+]

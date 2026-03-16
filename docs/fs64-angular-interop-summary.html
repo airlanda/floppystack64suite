@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FS64 Angular Interop Summary</title>
+  <style>
+    :root {
+      --bg: #0a0f14;
+      --panel: #111922;
+      --panel-alt: #0d141b;
+      --text: #ecf2f8;
+      --muted: #a7b7c9;
+      --accent: #ffb454;
+      --line: #274055;
+      --good: #79d2a6;
+      --warn: #ffd479;
+      --code: #081018;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Segoe UI, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .page {
+      width: 1100px;
+      margin: 0 auto;
+      padding: 32px 40px 56px;
+    }
+    h1, h2, h3 { margin: 0 0 12px; line-height: 1.2; }
+    h1 { font-size: 30px; }
+    h2 {
+      font-size: 22px;
+      margin-top: 28px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+    }
+    h3 { font-size: 17px; margin-top: 18px; }
+    p, li { color: var(--muted); }
+    .lead {
+      font-size: 16px;
+      max-width: 920px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 18px 0 8px;
+    }
+    .card {
+      background: linear-gradient(180deg, var(--panel), var(--panel-alt));
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px;
+    }
+    .card strong {
+      display: block;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .diagram {
+      margin: 16px 0;
+      background: linear-gradient(180deg, #0b131a, #091017);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+    }
+    .legend {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 6px;
+      vertical-align: middle;
+    }
+    pre {
+      margin: 12px 0 0;
+      padding: 14px;
+      background: var(--code);
+      color: #f7fafc;
+      border-radius: 14px;
+      border: 1px solid #1a3040;
+      overflow: hidden;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-size: 12.5px;
+      line-height: 1.45;
+    }
+    code { font-family: Consolas, monospace; }
+    .pill {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      margin-right: 8px;
+      margin-bottom: 8px;
+      color: var(--text);
+      font-size: 12px;
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    .table th, .table td {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      vertical-align: top;
+      text-align: left;
+      font-size: 13px;
+    }
+    .table th { color: var(--text); background: #0d141b; }
+    .table td { color: var(--muted); }
+    .good { color: var(--good); }
+    .warn { color: var(--warn); }
+    ul { padding-left: 18px; }
+    .footer {
+      margin-top: 28px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--muted);
+    }
+    svg text { font-family: Segoe UI, Arial, sans-serif; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>FS64 Angular Interop Summary</h1>
+    <p class="lead">
+      This document summarizes the two Angular interop patterns tested against the FloppyStack micro front ends:
+      a React bridge for <code>disks</code> and a Web Component wrapper for <code>games</code>.
+      It uses the current code in the monorepo and explains runtime relationships, data flow, lifecycle, and tradeoffs.
+    </p>
+
+    <div class="meta">
+      <div class="card"><strong>Angular host</strong><span>Standalone Angular app on <code>:4300</code> loading remotes dynamically from a manifest.</span></div>
+      <div class="card"><strong>React bridge</strong><span>Imperative mount/unmount API exposed by <code>disks</code>.</span></div>
+      <div class="card"><strong>Web Component</strong><span>Custom element registration exposed by <code>games</code>.</span></div>
+    </div>
+
+    <h2>1. Architecture</h2>
+    <div class="diagram">
+      <svg viewBox="0 0 980 300" width="100%" height="300" aria-label="Architecture diagram">
+        <defs>
+          <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <path d="M0,0 L10,3 L0,6 z" fill="#ffb454"></path>
+          </marker>
+        </defs>
+        <rect x="30" y="40" width="240" height="90" rx="16" fill="#121c25" stroke="#274055" />
+        <text x="50" y="72" fill="#ecf2f8" font-size="19" font-weight="700">Angular Host</text>
+        <text x="50" y="98" fill="#a7b7c9" font-size="13">Route shell + manifest loader</text>
+        <text x="50" y="118" fill="#a7b7c9" font-size="13">FederationLoaderService</text>
+
+        <rect x="370" y="30" width="240" height="110" rx="16" fill="#101820" stroke="#274055" />
+        <text x="390" y="62" fill="#ecf2f8" font-size="18" font-weight="700">disks remote</text>
+        <text x="390" y="88" fill="#79d2a6" font-size="13">./AngularBridge</text>
+        <text x="390" y="108" fill="#a7b7c9" font-size="13">mountFs64DisksBridge()</text>
+
+        <rect x="370" y="170" width="240" height="110" rx="16" fill="#101820" stroke="#274055" />
+        <text x="390" y="202" fill="#ecf2f8" font-size="18" font-weight="700">games remote</text>
+        <text x="390" y="228" fill="#79d2a6" font-size="13">./WebComponent</text>
+        <text x="390" y="248" fill="#a7b7c9" font-size="13">defineFs64GamesElement()</text>
+
+        <rect x="710" y="85" width="220" height="110" rx="16" fill="#121b14" stroke="#33584a" />
+        <text x="730" y="118" fill="#ecf2f8" font-size="18" font-weight="700">backend</text>
+        <text x="730" y="144" fill="#a7b7c9" font-size="13">/api/items</text>
+        <text x="730" y="164" fill="#a7b7c9" font-size="13">/api/games</text>
+        <text x="730" y="184" fill="#a7b7c9" font-size="13">CORS allows :4300</text>
+
+        <line x1="270" y1="86" x2="370" y2="86" stroke="#ffb454" stroke-width="3" marker-end="url(#arrow)" />
+        <line x1="270" y1="205" x2="370" y2="225" stroke="#ffb454" stroke-width="3" marker-end="url(#arrow)" />
+        <line x1="610" y1="100" x2="710" y2="120" stroke="#79d2a6" stroke-width="3" marker-end="url(#arrow)" />
+        <line x1="610" y1="225" x2="710" y2="170" stroke="#79d2a6" stroke-width="3" marker-end="url(#arrow)" />
+      </svg>
+      <div class="legend">
+        <span><span class="dot" style="background:#ffb454"></span>Dynamic remote load / mount path</span>
+        <span><span class="dot" style="background:#79d2a6"></span>Remote data fetch path</span>
+      </div>
+    </div>
+
+    <h2>2. Runtime Flow</h2>
+    <div class="diagram">
+      <svg viewBox="0 0 980 360" width="100%" height="360" aria-label="Runtime flow diagram">
+        <defs>
+          <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <path d="M0,0 L10,3 L0,6 z" fill="#ffb454"></path>
+          </marker>
+        </defs>
+        <text x="70" y="28" fill="#ecf2f8" font-size="14" font-weight="700">User</text>
+        <text x="250" y="28" fill="#ecf2f8" font-size="14" font-weight="700">Angular host</text>
+        <text x="470" y="28" fill="#ecf2f8" font-size="14" font-weight="700">Federation loader</text>
+        <text x="700" y="28" fill="#ecf2f8" font-size="14" font-weight="700">Remote container</text>
+
+        <line x1="80" y1="40" x2="80" y2="320" stroke="#274055" />
+        <line x1="280" y1="40" x2="280" y2="320" stroke="#274055" />
+        <line x1="520" y1="40" x2="520" y2="320" stroke="#274055" />
+        <line x1="760" y1="40" x2="760" y2="320" stroke="#274055" />
+
+        <text x="95" y="75" fill="#a7b7c9" font-size="13">1. Open interop route</text>
+        <line x1="120" y1="82" x2="272" y2="82" stroke="#ffb454" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+        <text x="295" y="116" fill="#a7b7c9" font-size="13">2. Resolve remote from manifest</text>
+        <line x1="320" y1="124" x2="512" y2="124" stroke="#ffb454" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+        <text x="535" y="158" fill="#a7b7c9" font-size="13">3. Inject remoteEntry.js</text>
+        <line x1="560" y1="166" x2="752" y2="166" stroke="#ffb454" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+        <text x="535" y="208" fill="#a7b7c9" font-size="13">4. container.get(exposedModule)</text>
+        <line x1="560" y1="216" x2="752" y2="216" stroke="#ffb454" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+        <text x="295" y="258" fill="#a7b7c9" font-size="13">5a. disks: mount bridge into host div</text>
+        <text x="295" y="280" fill="#a7b7c9" font-size="13">5b. games: define custom element + render</text>
+        <line x1="520" y1="266" x2="288" y2="266" stroke="#79d2a6" stroke-width="2.5" marker-end="url(#arrow2)" />
+      </svg>
+    </div>
+
+    <h2>3. Method A: React Bridge for Disks</h2>
+    <div class="grid-2">
+      <div class="card">
+        <strong>How it works</strong>
+        <ul>
+          <li>Angular loads <code>disks</code> from the manifest.</li>
+          <li>Angular requests the exposed module <code>./AngularBridge</code>.</li>
+          <li>The remote exports imperative functions to mount and unmount the React tree.</li>
+          <li>The React app is wrapped in <code>MemoryRouter</code> so Angular does not need to hand off browser routing.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <strong>Why this pattern is useful</strong>
+        <ul>
+          <li>Works well for a large React feature slice.</li>
+          <li>Keeps Angular in control of page composition.</li>
+          <li>Gives explicit lifecycle control for mount and teardown.</li>
+          <li>Good when the embedded React UI is more like a mini app than a widget.</li>
+        </ul>
+      </div>
+    </div>
+    <h3>Key Angular usage</h3>
+    <pre><code>async ngAfterViewInit() {
+  this.bridge = await this.loader.loadRemoteById&lt;DisksBridgeModule&gt;(
+    'disks',
+    './AngularBridge'
+  );
+
+  this.bridge.mountFs64DisksBridge(this.mountPoint.nativeElement, {
+    initialPath: '/?diskId=1',
+  });
+}</code></pre>
+
+    <h3>Key React bridge export</h3>
+    <pre><code>export function mountFs64DisksBridge(element: Element, options?: { initialPath?: string }): void {
+  const root = createRoot(element);
+  root.render(
+    &lt;React.StrictMode&gt;
+      &lt;MemoryRouter initialEntries={[options?.initialPath || '/']}&gt;
+        &lt;App /&gt;
+      &lt;/MemoryRouter&gt;
+    &lt;/React.StrictMode&gt;
+  );
+}</code></pre>
+
+    <h2>4. Method B: Web Component for Games</h2>
+    <div class="grid-2">
+      <div class="card">
+        <strong>How it works</strong>
+        <ul>
+          <li>Angular loads <code>games</code> from the manifest.</li>
+          <li>Angular requests the exposed module <code>./WebComponent</code>.</li>
+          <li>The remote defines <code>&lt;fs64-games-widget&gt;</code>.</li>
+          <li>Angular renders the element directly and updates it through an attribute.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <strong>Why this pattern is useful</strong>
+        <ul>
+          <li>Best for a self-contained widget surface.</li>
+          <li>The host only needs DOM-level integration.</li>
+          <li>Simple mental model for other frameworks too, not just Angular.</li>
+          <li>Good when the remote needs a small input API and little host lifecycle control.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Key Angular usage</h3>
+    <pre><code>&lt;fs64-games-widget class="interop-surface" [attr.query]="query"&gt;&lt;/fs64-games-widget&gt;
+
+async ngAfterViewInit() {
+  const module = await this.loader.loadRemoteById&lt;GamesElementModule&gt;(
+    'games',
+    './WebComponent'
+  );
+  module.defineFs64GamesElement();
+}</code></pre>
+
+    <h3>Key custom element export</h3>
+    <pre><code>class Fs64GamesElement extends HTMLElement {
+  static get observedAttributes() {
+    return ['query'];
+  }
+
+  private renderReactTree() {
+    const query = this.getAttribute('query') || '';
+    const initialPath = query ? `/?q=${encodeURIComponent(query)}` : '/';
+
+    this.root.render(
+      &lt;MemoryRouter initialEntries={[initialPath]}&gt;
+        &lt;App /&gt;
+      &lt;/MemoryRouter&gt;
+    );
+  }
+}</code></pre>
+
+    <h2>5. Shared Dynamic Loader</h2>
+    <p>
+      Both methods use the same manifest-driven remote resolution. The Angular host does not hardcode remote URLs in the page component.
+      It asks <code>FederationLoaderService</code> for a remote by id, and that service resolves the runtime manifest from <code>/fs64-remotes.json</code>.
+    </p>
+    <pre><code>async loadRemoteById&lt;T&gt;(id: string, exposedModule = './Module'): Promise&lt;T&gt; {
+  const remote = await this.getRemoteById(id, exposedModule);
+  return loadFs64RemoteModule&lt;T&gt;(remote);
+}</code></pre>
+
+    <h3>Loader responsibilities</h3>
+    <table class="table">
+      <thead>
+        <tr><th>Step</th><th>Responsibility</th><th>Why it matters</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Manifest fetch</td><td>Resolve remote id, entry URL, scope, and exposed module.</td><td>Keeps host pages decoupled from concrete remote URLs.</td></tr>
+        <tr><td>Script injection</td><td>Load <code>remoteEntry.js</code> only once per scope.</td><td>Prevents duplicate remote bootstrap work.</td></tr>
+        <tr><td>Container init</td><td>Initialize the remote with the available share scope.</td><td>Allows React libraries to be reused when possible.</td></tr>
+        <tr><td>Exposed module load</td><td>Call <code>container.get(...)</code> and execute the factory.</td><td>Returns the bridge or custom-element definition module.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>6. Relationship and Data Flow</h2>
+    <div class="diagram">
+      <svg viewBox="0 0 980 300" width="100%" height="300" aria-label="Data flow diagram">
+        <defs>
+          <marker id="arrow3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <path d="M0,0 L10,3 L0,6 z" fill="#79d2a6"></path>
+          </marker>
+        </defs>
+        <rect x="40" y="110" width="220" height="80" rx="16" fill="#121c25" stroke="#274055"></rect>
+        <text x="60" y="145" fill="#ecf2f8" font-size="18" font-weight="700">Angular host shell</text>
+        <text x="60" y="167" fill="#a7b7c9" font-size="13">No domain logic here</text>
+
+        <rect x="370" y="40" width="220" height="90" rx="16" fill="#101820" stroke="#274055"></rect>
+        <text x="392" y="74" fill="#ecf2f8" font-size="18" font-weight="700">disks React app</text>
+        <text x="392" y="96" fill="#a7b7c9" font-size="13">fetchDisks(), ratings, metadata</text>
+
+        <rect x="370" y="170" width="220" height="90" rx="16" fill="#101820" stroke="#274055"></rect>
+        <text x="392" y="204" fill="#ecf2f8" font-size="18" font-weight="700">games React app</text>
+        <text x="392" y="226" fill="#a7b7c9" font-size="13">searchGames(), metadata</text>
+
+        <rect x="700" y="100" width="220" height="100" rx="16" fill="#121b14" stroke="#33584a"></rect>
+        <text x="722" y="136" fill="#ecf2f8" font-size="18" font-weight="700">Express backend</text>
+        <text x="722" y="160" fill="#a7b7c9" font-size="13">REST API + metadata + CORS</text>
+
+        <line x1="260" y1="130" x2="370" y2="88" stroke="#ffb454" stroke-width="3" marker-end="url(#arrow3)" />
+        <line x1="260" y1="170" x2="370" y2="212" stroke="#ffb454" stroke-width="3" marker-end="url(#arrow3)" />
+        <line x1="590" y1="88" x2="700" y2="128" stroke="#79d2a6" stroke-width="3" marker-end="url(#arrow3)" />
+        <line x1="590" y1="212" x2="700" y2="172" stroke="#79d2a6" stroke-width="3" marker-end="url(#arrow3)" />
+      </svg>
+    </div>
+
+    <h2>7. Tradeoffs</h2>
+    <table class="table">
+      <thead>
+        <tr><th>Method</th><th>Strengths</th><th>Costs</th><th>Best fit</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>React bridge</td>
+          <td><span class="good">Explicit lifecycle</span>, easy to mount a full React app, host controls teardown.</td>
+          <td>Imperative API, more host code, not as HTML-native.</td>
+          <td>Large feature slice like <code>disks</code>.</td>
+        </tr>
+        <tr>
+          <td>Web Component</td>
+          <td><span class="good">Framework-neutral</span>, host template stays simple, easy input surface.</td>
+          <td>DOM attribute boundary is more limited, complex interactions can get awkward.</td>
+          <td>Widget-like slice such as <code>games</code> search.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>8. Current Caveats</h2>
+    <ul>
+      <li><span class="warn">Angular dev deep links are still weaker than the root route.</span> The reliable path in dev is to open <code>http://localhost:4300/</code> and navigate from the Angular shell.</li>
+      <li>The shared loader now tolerates incomplete host share initialization for this interop experiment. That is acceptable for a test path, but a production Angular host should be a clean federation host with an explicit host runtime strategy.</li>
+      <li>Backend CORS had to be extended for <code>:4300</code> so the embedded remotes could fetch live data.</li>
+    </ul>
+
+    <h2>9. Recommended Next Steps</h2>
+    <div class="card">
+      <span class="pill">1. Stabilize Angular host deep-link fallback</span>
+      <span class="pill">2. Move Angular host manifest to backend endpoint with local fallback</span>
+      <span class="pill">3. Add a third Angular interop page for <code>play</code></span>
+      <span class="pill">4. Decide which pattern should become the standard for future non-React hosts</span>
+    </div>
+
+    <div class="footer">
+      Generated from the current FloppyStack monorepo implementation in <code>wookie-stack</code>.
+      Key files summarized: <code>angular-host/src/app/*</code>, <code>apps/disks/src/angular-bridge.tsx</code>,
+      <code>apps/games/src/web-component.tsx</code>, and <code>libs/fs64/registry/src/lib/runtime.ts</code>.
+    </div>
+  </div>
+</body>
+</html>

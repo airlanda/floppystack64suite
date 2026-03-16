@@ -1,0 +1,80 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "FS64: Backend",
+      "type": "shell",
+      "command": "npm run start:server",
+      "options": {
+        "cwd": "C:\\Dev\\MERN\\FloppyStack\\floppystack64"
+      },
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "fs64-backend"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "FS64: Host",
+      "type": "shell",
+      "command": "$env:NX_DAEMON='false'; npx nx run host:serve",
+      "options": {
+        "cwd": "C:\\Dev\\MERN\\FloppyStack\\wookie-stack"
+      },
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "fs64-frontend"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "FS64: Disks Remote",
+      "type": "shell",
+      "command": "$env:NX_DAEMON='false'; npx nx run disks:serve",
+      "options": {
+        "cwd": "C:\\Dev\\MERN\\FloppyStack\\wookie-stack"
+      },
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "fs64-frontend"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "FS64: Games Remote",
+      "type": "shell",
+      "command": "$env:NX_DAEMON='false'; npx nx run games:serve",
+      "options": {
+        "cwd": "C:\\Dev\\MERN\\FloppyStack\\wookie-stack"
+      },
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "fs64-frontend"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "FS64: Frontend All",
+      "type": "shell",
+      "command": "$env:NX_DAEMON='false'; npx nx run-many -t serve -p host,disks,games --parallel=3",
+      "options": {
+        "cwd": "C:\\Dev\\MERN\\FloppyStack\\wookie-stack"
+      },
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "fs64-frontend-all"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

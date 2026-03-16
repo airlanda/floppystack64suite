@@ -1,0 +1,22 @@
+{
+  "name": "games",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/games/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "continuous": true,
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "apps/games",
+        "command": "rspack serve",
+        "args": ["--node-env=development"],
+        "env": {
+          "TS_NODE_COMPILER_OPTIONS": "{\"module\":\"CommonJS\",\"moduleResolution\":\"Node10\",\"customConditions\":null}"
+        },
+        "port": 4202
+      }
+    }
+  }
+}

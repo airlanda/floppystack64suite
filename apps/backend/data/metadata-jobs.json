@@ -1,0 +1,218 @@
+{
+  "1771818061661-df35974b": {
+    "id": "1771818061661-df35974b",
+    "type": "scrapeGame",
+    "status": "completed",
+    "provider": "mock",
+    "dataset": "default",
+    "diskId": null,
+    "gameName": "1942",
+    "options": {},
+    "progress": {
+      "total": 1,
+      "completed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "current": null
+    },
+    "result": {
+      "created": 1,
+      "updated": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "error": null,
+    "createdAt": "2026-02-23T03:41:01.661Z",
+    "startedAt": "2026-02-23T03:41:02.104Z",
+    "finishedAt": "2026-02-23T03:41:02.167Z"
+  },
+  "1771818415108-9776feb3": {
+    "id": "1771818415108-9776feb3",
+    "type": "scrapeGame",
+    "status": "completed",
+    "provider": "hybrid",
+    "dataset": "default",
+    "diskId": null,
+    "gameName": "Parallax",
+    "options": {},
+    "progress": {
+      "total": 1,
+      "completed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "current": null
+    },
+    "result": {
+      "created": 1,
+      "updated": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "error": null,
+    "createdAt": "2026-02-23T03:46:55.109Z",
+    "startedAt": "2026-02-23T03:46:55.457Z",
+    "finishedAt": "2026-02-23T03:46:55.516Z"
+  },
+  "1771818607933-868ce3b9": {
+    "id": "1771818607933-868ce3b9",
+    "type": "scrapeGame",
+    "status": "completed",
+    "provider": "hybrid",
+    "dataset": "default",
+    "diskId": null,
+    "gameName": "Parallax",
+    "options": {},
+    "progress": {
+      "total": 1,
+      "completed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "current": null
+    },
+    "result": {
+      "created": 0,
+      "updated": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "error": null,
+    "createdAt": "2026-02-23T03:50:07.934Z",
+    "startedAt": "2026-02-23T03:50:08.249Z",
+    "finishedAt": "2026-02-23T03:50:08.309Z"
+  },
+  "1771820111531-29f7fea1": {
+    "id": "1771820111531-29f7fea1",
+    "type": "scrapeGame",
+    "status": "completed",
+    "provider": "hybrid",
+    "dataset": "default",
+    "diskId": null,
+    "gameName": "Parallax",
+    "options": {},
+    "progress": {
+      "total": 1,
+      "completed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "current": null
+    },
+    "result": {
+      "created": 0,
+      "updated": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "error": null,
+    "createdAt": "2026-02-23T04:15:11.531Z",
+    "startedAt": "2026-02-23T04:15:12.092Z",
+    "finishedAt": "2026-02-23T04:15:12.153Z"
+  },
+  "1771820168722-64649b07": {
+    "id": "1771820168722-64649b07",
+    "type": "scrapeGame",
+    "status": "completed",
+    "provider": "hybrid",
+    "dataset": "default",
+    "diskId": null,
+    "gameName": "Parallax",
+    "options": {},
+    "progress": {
+      "total": 1,
+      "completed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "current": null
+    },
+    "result": {
+      "created": 0,
+      "updated": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "error": null,
+    "createdAt": "2026-02-23T04:16:08.722Z",
+    "startedAt": "2026-02-23T04:16:09.055Z",
+    "finishedAt": "2026-02-23T04:16:10.847Z"
+  },
+  "1771820217363-8c0f6323": {
+    "id": "1771820217363-8c0f6323",
+    "type": "scrapeGame",
+    "status": "completed",
+    "provider": "screenscraper",
+    "dataset": "default",
+    "diskId": null,
+    "gameName": "Parallax",
+    "options": {},
+    "progress": {
+      "total": 1,
+      "completed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "current": null
+    },
+    "result": {
+      "created": 0,
+      "updated": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "error": null,
+    "createdAt": "2026-02-23T04:16:57.363Z",
+    "startedAt": "2026-02-23T04:16:57.736Z",
+    "finishedAt": "2026-02-23T04:16:59.150Z"
+  },
+  "1771820919983-84942c67": {
+    "id": "1771820919983-84942c67",
+    "type": "scrapeGame",
+    "status": "completed",
+    "provider": "screenscraper",
+    "dataset": "default",
+    "diskId": null,
+    "gameName": "Parallax",
+    "options": {},
+    "progress": {
+      "total": 1,
+      "completed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "current": null
+    },
+    "result": {
+      "created": 0,
+      "updated": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "error": null,
+    "createdAt": "2026-02-23T04:28:39.983Z",
+    "startedAt": "2026-02-23T04:28:40.379Z",
+    "finishedAt": "2026-02-23T04:28:42.082Z"
+  },
+  "1771821428772-b3e09e9f": {
+    "id": "1771821428772-b3e09e9f",
+    "type": "scrapeGame",
+    "status": "completed",
+    "provider": "screenscraper",
+    "dataset": "default",
+    "diskId": null,
+    "gameName": "Parallax",
+    "options": {},
+    "progress": {
+      "total": 1,
+      "completed": 1,
+      "skipped": 0,
+      "failed": 0,
+      "current": null
+    },
+    "result": {
+      "created": 0,
+      "updated": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "error": null,
+    "createdAt": "2026-02-23T04:37:08.773Z",
+    "startedAt": "2026-02-23T04:37:09.386Z",
+    "finishedAt": "2026-02-23T04:37:10.853Z"
+  }
+}

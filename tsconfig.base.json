@@ -1,0 +1,42 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@fs64/theme": [
+        "libs/fs64/theme/src/index.ts"
+      ],
+      "@fs64/ui": [
+        "libs/fs64/ui/src/index.ts"
+      ],
+      "@fs64/domain": [
+        "libs/fs64/domain/src/index.ts"
+      ],
+      "disks/Module": [
+        "apps/disks/src/remote-entry.ts"
+      ],
+      "@fs64/registry": [
+        "libs/fs64/registry/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

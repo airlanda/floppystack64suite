@@ -1,0 +1,17 @@
+<section class="shell">
+  <header class="shell__header">
+    <div>
+      <p class="shell__eyebrow">Angular Host</p>
+      <h1>FS64 Interop Lab</h1>
+      <p class="shell__copy">Two experiments: React bridge for disks, custom element wrapper for games.</p>
+    </div>
+    <nav class="shell__nav">
+      <a routerLink="/disks-bridge" routerLinkActive="is-active">Disks Bridge</a>
+      <a routerLink="/games-webcomponent" routerLinkActive="is-active">Games Web Component</a>
+    </nav>
+  </header>
+
+  <main class="shell__main">
+    <router-outlet></router-outlet>
+  </main>
+</section>

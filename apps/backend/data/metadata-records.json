@@ -1,0 +1,3743 @@
+{
+  "c64|1942": {
+    "key": "c64|1942",
+    "platform": "c64",
+    "gameName": "1942",
+    "normalizedName": "1942",
+    "canonicalTitle": "1942",
+    "description": "1942 is set in the Pacific theater of World War II. The goal is to reach Tokyo and destroy the entire Japanese air fleet. The player pilots a plane dubbed the \"Super Ace\" (but its appearance is clearly that of a Lockheed P-38 Lightning). The player has to shoot down enemy planes; to avoid enemy fire, the player can perform a roll or \"loop-the-loop\".",
+    "genre": "Shooter",
+    "developer": null,
+    "publisher": "Elite Systems Ltd.",
+    "year": "1987",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6434-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6434",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-01T17:31:12.419Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-01T17:31:12.735Z",
+    "createdAt": "2026-02-23T03:41:02.165Z"
+  },
+  "c64|parallax": {
+    "key": "c64|parallax",
+    "platform": "c64",
+    "gameName": "Parallax",
+    "normalizedName": "parallax",
+    "canonicalTitle": "Parallax",
+    "description": "The entire world is in the grip of a computer known simply as The Big One. Its code is far too complex for you to crack, so you must find scientists, drug them, and bring them to The Big One. Each will be able to unlock one letter. Simply finding these scientists is the hard part - The Big One has aliens patrolling its base, and they are more than capable of ganging up on you.\r\n\r\nIn essence Parallax is a top-view multi-directional-scrolling shoot 'em up. Improved weaponry and shield recharges can be bought by the machine - can you think of a way to get money from a drugged scientist? You can duck under the layers of surface, but so can the aliens, so action can take place here. You can also get out of your ship and patrol the area on foot.\r\n\r\nThe game's parallax scrolling routine inspired the title, and it also has 11-minute introductory music.",
+    "genre": "Shooter",
+    "developer": "Sensible Software",
+    "publisher": "Ocean Software Ltd.",
+    "year": "1986",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6914-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6914",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-27T04:21:59.960Z",
+      "debugSnippet": "Erreur de login : Vérifier vos identifiants développeur !"
+    },
+    "updatedAt": "2026-02-27T04:22:00.208Z",
+    "createdAt": "2026-02-23T03:46:55.514Z"
+  },
+  "c64|summer games": {
+    "key": "c64|summer games",
+    "platform": "c64",
+    "gameName": "Summer Games",
+    "normalizedName": "summer games",
+    "canonicalTitle": "Summer Games",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "http_404",
+      "lastFetchedAt": "2026-02-24T13:35:02.169Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T13:35:02.169Z",
+    "createdAt": "2026-02-24T13:34:36.182Z"
+  },
+  "c64|alcazar": {
+    "key": "c64|alcazar",
+    "platform": "c64",
+    "gameName": "Alcazar",
+    "normalizedName": "alcazar",
+    "canonicalTitle": "Alcazar - The Forgotten Fortress",
+    "description": "In this adventure game you control an explorer who's on his way to fortress Alcazar. To reach Alcazar you are travelling through a countryside of fortresses and you need to collect several items that you can find along the way. Once you enter the Alcazar fortress you have to search for the crown.\r\n\r\nThe strategy map gives you an overview of the countryside, it's fortresses and your location in it. What perils lurk in these mysterious castles? Which path is quick and safe? The Alcazar castle is three stories high, all other castles have only two stories. To enter a castle you just have to follow the path. Each castle has it's own sought-after objects and these objects are always guarded by the castles main demon. Objects to look for are for example: a rope, a gun, raw meat, water or a raft. Collect them and use them properly to master the legendary Alcazar fortress.\r\n\r\nThe game gives you clues and tells, for example, which monsters are nearby. Some monsters are really hard to kill.\r\n\r\nThe game can be played at four difficulty levels.",
+    "genre": "2",
+    "developer": "234",
+    "publisher": "33",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/38260-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "38260",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-25T04:26:27.827Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-25T04:26:28.702Z",
+    "createdAt": "2026-02-24T13:39:55.883Z"
+  },
+  "c64|aliens": {
+    "key": "c64|aliens",
+    "platform": "c64",
+    "gameName": "Aliens",
+    "normalizedName": "aliens",
+    "canonicalTitle": "Aliens",
+    "description": "The player controls six characters from a remote terminal, guiding them through a 255-room complex in search of the Alien Queen. Each character has a helmet camera and a smart gun, each controlled by the player acting in the role of overall operational commander.\r\n\r\nThe player can switch to any character at any time, and must consider coordinating their movements and finding a safe location before switching to the next character. Characters occupy one room at a time, and can pan their view a full 360-degrees inside each room. Doors can be locked to halt Alien progress, or blasted open to get through (at the cost of permanently destroying the door). Alien bio-mass must also be destroyed before it spawns facehuggers, and the Aliens themselves leave lethal puddles of acid when killed (and so shouldn't be killed in front of doors!)",
+    "genre": "Action",
+    "developer": "Software Studios",
+    "publisher": "Electric Dreams Inc.",
+    "year": "1987",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6687-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6687",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-28T21:07:55.808Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-28T21:07:56.084Z",
+    "createdAt": "2026-02-24T13:40:05.711Z"
+  },
+  "c64|destroyer": {
+    "key": "c64|destroyer",
+    "platform": "c64",
+    "gameName": "Destroyer",
+    "normalizedName": "destroyer",
+    "canonicalTitle": "Destroyer",
+    "description": null,
+    "genre": "1",
+    "developer": null,
+    "publisher": null,
+    "year": "1986",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/81124-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "81124",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-25T04:27:45.486Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-25T04:27:45.692Z",
+    "createdAt": "2026-02-24T13:40:24.955Z"
+  },
+  "c64|antiriad": {
+    "key": "c64|antiriad",
+    "platform": "c64",
+    "gameName": "Antiriad",
+    "normalizedName": "antiriad",
+    "canonicalTitle": "The Sacred Armour of Antiriad",
+    "description": "In 2086, civilization destroys itself in a nuclear Armageddon, as two factions who both develop an anti-radiation battlesuit completely immune to conventional weapons go to war against each other when diplomatic peace talks break down. In the following millennia, the survivors develop into a hardy but peaceful race, living a quiet agricultural existence.\r\n\r\nOne day, mysterious alien forces emerge from an old volcano containing a prewar military base and attack, quickly conquering and enslaving the new breed of humans, and forcing the populace to work in mines. Many rebel against the mysterious overlords and one of these rebels, Tal, is instructed by his elders to seek-out a legendary armoured suit - the Sacred Armour of Antiriad (the last word being a corruption of \"anti-radiation\"), which is in fact one of the prewar battlesuits whose development originally instigated the diplomatic crisis that started the nuclear war. This armour is rumoured to render the wearer impervious to attack and, with its help, Tal hopes to defeat and overthrow the alien rulers of Earth.",
+    "genre": "1",
+    "developer": "6385",
+    "publisher": "711",
+    "year": "1986",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6515-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6515",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T15:24:10.975Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T15:24:26.008Z",
+    "createdAt": "2026-02-24T13:40:28.103Z"
+  },
+  "c64|sirius": {
+    "key": "c64|sirius",
+    "platform": "c64",
+    "gameName": "Sirius",
+    "normalizedName": "sirius",
+    "canonicalTitle": "Sirius",
+    "description": "Sirius is a long lost unreleased prototype developed by Tynesoft for the Atari 7800, possibly a port of the 1990 Amiga game Sirius 7. Sirius' existence has been known for some time, as a physical prototype has been in hands of a collector for years, but this prototype was known to be unstable and crash frequently. The source code for Sirius was discovered in 2008 and several 7800 enthusiasts were able to get it compiled and running properly on stock 7800 hardware.\r\n\r\nSirius is a horizontally oriented space shooter that will feel right at home to those familiar with games such as Gradius and R-Type. The game consists of four different levels, each with its own unique theme and boss. Sirius deftly demonstrates what the 7800 hardware is capable of and compares favorably with NES and Sega Master System games of the time. Unfortunately, Sirius is aggravatingly difficult and will require much practice and patience to succeed through all four levels.\r\n\r\nSirius is a single player game only. The difficulty level (easy and hard) can be selected via the left difficulty switch. Sirius has several different types of weapons power-ups. The first is a \"ghost ship\" that follows you and fires when you fire. Other power-ups include rapid fire guns and rapid fire plus spread fire. You can pick up one extra of each power-up type for reserve so that when you are killed you won't be quite so vulnerable. There are also diamonds that you can pick up but they don't seem to do much other than reward you 300 points.\r\n\r\nA partially compiled version of Sirius was discovered by Curt Vendel, and thanks to the efforts 7800 enthusiasts Robert DeCrescenzo, Mitchell Orman, and Eckhard Stolberg, made playable on 7800 hardware. It's a shame that Sirius was not released as it was obviously very close to completion and would have been a boost to the 7800 library.",
+    "genre": "Shooter",
+    "developer": "Tynesoft Computer Software",
+    "publisher": "Unreleased (Prototype)",
+    "year": "1990",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/22387-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "22387",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:58:05.159Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:58:05.948Z",
+    "createdAt": "2026-02-24T13:40:30.175Z"
+  },
+  "c64|archon ii": {
+    "key": "c64|archon ii",
+    "platform": "c64",
+    "gameName": "Archon II",
+    "normalizedName": "archon ii",
+    "canonicalTitle": "Archon: The Light and the Dark",
+    "description": "Archon: The Light and the Dark is a strategic board game with some similarities to chess. Two sides, a light one and a dark one, consisting of 18 pieces each compete on a board divided into (9 by 9) squares. You win the game by having one of your units on each of the five powerpoint squares, by removing all opposing pieces from the board or by imprisoning the last remaining creature of the opposing side..\r\n\r\nHowever, you can't just remove a piece from the board by landing on it. When two pieces clash, the outcome is decided in the battle arena during one-on-one real-time combat. If the real-time combat takes place on a dark square, the dark monster gets a health bonus (longer life bar). On a light square the light side gains an advantage. There are also some squares whose color changes over time (from afternoon, to dusk, to night, to dawn etc.), which adds an extra layer of strategy to the game.\r\n\r\nUnlike chess the two sides are not identical. Both sides consist of mythological creatures. For example the light side has among others unicorns, valkyries and a djinni while the dark side features basilisks, banshees and manticores. The differences are not just cosmetic. Two special pieces are the light wizard & the dark sorceress, they can both cast magical spells like: imprison a unit on the board, shift the flow of time (change day/night cycle to your advantage), bring one unit back from the dead etc.\r\n\r\nThe different pieces have their own movement restrictions regarding the number of squares they're allowed to travel on the board and whether or not they can jump over other units (like the knight in chess). Units also behave different in combat; some units are faster than others, some use melee attacks while others fire projectiles.",
+    "genre": "6",
+    "developer": "3156",
+    "publisher": "2",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/10367-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "10367",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T15:34:42.751Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T15:34:43.825Z",
+    "createdAt": "2026-02-24T13:40:34.942Z"
+  },
+  "c64|battlezone": {
+    "key": "c64|battlezone",
+    "platform": "c64",
+    "gameName": "Battlezone",
+    "normalizedName": "battlezone",
+    "canonicalTitle": "Battlezone",
+    "description": "Commonly considered the earliest progenitor of first-person shooters (FPS), Battlezone is a 3D tank game initially released in the arcades, and later converted officially to many systems. Earth has been invaded, and you and your tank lead the defensive effort. You drive around the battlefield from a first-person view, targeting and firing at tanks, planes and UFOs. You have a radar to help you see where the enemies are in direction and distance. Objects can be used as strategic cover. Controls simulate the tracks of a tank realistically, so the direction and speed settings are varied - combining forward right and backward left movements (as you can on keyboard versions) sees you change direction more quickly.",
+    "genre": "Shooter",
+    "developer": "Atarisoft",
+    "publisher": "Atarisoft",
+    "year": "1983",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/46369-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "46369",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T02:39:13.143Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T02:39:14.071Z",
+    "createdAt": "2026-02-24T13:40:40.377Z"
+  },
+  "c64|break dance": {
+    "key": "c64|break dance",
+    "platform": "c64",
+    "gameName": "Break Dance",
+    "normalizedName": "break dance",
+    "canonicalTitle": "Break Dance",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "http_404",
+      "lastFetchedAt": "2026-02-24T13:40:44.044Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T13:40:44.044Z",
+    "createdAt": "2026-02-24T13:40:44.044Z"
+  },
+  "c64|acrojet": {
+    "key": "c64|acrojet",
+    "platform": "c64",
+    "gameName": "Acrojet",
+    "normalizedName": "acrojet",
+    "canonicalTitle": "Acrojet",
+    "description": "Acrojet contains ten acrobatic events which can be played by up to four players and at four different levels of difficulty. In all ten events you fly a BD5J Acrojet over a series of obstacles:\r\n\r\nIn the Pylon Race you have to fly around pylons and land safely.\r\nIn the Slalom Race you have to fly a 'figure 8'.\r\nIn the next event, the Ribbon Cut you have to break two ribbons.\r\nIn the Inverted Ribbon Cut you perform the same stunt but flying the plane upside down.\r\nIn the Ribbon Roll there are two ribbons in a row and you have to fly under one\r\nand complete a full roll followed by flying under the second ribbon.\r\n\r\nIn the Under Ribbon Race you perform a slalom by flying in sequence under three ribbons.\r\nIn the Under Ribbon Loop you fly under a ribbon followed by a loop and passing over the same ribbon upside down.\r\nIn the Spot Landing event you have to fly up to 2,000 feet and land on the runway as close as possible to a marked spot.\r\nIn the Flame-Out Landing event you perform the same stunt but then without the engines running.\r\nThe tenth and last event, the Cuban Eight, you have to make a half-loop over a ribbon, followed by a half-role, a half loop and flying under the first ribbon again.\r\nSome game parameters can be set. You can decide how the weather conditions are going to be. An instrument panel at the bottom of the screen contains several readouts, like an altitude meter, a compass, an artificial horizon and a vertical velocity meter.",
+    "genre": "13",
+    "developer": null,
+    "publisher": null,
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/133595-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "133595",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:13:56.366Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:13:56.926Z",
+    "createdAt": "2026-02-24T13:48:37.271Z"
+  },
+  "c64|airborne ranger": {
+    "key": "c64|airborne ranger",
+    "platform": "c64",
+    "gameName": "Airborne Ranger",
+    "normalizedName": "airborne ranger",
+    "canonicalTitle": "Airborne Ranger",
+    "description": "The game consists of several missions, in which the player controls a sole Ranger whose objectives include killing an enemy officer, destroying an enemy bunker, taking out a SAM site, and rescuing a captured POW, which would possibly free a roster member that was labeled P.O.W. The game creates the maps and objective locations randomly, so the player is required to plan each mission carefully, because no mission is the same.",
+    "genre": "Stealth",
+    "developer": "MicroProse Software, Inc.",
+    "publisher": "MicroProse Software, Inc.",
+    "year": "1987",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6481-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6481",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-27T04:22:07.642Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-27T04:22:08.868Z",
+    "createdAt": "2026-02-24T13:48:40.842Z"
+  },
+  "c64|archon": {
+    "key": "c64|archon",
+    "platform": "c64",
+    "gameName": "Archon",
+    "normalizedName": "archon",
+    "canonicalTitle": "Archon: The Light and the Dark",
+    "description": "Archon: The Light and the Dark is a strategic board game with some similarities to chess. Two sides, a light one and a dark one, consisting of 18 pieces each compete on a board divided into (9 by 9) squares. You win the game by having one of your units on each of the five powerpoint squares, by removing all opposing pieces from the board or by imprisoning the last remaining creature of the opposing side..\r\n\r\nHowever, you can't just remove a piece from the board by landing on it. When two pieces clash, the outcome is decided in the battle arena during one-on-one real-time combat. If the real-time combat takes place on a dark square, the dark monster gets a health bonus (longer life bar). On a light square the light side gains an advantage. There are also some squares whose color changes over time (from afternoon, to dusk, to night, to dawn etc.), which adds an extra layer of strategy to the game.\r\n\r\nUnlike chess the two sides are not identical. Both sides consist of mythological creatures. For example the light side has among others unicorns, valkyries and a djinni while the dark side features basilisks, banshees and manticores. The differences are not just cosmetic. Two special pieces are the light wizard & the dark sorceress, they can both cast magical spells like: imprison a unit on the board, shift the flow of time (change day/night cycle to your advantage), bring one unit back from the dead etc.\r\n\r\nThe different pieces have their own movement restrictions regarding the number of squares they're allowed to travel on the board and whether or not they can jump over other units (like the knight in chess). Units also behave different in combat; some units are faster than others, some use melee attacks while others fire projectiles.",
+    "genre": "6",
+    "developer": "3156",
+    "publisher": "2",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/10367-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "10367",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T14:40:44.684Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T14:40:56.215Z",
+    "createdAt": "2026-02-24T13:51:36.421Z"
+  },
+  "c64|batman": {
+    "key": "c64|batman",
+    "platform": "c64",
+    "gameName": "Batman",
+    "normalizedName": "batman",
+    "canonicalTitle": "Batman: The Movie",
+    "description": "BATMAN is a shadow in the darkness, as elusive as a dream. High above the seamy streets of GOTHAM, he is a criminal's nightmare. The only hope for a desperate city - BATMAN. A Legend Has Returned.",
+    "genre": "1",
+    "developer": "10213, 10214, 10215",
+    "publisher": "43",
+    "year": "1989",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6697-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6697",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T15:36:27.434Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T15:36:28.445Z",
+    "createdAt": "2026-02-24T13:51:45.378Z"
+  },
+  "c64|rambo": {
+    "key": "c64|rambo",
+    "platform": "c64",
+    "gameName": "Rambo",
+    "normalizedName": "rambo",
+    "canonicalTitle": "Rambo",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "http_404",
+      "lastFetchedAt": "2026-02-24T13:51:50.926Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T13:51:50.926Z",
+    "createdAt": "2026-02-24T13:51:50.926Z"
+  },
+  "c64|impossible mission": {
+    "key": "c64|impossible mission",
+    "platform": "c64",
+    "gameName": "Impossible Mission",
+    "normalizedName": "impossible mission",
+    "canonicalTitle": "Impossible Mission",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "http_404",
+      "lastFetchedAt": "2026-02-24T14:18:49.427Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T14:18:49.427Z",
+    "createdAt": "2026-02-24T13:58:05.287Z"
+  },
+  "c64|green beret": {
+    "key": "c64|green beret",
+    "platform": "c64",
+    "gameName": "Green Beret",
+    "normalizedName": "green beret",
+    "canonicalTitle": "Green Beret",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "http_404",
+      "lastFetchedAt": "2026-02-24T13:59:10.691Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T13:59:10.691Z",
+    "createdAt": "2026-02-24T13:58:55.554Z"
+  },
+  "c64|caveman ughlympics": {
+    "key": "c64|caveman ughlympics",
+    "platform": "c64",
+    "gameName": "Caveman Ughlympics",
+    "normalizedName": "caveman ughlympics",
+    "canonicalTitle": "Caveman Ugh-Lympics",
+    "description": "Olympic Games set in the stone age. Events include clubbing, dino-racing, fire-making, mate-tossing, saber racing and the dino vault.\r\n\r\nSupporting up to six players, you must select your caveman from a total of six different characters with different backgrounds, all with different skills and drawbacks.",
+    "genre": "11",
+    "developer": "2555",
+    "publisher": "2",
+    "year": "1988",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/32046-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "32046",
+      "matchConfidence": 0.33,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T14:26:48.257Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T14:26:49.065Z",
+    "createdAt": "2026-02-24T14:26:49.065Z"
+  },
+  "c64|silent service": {
+    "key": "c64|silent service",
+    "platform": "c64",
+    "gameName": "Silent Service",
+    "normalizedName": "silent service",
+    "canonicalTitle": "Silent Service",
+    "description": "The game is set in the Pacific during World War II, with the player assuming control of a United States submarine for various war patrols against Japanese shipping. Although successful during the war, this side of the war in the Pacific is seldom told.",
+    "genre": "Vehicle Simulation",
+    "developer": "MicroProse Software, Inc.",
+    "publisher": "MicroProse Software, Inc.",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6449-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6449",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:58:07.708Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:58:07.770Z",
+    "createdAt": "2026-02-24T14:41:15.289Z"
+  },
+  "c64|quest for tires": {
+    "key": "c64|quest for tires",
+    "platform": "c64",
+    "gameName": "Quest For Tires",
+    "normalizedName": "quest for tires",
+    "canonicalTitle": "Commodore Gameware BC's Quest for Tires/BC II Grogs Revenge",
+    "description": "adventure",
+    "genre": "2",
+    "developer": null,
+    "publisher": null,
+    "year": "1970",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/91725-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "91725",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T15:32:37.068Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T15:32:37.901Z",
+    "createdAt": "2026-02-24T15:32:37.901Z"
+  },
+  "c64|aussie games": {
+    "key": "c64|aussie games",
+    "platform": "c64",
+    "gameName": "Aussie Games",
+    "normalizedName": "aussie games",
+    "canonicalTitle": "Aussie Games",
+    "description": "",
+    "genre": "1",
+    "developer": "5491",
+    "publisher": "Mindscape",
+    "year": "1989",
+    "players": "4",
+    "images": {
+      "boxFront": "/metadata-assets/manual/c64/aussie-games/boxfront.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "manual",
+      "sourceId": null,
+      "matchConfidence": 1,
+      "status": "manual",
+      "lastFetchedAt": "2026-02-25T04:45:53.619Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-25T04:45:53.635Z",
+    "createdAt": "2026-02-24T15:35:50.796Z"
+  },
+  "c64|goonies": {
+    "key": "c64|goonies",
+    "platform": "c64",
+    "gameName": "Goonies",
+    "normalizedName": "goonies",
+    "canonicalTitle": "The Goonies",
+    "description": "On the path of Goondock's children... Beware of the Yellow King.\r\n\r\nThe Goonies are a group of kids or youths. Everything starts with an unscrupulous property shark who wants to purchase the kids' housing complex and the parents lack the money that is needed to prevent the pending sequestration.\r\n\r\nIn the house of their leader Mikey the group makes an unusual discovery. They find a treasure map which is supposed to lead to the hideout of \"One-eyed Willie\", a pirate.\r\n\r\nMikey can convince his friends to go for a treasure hunt. This starts in an abandoned restaurant. The evil Fratellis have settled in there. So after all Goonies, except for Chunk who is supposed to call the police, have entered a system of catacombs through a manhole in the restaurant, the adventure really begins. So the kids do not only have to beware of mean traps and bats, but also of Mama Fratelli.\r\n\r\nThe game starts in the restaurant with the search for the manhole into the catacombs and contains 8 rather tricky levels full of riddles and adversities. The aim of the game is to bring safely both Goonies to the exit in Level 1-7 and in the eighth level to get to the treasure with both Goonies. Help the Goonies during their adventure...",
+    "genre": "Action, Adventure, Puzzle, Platform",
+    "developer": "Scott Spanburg",
+    "publisher": "Datasoft, Inc.",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/27070-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "27070",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-28T17:20:16.970Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-28T17:20:17.149Z",
+    "createdAt": "2026-02-24T15:36:49.152Z"
+  },
+  "c64|the amazing spiderman and capt america in dr dooms revenge": {
+    "key": "c64|the amazing spiderman and capt america in dr dooms revenge",
+    "platform": "c64",
+    "gameName": "The Amazing Spiderman and Capt America in Dr Doom's Revenge",
+    "normalizedName": "the amazing spiderman and capt america in dr dooms revenge",
+    "canonicalTitle": "The Amazing Spider-Man and Captain America in Dr. Doom's Revenge!",
+    "description": "Latverian president Dr. Doom is a terrible enemy, so when he hatches a plan to blow up New York City with a stolen Atomic bomb, one Marvel superhero is not enough to stop him. As the lavishly-drawn comic bundled with the game explains, Spider-Man and Captain America must join forces to go to Latveria and foil his plans.\r\n\r\nThe main action in the game is a side-scrolling beat 'em up, in which you alternately control the two characters. They each have their own moves to deal with The Rhino, Electro and other foes. Moves are context-sensitive based on the distance between your character and the opponent. Energy bars decrease as you each take hits. After each section you get comic-book sequences as a reward, and to set the scene of the evolving story.\r\n\r\nDescripton borrowed from: http://www.mobygames.com/game/c64/amazing-spider-man-and-captain-america-in-dr-dooms-revenge",
+    "genre": "1",
+    "developer": "6440",
+    "publisher": "5899",
+    "year": "1989",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/55917-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "55917",
+      "matchConfidence": 0.75,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T16:01:45.897Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T16:01:46.847Z",
+    "createdAt": "2026-02-24T16:01:46.847Z"
+  },
+  "c64|the last ninja": {
+    "key": "c64|the last ninja",
+    "platform": "c64",
+    "gameName": "The Last Ninja",
+    "normalizedName": "the last ninja",
+    "canonicalTitle": "The Last Ninja",
+    "description": null,
+    "genre": "1, 10",
+    "developer": null,
+    "publisher": null,
+    "year": "1970",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/91671-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "91671",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T16:01:57.379Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T16:01:58.450Z",
+    "createdAt": "2026-02-24T16:01:58.450Z"
+  },
+  "c64|the bards tale": {
+    "key": "c64|the bards tale",
+    "platform": "c64",
+    "gameName": "The Bard's Tale",
+    "normalizedName": "the bards tale",
+    "canonicalTitle": "The Bard's Tale",
+    "description": "Long ago, when magic still prevailed, the evil wizard Mangar the Dark threatened a small but harmonious country town called Skara Brae. Evil creatures oozed into Skara Brae and joined his shadow domain. Mangar froze the surrounding lands with a spell of Eternal Winter, totally isolating Skara Brae from any possible help. Then, one night the town militiamen all disappeared.\r\n\r\nThe future of Skara Brae hung in the balance. And who was left to resist? Only a handful of unproven young Warriors, junior Magic Users, a couple of Bards barely old enough to drink, and some out of work Rogues.\r\n\r\nYou are there. You are the leader of this ragtag group of freedom fighters. Luckily you have a Bard with you to sing your glories, if you survive. For this is the stuff of legends. And so the story begins...",
+    "genre": "4",
+    "developer": "4287",
+    "publisher": "2, 3282",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/55264-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "55264",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T16:02:11.496Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T16:02:12.103Z",
+    "createdAt": "2026-02-24T16:02:12.103Z"
+  },
+  "c64|maniac mansion": {
+    "key": "c64|maniac mansion",
+    "platform": "c64",
+    "gameName": "Maniac Mansion",
+    "normalizedName": "maniac mansion",
+    "canonicalTitle": "Maniac Mansion",
+    "description": "The game takes place in the mansion of the Edison family: Dr. Fred, Nurse Edna, and their son Weird Ed. Living with the Edisons are two large, disembodied tentacles – one purple and the other green. The player starts out by selecting two of six characters to accompany protagonist Dave Miller. The intro sequence shows that a meteor crashed near the mansion 20 years earlier. The sentient meteor took control of the family and caused Dr. Fred to begin conducting human experiments while plotting to take over the world. After the introduction, Dave and his two companions prepare to enter the mansion to rescue his cheerleader girlfriend, Sandy Pantz, whom Dr. Fred has kidnapped.",
+    "genre": "Adventure",
+    "developer": "LucasArts Entertainment Company LLC",
+    "publisher": "LucasArts Entertainment Company LLC",
+    "year": "1987",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6479-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6479",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T03:44:00.305Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T03:44:01.028Z",
+    "createdAt": "2026-02-24T22:51:25.493Z"
+  },
+  "c64|microleague football": {
+    "key": "c64|microleague football",
+    "platform": "c64",
+    "gameName": "Microleague Football",
+    "normalizedName": "microleague football",
+    "canonicalTitle": "Microleague Football 2",
+    "description": "sports",
+    "genre": "11",
+    "developer": null,
+    "publisher": null,
+    "year": "1970",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/91689-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "91689",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T22:53:05.985Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T22:53:07.797Z",
+    "createdAt": "2026-02-24T22:53:07.797Z"
+  },
+  "c64|predator": {
+    "key": "c64|predator",
+    "platform": "c64",
+    "gameName": "Predator",
+    "normalizedName": "predator",
+    "canonicalTitle": "Predator",
+    "description": "You’ve heard about Predator, the Schwarzenegger movie - now you can play the leading role. Take a crack commando unit into the South American jungle to rescue a bunch of trapped diplomats.\r\n\r\nShould be easy enough. and so it would be, if it weren’t for the mysterious alien who keeps on taking out your men.",
+    "genre": "1",
+    "developer": "7952",
+    "publisher": "33",
+    "year": "1988",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6681-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6681",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T22:53:16.291Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T22:53:17.234Z",
+    "createdAt": "2026-02-24T22:53:17.234Z"
+  },
+  "c64|star wars orig trilogy": {
+    "key": "c64|star wars orig trilogy",
+    "platform": "c64",
+    "gameName": "Star Wars Orig Trilogy",
+    "normalizedName": "star wars orig trilogy",
+    "canonicalTitle": "Star Wars Orig Trilogy",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "not_found",
+      "lastFetchedAt": "2026-02-24T22:53:25.938Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T22:53:25.938Z",
+    "createdAt": "2026-02-24T22:53:25.938Z"
+  },
+  "c64|shinoby": {
+    "key": "c64|shinoby",
+    "platform": "c64",
+    "gameName": "Shinoby",
+    "normalizedName": "shinoby",
+    "canonicalTitle": "Shinobi [Cassette]",
+    "description": "You control a shinobi, Joe Musashi, who must battle his way through each level in search of hostages which must be rescued. You have shurikens, kicks and punches to defend yourself with, as well as powerful ninja magic which can clear the screen of enemies in one go.\r\n\r\nEach level is broken down into smaller scenes, and hostages are guarded by big blokes who throw swords. Watch out for gun-toting enemy henchmen and ninjas.\r\n\r\nReaching the end of each level will find you battling it out with a boss. These range from 8ft tall giants to helicopter gunships.",
+    "genre": "1, 15",
+    "developer": "7549",
+    "publisher": null,
+    "year": "1989",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/112087-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "112087",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T22:53:39.265Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T22:53:40.251Z",
+    "createdAt": "2026-02-24T22:53:40.251Z"
+  },
+  "c64|boulder dash 1": {
+    "key": "c64|boulder dash 1",
+    "platform": "c64",
+    "gameName": "Boulder Dash 1",
+    "normalizedName": "boulder dash 1",
+    "canonicalTitle": "Boulder Dash",
+    "description": "The game's protagonist is called \"Rockford\". He must dig through caves collecting gems and diamonds and reach the exit within a time limit, while avoiding various types of dangerous creatures as well as obstacles like falling rocks and the constant danger of being crushed or trapped by an avalanche, or killed by an underground explosion.",
+    "genre": "Puzzle",
+    "developer": "First Star Software Inc",
+    "publisher": "State Soft Ltd.",
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6438-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6438",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-27T02:52:21.161Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-27T02:52:21.510Z",
+    "createdAt": "2026-02-24T22:54:00.209Z"
+  },
+  "c64|boulder dash 2": {
+    "key": "c64|boulder dash 2",
+    "platform": "c64",
+    "gameName": "Boulder Dash 2",
+    "normalizedName": "boulder dash 2",
+    "canonicalTitle": "Boulder Dash",
+    "description": "The game's protagonist is called \"Rockford\". He must dig through caves collecting gems and diamonds and reach the exit within a time limit, while avoiding various types of dangerous creatures as well as obstacles like falling rocks and the constant danger of being crushed or trapped by an avalanche, or killed by an underground explosion.",
+    "genre": "5",
+    "developer": "3056",
+    "publisher": "719",
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6438-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6438",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T22:54:09.368Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T22:54:09.700Z",
+    "createdAt": "2026-02-24T22:54:09.700Z"
+  },
+  "c64|boulder dash 3": {
+    "key": "c64|boulder dash 3",
+    "platform": "c64",
+    "gameName": "Boulder Dash 3",
+    "normalizedName": "boulder dash 3",
+    "canonicalTitle": "Boulderdash",
+    "description": "This classic game is about a diamond chase underground with many obstacles. Try - as Rockford - to collect all required diamonds in a total of 16 caves (A-P) each with 5 difficulty levels, and find the exit in the time given. After every 4 caves (D, H, L, P) follows a so-called \"intermission\", a logical puzzle (without its own \"cave letter\"). Rockford can dig through the ground and push rocks. But these can also be dangerous. If he stands directly below a rock, Rockford can hold it on his head. But if a rock falls on his head, it will cost him a life. Rocks will not stay on each other or on walls. If Rockford digs away the supporting soil, rocks will start to slide. Furthermore, there are some not-so-friendly animals such as fireflies, amoeba and other things you'd better not touch. Butterflies and other inhabitants of the underground can only be defeated by letting rocks fall on them. When defeated, they turn into diamonds, which Rockford can pick up. As soon as the necessary amount of jewels has been collected (the number is shown in the upper bar), the escape tunnel opens into the next level. Strategy and thoughtful planning is the basis to master this game.",
+    "genre": "5",
+    "developer": "6537",
+    "publisher": "210",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/42344-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "42344",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T22:54:27.377Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T22:54:28.152Z",
+    "createdAt": "2026-02-24T22:54:28.152Z"
+  },
+  "c64|motu": {
+    "key": "c64|motu",
+    "platform": "c64",
+    "gameName": "MOTU",
+    "normalizedName": "motu",
+    "canonicalTitle": "Masters Of The Universe",
+    "description": "adventure",
+    "genre": "2",
+    "developer": null,
+    "publisher": null,
+    "year": "1970",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/86978-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "manual",
+      "sourceId": null,
+      "matchConfidence": 1,
+      "status": "manual",
+      "lastFetchedAt": "2026-02-27T02:25:26.264Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-27T02:25:26.266Z",
+    "createdAt": "2026-02-24T22:54:44.271Z"
+  },
+  "c64|kung fu master": {
+    "key": "c64|kung fu master",
+    "platform": "c64",
+    "gameName": "Kung Fu Master",
+    "normalizedName": "kung fu master",
+    "canonicalTitle": "Kung Fu Master",
+    "description": "The Kung-Fu master Thomas strolls through town with his girlfriend Sylvia. Suddenly, the two are attacked by several figures. While Thomas is distracted, Sylvia gets kidnapped. Thomas later finds a message from Mr. X, the owner of the Devil's Tempel. The message reads: \"We have your lovely girlfriend Sylvia. If you want to save her life, come straight to the Devil's Temple. The five sons of the Devil will then attend to you.\"\r\nThe Temple consists of 5 hallways (levels), that have to be done in a certain amount of time (each 2000 points). Furthermore do Thomas and his opponents have life energy. Thomas' energy is also not allowed to reach zero, or else you need to repeat the level. All items and creatures that are only touched feed upon this energy. While dwarfs and henchmen, items and animals do have only little life energy, the knife thrower, however, needs to be hit twice. The end bosses have as much life energy as Tom. There are only points for fended off end bosses during an attack.",
+    "genre": null,
+    "developer": "1000",
+    "publisher": "55",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/42345-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "42345",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T22:54:54.869Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T22:54:55.596Z",
+    "createdAt": "2026-02-24T22:54:55.596Z"
+  },
+  "c64|heroes of the lance": {
+    "key": "c64|heroes of the lance",
+    "platform": "c64",
+    "gameName": "Heroes Of The Lance",
+    "normalizedName": "heroes of the lance",
+    "canonicalTitle": "Advanced Dungeons & Dragons: Heroes of the Lance",
+    "description": "Advanced Dungeons & Dragons: Heroes of the Lance is a video game released in January 1988 for various home computer systems and consoles. The game is based on the first Dragonlance campaign module for the Dungeons & Dragons fantasy role-playing game, Dragons of Despair, and the first Dragonlance novel Dragons of Autumn Twilight. Heroes of the Lance focuses on the journey of eight heroes through the ruined city of Xak Tsaroth, where they must face the ancient dragon Khisanth and retrieve the relic, the Disks of Mishakal.\r\n\r\nHeroes of the Lance is a side-scrolling action game. The game uses actual Dungeons & Dragons statistics, with statistics for the characters exactly as they were in the rule books. Eight heroes from the Dragonlance novels series must be assembled for the quest, and only one is visible on the screen at a time; when one on-screen hero dies, the next in line appears.\r\n\r\nWhile Heroes of the Lance is a faithful representation of the books it is based on, it was a departure from the usual role-playing video game style of most Dungeons & Dragons games, with a gameplay interface which consists of using one character at a time in horizontally scrolling fighting. Each character has different types of attacks and spells making them more suited to fighting different enemies but they merely act as \"lives\" for the player as in more traditional fighting games, removing one of the main strategies of role-playing games from the game.[",
+    "genre": null,
+    "developer": "9135",
+    "publisher": "149",
+    "year": "1988",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/41450-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "41450",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T22:55:07.222Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T22:55:08.732Z",
+    "createdAt": "2026-02-24T22:55:08.732Z"
+  },
+  "c64|curse of the azure bonds": {
+    "key": "c64|curse of the azure bonds",
+    "platform": "c64",
+    "gameName": "Curse of the Azure Bonds",
+    "normalizedName": "curse of the azure bond",
+    "canonicalTitle": "AD&D Forgotten Realms Vol. II: Curse of the Azure Bonds",
+    "description": "Outside of the town of Tilverton, the party of heroes has been ambushed, captured and cursed with five azure markings called \"bonds\". These bonds have dangerous magical powers that can take control of the heroes at the most inopportune times. They must now search for the source of the bonds, and free themselves from the curse.\r\n\r\nThe second in the Gold Box series of role-playing games, Curse of the Azure Bonds is a sequel to Pool of Radiance. The gameplay is nearly identical to that of the predecessor and other Gold Box games. Following the AD&D rules of role-playing, the player creates a party of characters (up to the maximum of six). Two new character classes (Paladin and Ranger) are added to the four basic AD&D classes Fighter, Thief, Mage, and Cleric, which were available in Pool of Radiance. Exploration takes place in pseudo-3D environments, from first-person view. Battles (random as well as pre-set) take the player-controlled and enemy party to a top-down battle screen. Commands are issued in turn-based fashion, and the player-controlled characters can freely navigate the battle field. There is also an overview \"world map\" that allows instant traveling between cities.",
+    "genre": "4",
+    "developer": "8111",
+    "publisher": "79",
+    "year": "1989",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/21195-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "21195",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T23:14:47.171Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T23:14:48.357Z",
+    "createdAt": "2026-02-24T22:55:26.507Z"
+  },
+  "c64|curse of the azure bonds save disk": {
+    "key": "c64|curse of the azure bonds save disk",
+    "platform": "c64",
+    "gameName": "Curse of the Azure Bonds + Save Disk",
+    "normalizedName": "curse of the azure bonds save disk",
+    "canonicalTitle": "Curse of the Azure Bonds + Save Disk",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "not_found",
+      "lastFetchedAt": "2026-02-24T23:14:29.299Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T23:14:29.299Z",
+    "createdAt": "2026-02-24T23:14:29.299Z"
+  },
+  "c64|california games": {
+    "key": "c64|california games",
+    "platform": "c64",
+    "gameName": "California Games",
+    "normalizedName": "california games",
+    "canonicalTitle": "California Games",
+    "description": "California Games consisted of some sports purportedly popular in California including skateboarding, freestyle footbag, surfing, roller skating, flying disc (frisbee) and BMX.",
+    "genre": "11",
+    "developer": "2849",
+    "publisher": "320",
+    "year": "1987",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6485-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6485",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T23:16:32.189Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T23:16:33.416Z",
+    "createdAt": "2026-02-24T23:16:33.416Z"
+  },
+  "c64|yie ar kung fu": {
+    "key": "c64|yie ar kung fu",
+    "platform": "c64",
+    "gameName": "Yie Ar Kung Fu",
+    "normalizedName": "yie ar kung fu",
+    "canonicalTitle": "Yie Ar Kung-Fu",
+    "description": "Oolong must fight all the martial arts masters given by the game unarmed to win the title of \"Grand Master\" and honor the memory of his father. On his side is a variety of punch and kick blows reachable by combining the joystick with one of the buttons (punch or kick). He also has the greatest jumping ability of all the game's fighters, with the exception of \"Blues\".",
+    "genre": "Fighting",
+    "developer": "Konami",
+    "publisher": "Konami",
+    "year": "1985",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6516-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6516",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-28T17:52:56.936Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-28T17:52:57.132Z",
+    "createdAt": "2026-02-24T23:17:05.993Z"
+  },
+  "c64|dessert fox": {
+    "key": "c64|dessert fox",
+    "platform": "c64",
+    "gameName": "Dessert Fox",
+    "normalizedName": "dessert fox",
+    "canonicalTitle": "Desert Fox",
+    "description": "Desert Fox is a strategy/action mix set in World War II. The player takes the role of tank commander Lone Wolf who has to foil the Rommel's plans in Northern Africa. The strategic part of the game plays on a overhead map which shows Lone Wolf and Rommel's positions. The overall goal is to save the Allied depots which are attacked by Rommel's troops - the main challenge is to save all of them in time. Lone Wolf can be moved over the map and one airstrike per game can be used to buy time for one depot. Lone Wolf also has the ability to gain enemy intel with his radio - this is useful in order to find out where obstacles await.\r\n\r\nWhenever Lone Wolf runs into one of these obstacles or Rommel, one of five action sequences starts. This includes tank duels, a turret section against incoming fighters, navigating a minefield, protecting a convoy and escaping an ambush. Those action sequences can also be played separately from the campaign. Lighting conditions change depending on the time of day.",
+    "genre": "6",
+    "developer": "8388",
+    "publisher": "110",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/38288-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "38288",
+      "matchConfidence": 0.5,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T23:17:19.697Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T23:17:20.488Z",
+    "createdAt": "2026-02-24T23:17:20.488Z"
+  },
+  "c64|world games": {
+    "key": "c64|world games",
+    "platform": "c64",
+    "gameName": "World Games",
+    "normalizedName": "world games",
+    "canonicalTitle": "World Games",
+    "description": "The events available include:\r\n\r\nWeightlifting (Russia)\r\nSlalom skiing (France)\r\nLog rolling (Canada)\r\nCliff diving (Mexico)\r\nCaber toss (Scotland)\r\nBull riding (United States)\r\nBarrel jumping (Germany)\r\nSumo Wrestling (Japan)",
+    "genre": "11",
+    "developer": "2849",
+    "publisher": "320",
+    "year": "1986",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6497-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6497",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T23:17:39.486Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T23:17:40.680Z",
+    "createdAt": "2026-02-24T23:17:40.680Z"
+  },
+  "c64|winter games agdel": {
+    "key": "c64|winter games agdel",
+    "platform": "c64",
+    "gameName": "Winter Games Agdel",
+    "normalizedName": "winter games agdel",
+    "canonicalTitle": "Winter Games Agdel",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "hybrid(mock-fallback)",
+      "sourceId": null,
+      "matchConfidence": 0.25,
+      "status": "placeholder",
+      "lastFetchedAt": "2026-02-26T04:47:11.160Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:47:11.173Z",
+    "createdAt": "2026-02-24T23:17:57.678Z"
+  },
+  "c64|winter games": {
+    "key": "c64|winter games",
+    "platform": "c64",
+    "gameName": "Winter Games",
+    "normalizedName": "winter games",
+    "canonicalTitle": "Winter Games",
+    "description": "Compete in many different sporting events like: Ski Jump, Hot Dog, Biathlon, Bobsled, Free Skating, Figure Skating and more.",
+    "genre": "11",
+    "developer": "227",
+    "publisher": "320",
+    "year": "1985",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/17429-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "17429",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-24T23:21:57.018Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-24T23:21:57.708Z",
+    "createdAt": "2026-02-24T23:20:34.434Z"
+  },
+  "c64|fast hackem": {
+    "key": "c64|fast hackem",
+    "platform": "c64",
+    "gameName": "Fast Hackem",
+    "normalizedName": "fast hackem",
+    "canonicalTitle": "Fish Tycoon",
+    "description": "Fish Tycoon is a fish-breeding sim with an entrepreneurial twist. Raise your fish in real-time virtual aquariums then crossbreed them however you see fit to create all-new, super unique breeds. Open your fish store and sell your fish to raise money for supplies, medicine, and special chemicals while researching new technologies or investing in advertising.",
+    "genre": "Strategy, Life Simulation",
+    "developer": "Big Fish Games",
+    "publisher": "Majesco Entertainment",
+    "year": "2007",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/47194-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "47194",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-04T02:19:30.782Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-04T02:19:30.936Z",
+    "createdAt": "2026-02-25T00:36:59.074Z"
+  },
+  "c64|frogger": {
+    "key": "c64|frogger",
+    "platform": "c64",
+    "gameName": "Frogger",
+    "normalizedName": "frogger",
+    "canonicalTitle": "Frogger",
+    "description": "Your task in this arcade conversion is to guide a frog across a treacherous road and river, and to safety at the top of the screen. Both these sections are fraught with a variety of hazards, each of which will kill the frog and cost you a life if contact is made.",
+    "genre": "1",
+    "developer": "7549",
+    "publisher": "156",
+    "year": "1983",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6733-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6733",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-25T04:28:13.880Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-25T04:28:14.820Z",
+    "createdAt": "2026-02-25T04:28:14.820Z"
+  },
+  "c64|jungle hunt": {
+    "key": "c64|jungle hunt",
+    "platform": "c64",
+    "gameName": "Jungle Hunt",
+    "normalizedName": "jungle hunt",
+    "canonicalTitle": "Jungle Hunt",
+    "description": "Jungle Hunt offers four unique adventure experiences, which repeat with greater difficulty once all four have been survived. If you don't survive these adventures, you will not only lose your own life but that of the lovely Penelope, who has been captured by cannibals!\r\n\r\nThe first part challenges your Tarzan skills - can you swing on the vines without plummeting to your doom? The second part pits you against a whole bunch of nasty crocodiles in a mighty river. Fortunately, you have a knife to fight back with. Don't forget to go up for air! In the third part, you face a battle against oncoming boulders of varying sizes and physics. Once you've cleared all these treacherous hazards, you still must confront the dreaded cannibal, who is armed with a wicked spear. Can you get past him and save the lovely Penelope?",
+    "genre": "1, 15",
+    "developer": "8449",
+    "publisher": "743",
+    "year": "1983",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/7132-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "7132",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-25T04:28:26.888Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-25T04:28:27.611Z",
+    "createdAt": "2026-02-25T04:28:27.611Z"
+  },
+  "c64|popeye": {
+    "key": "c64|popeye",
+    "platform": "c64",
+    "gameName": "Popeye",
+    "normalizedName": "popeye",
+    "canonicalTitle": "Popeye",
+    "description": "Popeye is a mixture of platformer and collecting game by Parker Brothers, who released the game in 1983 as the home version of the arcade machine by Nintendo. The player controls Popeye, the spinach sailor known from comics and cartoons, with the task to collect the symbols that his beloved one, the fancy beauty Olive Oyl, throws at him before they drop into the water. The roles of the antagonists are occupied by Brutus, the always jealous dislikeable chief brute and the sea witch with her biting vulture Bernard, who leave nothing undone to bean Popeye. A level is finished when you have made it to collect a certain number of symbols, whereupon the turbulent ado continues in the next of altogether three different screens. Popeye starts with four screen lives and gets a bonus life every 40.000 points.",
+    "genre": "1",
+    "developer": "6041",
+    "publisher": "156",
+    "year": "1983",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/49165-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "49165",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-25T04:37:15.543Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-25T04:37:16.621Z",
+    "createdAt": "2026-02-25T04:37:16.621Z"
+  },
+  "c64|aztec challenge": {
+    "key": "c64|aztec challenge",
+    "platform": "c64",
+    "gameName": "Aztec Challenge",
+    "normalizedName": "aztec challenge",
+    "canonicalTitle": "Aztec Challenge",
+    "description": "Suddenly you are in the capital of the Aztec Empire in 1500 A.D. You have been sentenced to be a ritual sacrifice to their gods, and your only chance of escape is to complete an obstacle course known as \"THE AZTEC CHALLENGE\"",
+    "genre": "1, 15",
+    "developer": "6480",
+    "publisher": "774",
+    "year": "1983",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6777-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6777",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-25T04:46:33.260Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-25T04:46:34.201Z",
+    "createdAt": "2026-02-25T04:46:34.201Z"
+  },
+  "c64|moon shuttle": {
+    "key": "c64|moon shuttle",
+    "platform": "c64",
+    "gameName": "Moon Shuttle",
+    "normalizedName": "moon shuttle",
+    "canonicalTitle": "Moon Shuttle",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "hybrid(mock-fallback)",
+      "sourceId": null,
+      "matchConfidence": 0.25,
+      "status": "placeholder",
+      "lastFetchedAt": "2026-02-25T22:58:46.908Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-25T22:58:47.008Z",
+    "createdAt": "2026-02-25T22:58:47.008Z"
+  },
+  "c64|beach head ii": {
+    "key": "c64|beach head ii",
+    "platform": "c64",
+    "gameName": "Beach Head II",
+    "normalizedName": "beach head ii",
+    "canonicalTitle": "Bagdad",
+    "description": null,
+    "genre": "1",
+    "developer": null,
+    "publisher": null,
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/116615-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "116615",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T01:20:14.711Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T01:20:15.733Z",
+    "createdAt": "2026-02-26T01:20:15.733Z"
+  },
+  "c64|auf wiedersehen monty": {
+    "key": "c64|auf wiedersehen monty",
+    "platform": "c64",
+    "gameName": "Auf Wiedersehen Monty",
+    "normalizedName": "auf wiedersehen monty",
+    "canonicalTitle": "Auf Wiedersehen Monty",
+    "description": "The player controls Monty as he travels around Europe collecting money in order to buy a Greek island - Montos, where he can safely retire. Gameplay is in the style of a flick-screen platform game, similar to many such games of the 1980s such as Technician Ted and Jet Set Willy. Some screens (such as those representing the Eiffel Tower and the Pyrenees) bear some relation to their real-life counterparts.",
+    "genre": "Adventure, Platform",
+    "developer": "Peter Harrap",
+    "publisher": "Gremlin Interactive Ltd.",
+    "year": "1987",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6775-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6775",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-28T13:13:59.462Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-28T13:13:59.754Z",
+    "createdAt": "2026-02-26T03:25:32.139Z"
+  },
+  "c64|bluemax": {
+    "key": "c64|bluemax",
+    "platform": "c64",
+    "gameName": "Bluemax",
+    "normalizedName": "bluemax",
+    "canonicalTitle": "Blue Max",
+    "description": "As Blue Max, you go out on sorties—flying missions—attacking assigned targets. Targets include bridges, buildings, enemy planes, tanks, bridges, anti-aircraft batteries, vehicles and ships. You progress to new missions as you take out your targets.\r\n\r\nYou must drop bombs to take out the ground targets, and this action also represents a key danger for you. Unlike the modern bombers that drop bombs on targets far below, early aircraft engaged in semi-suicidal bombing runs. The pilots started at high altitude, then tipped the planes nose downward towards their ground-based target, and pulled up before they hit the ground. In the middle of the dive and pull up process, they released the bomb. There were problems of coordination, found in the game as well—if you time it wrong, or start too low, you will crash.",
+    "genre": "8",
+    "developer": "8407",
+    "publisher": "110",
+    "year": "1983",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6698-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6698",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T03:30:22.005Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T03:30:23.047Z",
+    "createdAt": "2026-02-26T03:30:23.047Z"
+  },
+  "c64|zaxxon": {
+    "key": "c64|zaxxon",
+    "platform": "c64",
+    "gameName": "Zaxxon",
+    "normalizedName": "zaxxon",
+    "canonicalTitle": "Zaxxon",
+    "description": "The game gives the player the experience of flying a fighter craft through a fortress while shooting at enemy entities (missiles, enemy gunfire, etc.) The object of the game is to hit as many targets as possible without being shot down or running out of fuel - which can be replenished, paradoxically, by blowing up fuel drums.",
+    "genre": "8",
+    "developer": "10775",
+    "publisher": "15",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6663-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6663",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:00:03.021Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:00:04.207Z",
+    "createdAt": "2026-02-26T04:00:04.207Z"
+  },
+  "c64|bagitman": {
+    "key": "c64|bagitman",
+    "platform": "c64",
+    "gameName": "Bagitman",
+    "normalizedName": "bagitman",
+    "canonicalTitle": "BagItMan",
+    "description": "This one feels so arcade like, you'll want to put quarters in.  You'll be amazed and excited over three screens full of arcade style fun.  We have: bags of gold, elevators, mineshafts, rolling carts, and two of the nastiest guards you'll see in a long time, trying to protect it all!  All machine code with super color, excellent sound and continuous action and excitement.",
+    "genre": "1",
+    "developer": null,
+    "publisher": "4091",
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/38185-1.png",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "38185",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:01:44.835Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:01:45.783Z",
+    "createdAt": "2026-02-26T04:01:45.783Z"
+  },
+  "c64|bandits": {
+    "key": "c64|bandits",
+    "platform": "c64",
+    "gameName": "Bandits",
+    "normalizedName": "bandits",
+    "canonicalTitle": "Bandits",
+    "description": "Your job is to guard the supplies at the lunar base. Bandits of various sorts arrive in waves and descend, trying to get the goods. Armed with a mobile laser gun and some shielding, you score points by blasting the bandits.\r\n\r\nBandits has 28 levels of play. You begin with 5 ships and acquire a bonus ship for every 5,000 points. The game is similar to Space Invaders.",
+    "genre": "8",
+    "developer": null,
+    "publisher": "5312",
+    "year": "1983",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/50957-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "50957",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:01:50.613Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:01:51.994Z",
+    "createdAt": "2026-02-26T04:01:51.994Z"
+  },
+  "c64|barbarian 1": {
+    "key": "c64|barbarian 1",
+    "platform": "c64",
+    "gameName": "Barbarian 1",
+    "normalizedName": "barbarian 1",
+    "canonicalTitle": "Barbarian: The Ultimate Warrior",
+    "description": "In the best tradition of the most popular arcade games, now comes Hegor the Barbarian. Enter the fearful realms of the underground world of Durgan, a world terrorized by the evil Necron.\r\n\r\nBattle powerful warriors and horrific monsters. Use your wits to defeat cunning traps and ingenious machines protecting the path to Necron's lair.\r\n\r\nFeatures include:\r\n\r\n-48 high resolution background screens.\r\n-Over 20 different enemies and traps\r\n-More than 300 animation sequences.",
+    "genre": "10",
+    "developer": "6385",
+    "publisher": "711",
+    "year": "1987",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6384-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6384",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:01:56.549Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:01:57.690Z",
+    "createdAt": "2026-02-26T04:01:57.690Z"
+  },
+  "c64|zodiak": {
+    "key": "c64|zodiak",
+    "platform": "c64",
+    "gameName": "Zodiak",
+    "normalizedName": "zodiak",
+    "canonicalTitle": "ZOIDS",
+    "description": "Zoids: The Battle Begins is a 1986 battle simulation developed and released in Europe for the ZX Spectrum, Amstrad CPC, MSX and C64 personal computers by Martech, licensed by the Zoids toy manufacturer Tomy\r\n\r\nIn this game you are a visiting Earthman, caught in the war between ancient enemies. After you crashed, you joined your rescuers in their war for survival. You are the blue side; your enemies are colored red. You control a gigantic battle-robot, called a Zoid, to attack and defeat other Zoids. The action takes place from within the cockpit. You have to learn a new way of looking at the world, as your only contact with outside is through the instrument panels of the Zoid. This is not intuitive--it takes some reading, some experimentation, and lots of practice. What you see on the screen while playing is the cockpit control panels. The computer displays your health and the health of your battle robot both visually and audibly. You see your heartbeat and the bot has a similar heartbeat. You also hear you heartbeats, and these tell you how your combined overall health is. Other features of the cockpit include a radar-style map that shows your Zoid in relation to the world around you. The map includes terrain features, and anything your instruments pick up is put on the map. All your game controls are displayed around the map, the railgun, shields, jamming, missiles, and general information panels.",
+    "genre": "1, 6",
+    "developer": null,
+    "publisher": "716",
+    "year": "1986",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/67162-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "67162",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:03:49.328Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:03:50.050Z",
+    "createdAt": "2026-02-26T04:03:50.050Z"
+  },
+  "c64|zorro": {
+    "key": "c64|zorro",
+    "platform": "c64",
+    "gameName": "Zorro",
+    "normalizedName": "zorro",
+    "canonicalTitle": "Zorro",
+    "description": "All the ingredients from the Zorro story feature in this action game - a kidnapped senorita, an evil enemy leader (Colonel Garcia) and his henchmen and of course the obligatory swordfight!\r\n\r\nThis computer version of Zorro is a strange beast, he can leap across buildings, fall 50 feet and land like a feather, with neither a scratch to his head or a crease in his cape. He can also perform masterful tricks, such as balancing a large plant pot on his head, while simultaneously climbing up a ladder.\r\n\r\nZorro has similar platform gameplay to the same company's Bruce Lee game, but with a slower pace and more puzzle elements. There are 20 different screens in the game, with The Ole Hotel screen being used continually throughout the game. The player must overcome various puzzles, including the branding of a bull and catapulting into the air via a conveniently left spring board and a dazed Garcia guard!",
+    "genre": "1, 15",
+    "developer": "2136",
+    "publisher": "600",
+    "year": "1985",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/38169-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "38169",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:04:03.977Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:04:04.720Z",
+    "createdAt": "2026-02-26T04:04:04.720Z"
+  },
+  "c64|bmx racers": {
+    "key": "c64|bmx racers",
+    "platform": "c64",
+    "gameName": "BMX Racers",
+    "normalizedName": "bmx racers",
+    "canonicalTitle": "BMX Racers",
+    "description": "You are riding your BMX along a road that can't be stopped and must avoid all obstacles for as long as possible. The game is viewed from above with the screen scrolling continuously upwards and you can use a joystick or keyboard to control the bike. Various obstacles appear as you ride and these include moving cars, other bike riders, oil patches and a granny who throws her stick at you. If you touch any of these obstacles then you lose one of three lives. There are no levels and you keep riding until you lose all your lives.",
+    "genre": null,
+    "developer": null,
+    "publisher": "764",
+    "year": "1984",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/49148-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "49148",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:08:28.037Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:08:28.124Z",
+    "createdAt": "2026-02-26T04:08:10.758Z"
+  },
+  "c64|thanatos": {
+    "key": "c64|thanatos",
+    "platform": "c64",
+    "gameName": "Thanatos",
+    "normalizedName": "thanatos",
+    "canonicalTitle": "Thanatos",
+    "description": "In this magical kingdom you take control of a dragon, \"Thanatos the Destroyer\", whose eternal destiny lies in conflict with the forces of the underworld. The dragon which is very large and superbly animated, flies, walks, swims and burns it's way through the landscape. It must collect beautiful young enchantresses, \"Eros\", who then rides on its neck and guides it through the castles, to collect the book of spells and find the magic cauldron. On their way they have to fight fierce knights armed with lances and foot-soldiers with long-bows, as well as a variety of weird mythological creatures. The game features fantastic landscapes with a totally new panoramic scrolling action.",
+    "genre": "1",
+    "developer": "2534",
+    "publisher": "715",
+    "year": "1986",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/36775-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "36775",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:40:03.237Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:40:04.174Z",
+    "createdAt": "2026-02-26T04:40:04.174Z"
+  },
+  "c64|world karate championship": {
+    "key": "c64|world karate championship",
+    "platform": "c64",
+    "gameName": "World Karate Championship",
+    "normalizedName": "world karate championship",
+    "canonicalTitle": "World Karate Championship",
+    "description": "Well, three years after the original game they seemed to have brought out a PC conversion of the C64 all-time classic International Karate.\r\n\r\nBut MyHeartBreaksAndBurstsIntoTears when seeing this, one wonders why they raped this classic into a **** machine. It's nowhere near the original game. Although, at least the graphics produce some sort of a d้jเ vu - if you add color in your imagination. For those who've never played the superior Commodore 64 version, International Karate simulates a karate tournament for one or two players. During the game, you will fly around the world to various locations, and in two-player game there is a special bonus round. This is identical to Epyx' World Karate Championship, except it's missing two levels that were added to that US release. Gameplay is probably as good as it gets in CGA (although why it can't be EGA is strange-- given that most games already were EGA even in 1988). Fluid controls and varied backdrops. As I said earlier, though, it really can't compare to the C64 version, so play this one for nostalgia's sake only.",
+    "genre": "10",
+    "developer": "8415",
+    "publisher": "585",
+    "year": "1989",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/111466-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "111466",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:46:57.207Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:46:57.875Z",
+    "createdAt": "2026-02-26T04:46:57.875Z"
+  },
+  "c64|wind walker": {
+    "key": "c64|wind walker",
+    "platform": "c64",
+    "gameName": "Wind Walker",
+    "normalizedName": "wind walker",
+    "canonicalTitle": "Windwalker",
+    "description": "Step onto a winding path through the ancient Orient and learn the secrets of survival in an exotic land of mystery and magic. Recruited by the mystic Moebius, you will learn to master the martial arts and restore the serenity of years past. Follow your spiritual destiny and begin a fascinating journey into this intricate tapestry of beautifully illustrated people, places and events.",
+    "genre": "4",
+    "developer": "6302",
+    "publisher": "131",
+    "year": "1986",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/69485-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "69485",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:47:18.334Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:47:19.407Z",
+    "createdAt": "2026-02-26T04:47:19.407Z"
+  },
+  "c64|where in the world": {
+    "key": "c64|where in the world",
+    "platform": "c64",
+    "gameName": "Where in the World",
+    "normalizedName": "where in the world",
+    "canonicalTitle": "Where in the World is Carmen Sandiego?",
+    "description": "The goal of the game is to track Carmen's villains around the world, arrest them and ultimately arrest Carmen herself. The player begins the game by first going to the country where the crime took place and then obtaining hints from various sources on where the thief went next, leading to a chase around the world to find the thief before time runs out.\r\n\r\nEach case begins with the user being alerted that a spectacular theft has been committed. Starting by first traveling to the scene of the crime, the player is given several opportunities to collect clues about the suspect's next location, which come in the form of pun-filled word play about the target place. There are thirty countries that can be visited in the game and each is identified by the name of a prominent city, though this city is not always consistent with the image of the country shown in the game. For example, Lima is given for Peru, but the game instead shows an image of Machu Picchu.\r\n\r\nIf the player travels to an incorrect location, they receive nonsensical clues and will have to backtrack to the previous location to try again. If the player travels to the correct location, a simple animation of an obvious but otherwise harmless V.I.L.E. henchman lurking across the screen is played. The gameplay continues to repeat in this manner as the player travels from location to location several times before catching up to the criminal.\r\n\r\nThe case will be lost if the user \"runs out of time\". Throughout the game, the time is shown as the hour accompanied by the day of the week and every action taken in the game (questioning a witness, traveling to another location, etc.) causes a few hours to elapse. At the start of the game a \"deadline\" is given by which point the crook must be arrested and, if that time is passed, the case is lost and the crook escapes. The times given in the game do not take changes of time zones into account.",
+    "genre": "2",
+    "developer": "1",
+    "publisher": null,
+    "year": "1985",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/41893-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "41893",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:47:26.618Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:47:27.448Z",
+    "createdAt": "2026-02-26T04:47:27.448Z"
+  },
+  "c64|uridium": {
+    "key": "c64|uridium",
+    "platform": "c64",
+    "gameName": "Uridium",
+    "normalizedName": "uridium",
+    "canonicalTitle": "Uridium",
+    "description": "The solar system is under attack! Enemy Super-Dreadnoughts have been placed in orbit around each of the fifteen planets in this galactic sector. They are draining mineral resources from the planetary cores for use in their interstellar power units. Each Super-Dreadnought seeks out a different metal for its metal converter.\r\nYour Manta class Space Fighter will be transported to each planet in turn and it is your task to destroy each Dreadnought. First you must attack the defensive screen of enemy fighters, then you must neutralise the majority of surface defences before you land on the Super-Dreadnought's master runway. Once on board you must pull as many fuel rods as possible from the metal converters before you take off for a final strafing run as the Dreadnought vaporises into the ether.\r\n\r\nDisc version",
+    "genre": "8",
+    "developer": "479",
+    "publisher": "303",
+    "year": "1986",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6655-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6655",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:47:38.396Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:47:39.128Z",
+    "createdAt": "2026-02-26T04:47:39.128Z"
+  },
+  "c64|under wurlde": {
+    "key": "c64|under wurlde",
+    "platform": "c64",
+    "gameName": "Under Wurlde",
+    "normalizedName": "under wurlde",
+    "canonicalTitle": "Underwurlde",
+    "description": "Sabreman’s second game (following Sabre Wulf and preceding Knight Lore and Pentagram) finds him trapped in an underground cavern network, split into nearly 600 side-viewed screens. There are three ways to escape, each protected by a guardian who can be killed using one of the three major weapons you can locate – a dagger, a torch and a knife.\r\n\r\nAs you explore the levels, you will encounter randomly-moving nasties, who can’t kill you but can knock you off your path and cause you to fall. Eagles can grab and drop you in mid-air. Falls of much more than a screen’s height cost you a life, although extra ones are available. Jewels can be collected for temporary invincibility.\r\n\r\nThe game’s screens are functionally split into Castle and Caverns, with the castle screens higher up. Moving across the castles involves a lot of blind jumps, often deliberately bouncing off fortuitously-placed objects such as flower pots. In the caverns, use a rope to hook onto the ceilings and move up and down – if you have found it. How many screens deep you are is noted on screen at all times.",
+    "genre": "1, 2, 15",
+    "developer": "703",
+    "publisher": "731",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/39491-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "39491",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:47:43.836Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:47:44.883Z",
+    "createdAt": "2026-02-26T04:47:44.883Z"
+  },
+  "c64|turbo outrun": {
+    "key": "c64|turbo outrun",
+    "platform": "c64",
+    "gameName": "Turbo Outrun",
+    "normalizedName": "turbo outrun",
+    "canonicalTitle": "Turbo OutRun",
+    "description": "Turbo Outrun the player in control of a male driver sitting alongside his girlfriend in a Ferrari F40, racing against the clock and a computer-controlled opponent in a Porsche 959 in a race across the United States. The goal is to reach Los Angeles from a starting point of New York City. Unlike the original Out Run, however, there are no branch roads to choose from. Instead, there is only one way from the start to the end of the road.",
+    "genre": "7",
+    "developer": "7549",
+    "publisher": "15",
+    "year": "1990",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6550-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6550",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:47:48.220Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:47:49.301Z",
+    "createdAt": "2026-02-26T04:47:49.301Z"
+  },
+  "c64|tribbles": {
+    "key": "c64|tribbles",
+    "platform": "c64",
+    "gameName": "Tribbles",
+    "normalizedName": "tribbles",
+    "canonicalTitle": "Trouballs",
+    "description": "If you're ready for explosive, mind-twisting puzzle-action mayhem then grab a copy of TROUBALLS from Capcom. In this massively addictive game developed exclusively for the Game Boy Color, it's up to you to gain as many points as you can while the clock ticks down. Here's how it works: different colored balls are attached to moving gears; you rotate the gears in an attempt to get four balls of the same color aligned (in a 2x2 square grid at the bottom of the screen), which blows them to smithereens. This clears the stage and advances you to the next level. There's no time to rest though, as each successive round of sphere-blasting fun is more difficult than the last. You'll listen to five original songs in the challenging, pop-and-bop gameplay that confronts you on more than 100 fast-moving levels. If you couldn't get enough of TETRIS or BUST-A-MOVE, then you'll love TROUBALLS to pieces.",
+    "genre": "5",
+    "developer": "6436",
+    "publisher": "9",
+    "year": "2001",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/22112-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "22112",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:47:52.807Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:47:53.516Z",
+    "createdAt": "2026-02-26T04:47:53.516Z"
+  },
+  "c64|transformers": {
+    "key": "c64|transformers",
+    "platform": "c64",
+    "gameName": "Transformers",
+    "normalizedName": "transformers",
+    "canonicalTitle": "Transformers",
+    "description": "Transformers is an Action game, published by Ocean, which was released in Europe in 1985.",
+    "genre": "1, 15",
+    "developer": "10213, 10214, 10215",
+    "publisher": "43",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/25528-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "25528",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:48:05.389Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:48:06.117Z",
+    "createdAt": "2026-02-26T04:48:06.117Z"
+  },
+  "c64|touchdown football": {
+    "key": "c64|touchdown football",
+    "platform": "c64",
+    "gameName": "Touchdown Football",
+    "normalizedName": "touchdown football",
+    "canonicalTitle": "Touchdown Football",
+    "description": "A very capable football simulation, given the year and technology. Call the plays, then run them using the keyboard or joystick. Digitized voices enhance the game, including the crowd, calling the numbers, and referee's calls.",
+    "genre": "11",
+    "developer": null,
+    "publisher": "2",
+    "year": "1986",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/109023-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "109023",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:48:18.649Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:48:19.348Z",
+    "createdAt": "2026-02-26T04:48:19.348Z"
+  },
+  "c64|the living daylights": {
+    "key": "c64|the living daylights",
+    "platform": "c64",
+    "gameName": "The Living Daylights",
+    "normalizedName": "the living daylights",
+    "canonicalTitle": "The Living Daylights",
+    "description": "The player navigates James Bond through horizontally scrolling levels and shoots various adversaries.",
+    "genre": "Shooter, Platform",
+    "developer": "Melbourne House",
+    "publisher": "Domark Group Ltd.",
+    "year": "1987",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6745-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6745",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-28T21:07:26.226Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-28T21:07:26.557Z",
+    "createdAt": "2026-02-26T04:48:34.277Z"
+  },
+  "c64|action biker": {
+    "key": "c64|action biker",
+    "platform": "c64",
+    "gameName": "Action Biker",
+    "normalizedName": "action biker",
+    "canonicalTitle": "Action Biker",
+    "description": "Steer your action biker through this four way scrolling city picking up the forty items scattered around to help you overcome the obstacles such as the lake, fairground and building site. The faster you go the higher you score - so look out for items that will speed up your bike like the turbo charger, the gearbox that will allow you to change down for more acceleration and the larger gas tank to give you more endurance - but you can refill at the gas station. Can you get to the drag race at the end?",
+    "genre": "1, 7",
+    "developer": "5297",
+    "publisher": "764",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/34878-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "34878",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-26T04:49:35.826Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-26T04:49:36.688Z",
+    "createdAt": "2026-02-26T04:49:36.688Z"
+  },
+  "c64|afterburner": {
+    "key": "c64|afterburner",
+    "platform": "c64",
+    "gameName": "Afterburner",
+    "normalizedName": "afterburner",
+    "canonicalTitle": "Afterburner",
+    "description": "You've played the arcade smash - now experience the white-knuckled realism of a supersonic dogfight at home! Using your heat-seeking missiles and laser anti-aircraft fire, can you be top gun against a seething supersonic swarm? Experience brain-numbing G-forces; bones rattling with the body-jarring pitch and yaw... scan with your radar, lock on your target and fire!",
+    "genre": "1, 13",
+    "developer": "7549",
+    "publisher": "33",
+    "year": "1989",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6504-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6504",
+      "matchConfidence": null,
+      "status": "not_configured",
+      "lastFetchedAt": "2026-03-15T16:39:44.228Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-15T16:39:44.228Z",
+    "createdAt": "2026-02-26T04:50:17.561Z"
+  },
+  "c64|artic fox": {
+    "key": "c64|artic fox",
+    "platform": "c64",
+    "gameName": "Artic Fox",
+    "normalizedName": "artic fox",
+    "canonicalTitle": "Artic Fox",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "not_found",
+      "lastFetchedAt": "2026-02-28T21:38:36.932Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-28T21:38:36.932Z",
+    "createdAt": "2026-02-28T21:38:36.932Z"
+  },
+  "c64|bruce lee": {
+    "key": "c64|bruce lee",
+    "platform": "c64",
+    "gameName": "Bruce Lee",
+    "normalizedName": "bruce lee",
+    "canonicalTitle": "Bruce Lee",
+    "description": "The plot involves Bruce advancing from chamber to chamber in a wizard's tower, seeking to claim infinite wealth and the secret of immortality. There are twenty chambers, each represented by a single screen with platforms and ladders. To progress, the player must collect a number of lanterns suspended from various points in the chamber.\r\n\r\nEach chamber is guarded by two mobile enemies; The Ninja, who attacks with a Ninjat? sword and The Green Yamo, a sumo wrestler who attacks with punches and kicks.",
+    "genre": "Platform",
+    "developer": "Datasoft, Inc.",
+    "publisher": "U.S. Gold Ltd.",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6483-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6483",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-02-28T21:40:38.073Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-02-28T21:40:39.289Z",
+    "createdAt": "2026-02-28T21:40:39.289Z"
+  },
+  "c64|airwolf": {
+    "key": "c64|airwolf",
+    "platform": "c64",
+    "gameName": "Airwolf",
+    "normalizedName": "airwolf",
+    "canonicalTitle": "Airwolf",
+    "description": "The game of the TV show is viewed from the side and puts you in command of an attack helicopter. Your task is to rescue 5 scientists from an underground lair by destroying its layer of protection and then getting to the core. Moving onto a screen at a time you must shoot out anything and everything in your path, including lots of regenerating static targets. Realistic gravity takes effect, so you can't simply hover in a set position.",
+    "genre": "Action",
+    "developer": "Elite",
+    "publisher": "Encore",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/10352-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "10352",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-01T13:40:38.815Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-01T13:40:39.538Z",
+    "createdAt": "2026-03-01T13:40:39.538Z"
+  },
+  "c64|one on one": {
+    "key": "c64|one on one",
+    "platform": "c64",
+    "gameName": "One On One",
+    "normalizedName": "one on one",
+    "canonicalTitle": "One on One",
+    "description": "Control either Julius Erving or Larry Bird in front of a single basket, in a game of one on one. The user can select to play either to a certain score or for a certain amount of time. When on offense, the player can rotate to keep away from his rival, take a shot from a distance or move in to the basket for special up-close slam-dunks. When on defense, you can try to take your rival's ball or jump up to block a shot. Particularly good set-ups get a slow-motion replay. You can even smash the glass on the backboard, which will send an irate janitor onto the court to clean up the mess.",
+    "genre": "Sports",
+    "developer": "Electronic Arts",
+    "publisher": "EA Games",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/39561-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "39561",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-01T13:41:03.761Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-01T13:41:04.679Z",
+    "createdAt": "2026-03-01T13:41:04.679Z"
+  },
+  "c64|pitstop ii": {
+    "key": "c64|pitstop ii",
+    "platform": "c64",
+    "gameName": "Pitstop II",
+    "normalizedName": "pitstop ii",
+    "canonicalTitle": "Pitstop II",
+    "description": "Pitstop II is the first 3D racing game to implement a split-screen simultaneous two-player game mode. Players could be in completely different places on the racing track, and each split screen would show the view of the track according to the player's position.",
+    "genre": "Racing",
+    "developer": "Epyx",
+    "publisher": "Epyx, Inc.",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6677-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6677",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-01T13:41:16.494Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-01T13:41:17.485Z",
+    "createdAt": "2026-03-01T13:41:17.485Z"
+  },
+  "c64|articfox": {
+    "key": "c64|articfox",
+    "platform": "c64",
+    "gameName": "Articfox",
+    "normalizedName": "articfox",
+    "canonicalTitle": "Articfox",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "not_found",
+      "lastFetchedAt": "2026-03-02T03:47:19.738Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T03:47:19.738Z",
+    "createdAt": "2026-03-01T16:18:03.715Z"
+  },
+  "c64|barbarian 2": {
+    "key": "c64|barbarian 2",
+    "platform": "c64",
+    "gameName": "Barbarian 2",
+    "normalizedName": "barbarian 2",
+    "canonicalTitle": "Barbarian: The Ultimate Warrior",
+    "description": "In the best tradition of the most popular arcade games, now comes Hegor the Barbarian. Enter the fearful realms of the underground world of Durgan, a world terrorized by the evil Necron.\r\n\r\nBattle powerful warriors and horrific monsters. Use your wits to defeat cunning traps and ingenious machines protecting the path to Necron's lair.\r\n\r\nFeatures include:\r\n\r\n-48 high resolution background screens.\r\n-Over 20 different enemies and traps\r\n-More than 300 animation sequences.",
+    "genre": "Fighting",
+    "developer": "Palace Software, LTD.",
+    "publisher": "Palace Software, LTD.",
+    "year": "1987",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6384-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6384",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T02:39:01.647Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T02:39:01.935Z",
+    "createdAt": "2026-03-02T02:39:01.935Z"
+  },
+  "c64|beach head i": {
+    "key": "c64|beach head i",
+    "platform": "c64",
+    "gameName": "Beach Head I",
+    "normalizedName": "beach head i",
+    "canonicalTitle": "Bagdad",
+    "description": null,
+    "genre": "Action",
+    "developer": null,
+    "publisher": null,
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/116615-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "116615",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T02:39:17.329Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T02:39:17.484Z",
+    "createdAt": "2026-03-02T02:39:17.484Z"
+  },
+  "c64|beach head": {
+    "key": "c64|beach head",
+    "platform": "c64",
+    "gameName": "Beach Head",
+    "normalizedName": "beach head",
+    "canonicalTitle": "Beach Head",
+    "description": "The game's setting is the Pacific Theatre of World War II.[1] Gameplay consists of several varying stages in which the player must control various vehicles including warships and tanks in order to defeat an enemy fleet, break through enemy beach defences and destroy an enormous gun-emplacement to win the game.",
+    "genre": "Shooter",
+    "developer": "Access Software, Inc.",
+    "publisher": "Access Software, Inc.",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/24322-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "24322",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T02:39:52.225Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T02:39:52.924Z",
+    "createdAt": "2026-03-02T02:39:52.924Z"
+  },
+  "c64|star league baseball": {
+    "key": "c64|star league baseball",
+    "platform": "c64",
+    "gameName": "Star League Baseball",
+    "normalizedName": "star league baseball",
+    "canonicalTitle": "Star League Baseball",
+    "description": "Star League Baseball presents the action from the right-field stands, offering the player a type of isometric view of the action. Unlike overhead views, which typically avoided up-down ball movement in either pirching or hit balls",
+    "genre": "Sports",
+    "developer": "GameStar",
+    "publisher": "Gamestar",
+    "year": "1983",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/50536-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "50536",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T03:43:44.516Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T03:43:45.796Z",
+    "createdAt": "2026-03-02T03:43:45.796Z"
+  },
+  "c64|scarabeus": {
+    "key": "c64|scarabeus",
+    "platform": "c64",
+    "gameName": "Scarabeus",
+    "normalizedName": "scarabeus",
+    "canonicalTitle": "Scarabaeus",
+    "description": "Scarabæus is a 3D adventure game made by Andromeda in 1985. It is also known as \"Invaders of the Lost Tomb\" in North America.\r\n\r\nThe game starts with the player landing his spaceship near an Egyptian tomb. He wears a spacesuit and is followed by a dog. His aim is to collect the ancient treasure of Scarabæus, a smaragd in the shape of a dung beetle kept inside the tomb. Although it's not shown in the presentation, the explorer gets bitten by a spider upon entering the temple. The tomb contains several vials with an antidote, and several others with poison, and the explorer must solve some puzzles that will reveal which ones he can drink and which ones he must avoid. He also must survive hostile monsters that will try to kill him.\r\n\r\nThe game is divided into three maze-like floors, each with its own goals. The ultimate target is to survive and recover the Scarabæus, held in the Pharaoh's Tomb.  Along the way, the player needs to keep an eye on the explorer's health, shown on the instruments on the right of the screen.",
+    "genre": "Adventure",
+    "developer": "Ariolasoft UK",
+    "publisher": "Ariolasoft",
+    "year": "1985",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/38374-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "38374",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T03:52:04.945Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T03:52:05.632Z",
+    "createdAt": "2026-03-02T03:52:05.632Z"
+  },
+  "c64|enduro racer": {
+    "key": "c64|enduro racer",
+    "platform": "c64",
+    "gameName": "Enduro racer",
+    "normalizedName": "enduro racer",
+    "canonicalTitle": "Enduro Racer",
+    "description": "In this game you play the role of an endurance bike racer. The gameplay involves you racing against the clock to get to the finish line and jumping over ramps. At the end of each race you get points for how many cars or bikes you have overtaken with which you can upgrade your bike. There are various different terrain for you to race on including desert beach and dirt tracks plus a number of things to slow you down or even knock you off of your bike all together. The main idea is to find the best route through each level to shave off valuable seconds in order to over take more cars and bikes.\r\n\r\nThe Japanese version of the game has more Tracks than the European and US versions have. Among them is a snow track which is one of the hardest tracks in the game, because there is a lot of stones on the thin road.",
+    "genre": "Racing",
+    "developer": "Sega",
+    "publisher": "Activision",
+    "year": "1987",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/10358-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "10358",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T03:56:13.239Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T03:56:14.126Z",
+    "createdAt": "2026-03-02T03:56:14.126Z"
+  },
+  "c64|fast tracks": {
+    "key": "c64|fast tracks",
+    "platform": "c64",
+    "gameName": "Fast Tracks",
+    "normalizedName": "fast tracks",
+    "canonicalTitle": "Fast Tracks",
+    "description": "Fast Tracks: The Computer Slot Car Construction Kit is viewed from a forced overhead perspective, and loosely recreates slot car racing, also sharing its feel and some features with the much later Super Skidmarks. The secret is to knock the three rival cars off the circuit completely - this gives the player a two-second time bonus and sends that car back to the start of the lap.\r\n\r\nSeven circuits are built in and more can be created using the supplied editor. They feature oil patches (causing the car to spin if steered through), bridges and underpasses, chicane and hairpin bends, and overlapping sections (collisions on these will usually knock both cars off).",
+    "genre": null,
+    "developer": "Activision",
+    "publisher": "Activision",
+    "year": "1986",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/49789-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "49789",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T16:44:15.599Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T16:44:16.394Z",
+    "createdAt": "2026-03-02T16:44:16.394Z"
+  },
+  "c64|delta": {
+    "key": "c64|delta",
+    "platform": "c64",
+    "gameName": "Delta",
+    "normalizedName": "delta",
+    "canonicalTitle": "Delta",
+    "description": "This horizontally scrolling shoot 'em up with 32 levels is something of a predecessor to Armalyte. It's set in the Delta region of space, in which the Hsiffan Khanate species have a powerful presence, using their technology to steal and analyze Terran ships.",
+    "genre": "Shooter",
+    "developer": "Stavros Fasoulas",
+    "publisher": "Thalamus",
+    "year": "1987",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6788-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6788",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T21:32:36.180Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T21:32:37.142Z",
+    "createdAt": "2026-03-02T21:32:37.142Z"
+  },
+  "c64|mancopter": {
+    "key": "c64|mancopter",
+    "platform": "c64",
+    "gameName": "Mancopter",
+    "normalizedName": "mancopter",
+    "canonicalTitle": "Mancopter",
+    "description": "Mancopter is a side view horizontal game where the screen scrolls from right to left when you move, as you control your hero flying a primitive helicopter powered by pedal-power for a race over the ocean. You must fly and pass as many other competitors as you can as you try to get from the start-line to a finish-line a long distance away. To fly your helicopter you keep pressing the fire button to stay airborne and press left to move along the screen. If you stop pressing the fire button then you fall downwards towards the water, if you stop pressing left then your momentum keeps you going until you slowly come to a halt. The race is timed and you start with seventy seconds and this decreases as you race but passing buoys gives you forty extra seconds.\r\n\r\nThe other competitors fill the skies and you can avoid them or hit the top of their helicopter which sends them into the water but if you are hit from above then you fall into the sea. You are carrying four fish and every time you hit the water then a whale appears and lifts you onto it's head but at the loss of a fish and if you have no more fish when you hit the water then a shark appears and eats you. Pelicans fly in the air from left to right and if they have a fish in their mouth then when hit gives you the fish and you can carry up to eight. Hit a pelican without a fish and it takes one of yours and if you hit one without carrying any then you hit the water and get eaten once again.\r\n\r\nOther creatures to avoid are squids, dodos, and storm clouds which release lightning and if you are hit by any then a fish is lost. If you run out of time then a fish is lost but you are given five seconds to try to reach a buoy. Trees make an appearance and you are unable to pass the leaves and branches so you must fly underneath while avoiding hitting the water. During the race, rafts make an appearance and when landed on give you bonus points for time remaining and competitors passed. Hitting a competitor into the water doesn't count as a pass.",
+    "genre": "Racing",
+    "developer": "Datasoft, Inc.",
+    "publisher": "Datasoft, Inc.",
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/38332-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "38332",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:34:34.015Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:34:34.747Z",
+    "createdAt": "2026-03-02T22:34:34.747Z"
+  },
+  "c64|toy bizzare": {
+    "key": "c64|toy bizzare",
+    "platform": "c64",
+    "gameName": "Toy Bizzare",
+    "normalizedName": "toy bizzare",
+    "canonicalTitle": "Toy Bizarre",
+    "description": "As a worker at a toy store, you must stop the toy robots from taking over the store, before they take over you. Stop the valves that are getting these toys released in order to control where they land on the floor. Make sure you are ready for those safety checks, turn off the valves before you are hit by hefty Hilda. Stop the toys by jumping over them, or by stunning them. Once you finish doing this, next hour, things start up again.",
+    "genre": "Action, Platform",
+    "developer": "Activision",
+    "publisher": "Activision",
+    "year": "2016",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/38390-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "38390",
+      "matchConfidence": 0.5,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:55:38.530Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:55:39.226Z",
+    "createdAt": "2026-03-02T22:55:39.226Z"
+  },
+  "c64|test drive": {
+    "key": "c64|test drive",
+    "platform": "c64",
+    "gameName": "Test Drive",
+    "normalizedName": "test drive",
+    "canonicalTitle": "Test Drive",
+    "description": "This mix of racing simulation and arcade game consists of driving a choice of 5 sports cars on a mountain strip at the fastest speed possible without getting caught by the cops. To avoid them, use your radar detector -- or just try to outrun them if they spot you. Manual stickshift only, so make sure you don't redline or you'll blow your engine.",
+    "genre": "Racing",
+    "developer": "Distinctive Software, Inc.",
+    "publisher": "Accolade, Inc.",
+    "year": "1987",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/34879-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "34879",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:55:52.411Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:55:53.459Z",
+    "createdAt": "2026-03-02T22:55:53.459Z"
+  },
+  "c64|tapper": {
+    "key": "c64|tapper",
+    "platform": "c64",
+    "gameName": "Tapper",
+    "normalizedName": "tapper",
+    "canonicalTitle": "Tapper",
+    "description": "Side-splitting, soda-slinging laughs and spills! Five belly-busting screens of Soda Fountain Fun, including 4 mad-capped bar rooms of soda-starved, clammoring cowboys, sports fans, punks and space creatures, plus a head-spinning Soda Bandit Bonus Round! Just try to keep your cool as hot-headed, crazy customers blitz your bar for another cold one.",
+    "genre": "Action",
+    "developer": "Midway, Bally",
+    "publisher": "Sega",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/38386-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "38386",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:55:57.118Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:55:57.889Z",
+    "createdAt": "2026-03-02T22:55:57.889Z"
+  },
+  "c64|talladega": {
+    "key": "c64|talladega",
+    "platform": "c64",
+    "gameName": "Talladega",
+    "normalizedName": "talladega",
+    "canonicalTitle": "Richard Petty's Talladega",
+    "description": "\"Richard Petty's Talladega is a racing game where you get to take the super speedway as you race against king Richard Petty and 18 top pro drivers. After trying to qualify for a pole position, you use strategy to plan your pit stops, draft leading cars to pick up time and save fuel and be prepared for yellow caution flags.\" --mobygames.com",
+    "genre": "Racing",
+    "developer": "Cosmi Corporation",
+    "publisher": "Cosmi Corporation",
+    "year": "1985",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/27121-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "27121",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:56:01.059Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:56:01.757Z",
+    "createdAt": "2026-03-02T22:56:01.757Z"
+  },
+  "c64|super zaxxon": {
+    "key": "c64|super zaxxon",
+    "platform": "c64",
+    "gameName": "Super Zaxxon",
+    "normalizedName": "super zaxxon",
+    "canonicalTitle": "Super Zaxxon",
+    "description": "Super Zaxxon is a third-person perspective shooter developed by Human Engineered Software and published by HesWare for the Commodore 64 in 1984. Sequel to the Sega hit, Zaxxon!",
+    "genre": "Shooter",
+    "developer": null,
+    "publisher": null,
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/42187-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "42187",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:56:03.734Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:56:04.422Z",
+    "createdAt": "2026-03-02T22:56:04.422Z"
+  },
+  "c64|super cycle": {
+    "key": "c64|super cycle",
+    "platform": "c64",
+    "gameName": "Super Cycle",
+    "normalizedName": "super cycle",
+    "canonicalTitle": "Super Cycle",
+    "description": "A motorbike racing game strongly resembling Sega's Hang-On titles. The game is viewed from behind the bike, which tilts as you turn. You are racing against the clock, although there are lots of other bikes on track to avoid and ride around. There are 3 skill levels, which affect the amount of time you have to complete the level, and the bonus offered if you manage to (the amount of time left, divided by a set number, bigger on lower levels). Your bike has 3 gears and appears to have a top speed of around 120 MPH. After every 2 races there's a bonus round in which you must pick up as many tokens as possible in the time limit.\r\n\r\nDisc version.",
+    "genre": "Racing",
+    "developer": "Epyx",
+    "publisher": "Epyx, Inc.",
+    "year": "1986",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6520-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6520",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:56:06.897Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:56:07.328Z",
+    "createdAt": "2026-03-02T22:56:07.328Z"
+  },
+  "c64|summer games 2": {
+    "key": "c64|summer games 2",
+    "platform": "c64",
+    "gameName": "Summer Games 2",
+    "normalizedName": "summer games 2",
+    "canonicalTitle": "Summer Games",
+    "description": "You’re an Olympic athlete competing in eight key events at the SUMMER GAMES. How well can you score in track, swimming, diving, shooting, gymnastics and more? So realistic, there's even an opening ceremony and awards presentation after each event. Unlike other “Olympic-Like\" games, SUMMER GAMES has incredible realism, superb state-of-the-art graphics and sound effects, including national anthems from eighteen countries, and true action-strategy game play. In each event you must plan and execute your game strattegy in order to maximize your score. It’s not just a matter of how fast you can move the joystick. So change into your running shoes, grab your joystick and GO FOR THE GOLD!\r\n\r\n-Opening Ceremony and Awards Ceremony\r\n-8 Different Sports Events\r\n-Action and Strategy Elements in Each Event\r\n-Compete Against an Opponent or the Computer\r\n-Individual and Team Play\r\n-Joystick Controlled\r\n-One or more Players",
+    "genre": "Sports",
+    "developer": "Epyx",
+    "publisher": "U.S. Gold Ltd.",
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6521-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6521",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:56:09.716Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:56:10.779Z",
+    "createdAt": "2026-03-02T22:56:10.779Z"
+  },
+  "c64|summer games 1 agdel": {
+    "key": "c64|summer games 1 agdel",
+    "platform": "c64",
+    "gameName": "Summer Games 1 Agdel",
+    "normalizedName": "summer games 1 agdel",
+    "canonicalTitle": "Summer Games 1 Agdel",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "hybrid(mock-fallback)",
+      "sourceId": null,
+      "matchConfidence": 0.25,
+      "status": "placeholder",
+      "lastFetchedAt": "2026-03-02T22:56:16.712Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:56:16.715Z",
+    "createdAt": "2026-03-02T22:56:13.196Z"
+  },
+  "c64|sumando": {
+    "key": "c64|sumando",
+    "platform": "c64",
+    "gameName": "Sumando",
+    "normalizedName": "sumando",
+    "canonicalTitle": "Shantae",
+    "description": "The original Shantae adventure returns! First released in 2002, Shantae is the classic action-adventure-platformer that introduced players to the fan-favorite Half-Genie heroine. In her debut title, Shantae hair-whips, dances, and transforms as she seeks out four elemental stones hidden throughout Sequin Land to put a stop to the nefarious lady pirate, Risky Boots.",
+    "genre": "Action, Adventure",
+    "developer": "WayForward Technologies",
+    "publisher": "Limited Run Games",
+    "year": "1970",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/104003-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "104003",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:56:44.555Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:56:45.367Z",
+    "createdAt": "2026-03-02T22:56:45.367Z"
+  },
+  "c64|street sports baseball": {
+    "key": "c64|street sports baseball",
+    "platform": "c64",
+    "gameName": "Street Sports Baseball",
+    "normalizedName": "street sports baseball",
+    "canonicalTitle": "Street Sports Baseball",
+    "description": "A baseball game for 1 or 2 players in which the action takes place in parks, vacant lots and backyards with makeshift bases, rather than on an actual diamond. In addition to the normal rules of baseball, players must cope with mud puddles, tree stumps, and other hazards. Features a split-screen view which provides an overview of the entire field alongside close-ups of where the action is happening.",
+    "genre": "Sports",
+    "developer": "Epyx,Â Inc.",
+    "publisher": "Epyx, Inc.",
+    "year": "1987",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/52196-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "52196",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:56:47.428Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:56:47.850Z",
+    "createdAt": "2026-03-02T22:56:47.850Z"
+  },
+  "c64|stealth": {
+    "key": "c64|stealth",
+    "platform": "c64",
+    "gameName": "Stealth",
+    "normalizedName": "stealth",
+    "canonicalTitle": "Stealth",
+    "description": "You are flying above the land in a stealth airplane. You are trying to destroy the tower of darkness which is a distance of 9999 meters away. Destroy enemy military radar, bunkers,etc; to get more points. Use yellow energy fields for increasing your fuel level, but avoid the red energy fields. Once you destroy the Tower, you go onto a tougher level with the same basic objective.",
+    "genre": null,
+    "developer": null,
+    "publisher": "Broderbund Software, Inc.",
+    "year": "1984",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/49076-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "49076",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:56:50.879Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:56:51.442Z",
+    "createdAt": "2026-03-02T22:56:51.442Z"
+  },
+  "c64|startrek": {
+    "key": "c64|startrek",
+    "platform": "c64",
+    "gameName": "StarTrek",
+    "normalizedName": "startrek",
+    "canonicalTitle": "Star Trek",
+    "description": "Star Trek is an unofficial game based on the television series of the same name. In the game the player must defeat all Klingons in the quadrant. At any moment the player can perform the following five actions from within the Enterprise:\r\nFire proton torpedo\r\nShields\r\nComputer Map\r\nMove\r\nLong range scanner\r\nIn the default view the player can see the objects in the immediate surrounding of the ship: stars or Klingons. When encountering Klingons the player can fire torpedoes in order to defeat them. The player cannot move in the default view and must enter an angle at which to fire a torpedo (which flies in a straight line). If enemy torpedoes are about to hit the player must raise the shields.\r\n\r\nMoving sends the player to a different screen, this is done by inputting an angle and desired distance. Using the computer map and long range scanner the player can try to find screens that contain objects, which can be either Klingons or harmless stars.",
+    "genre": "Strategy, Unofficial",
+    "developer": null,
+    "publisher": null,
+    "year": "1982",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/99636-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "99636",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:56:53.419Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:56:54.187Z",
+    "createdAt": "2026-03-02T22:56:54.187Z"
+  },
+  "c64|star wars": {
+    "key": "c64|star wars",
+    "platform": "c64",
+    "gameName": "Star Wars",
+    "normalizedName": "star wars",
+    "canonicalTitle": "Star Wars",
+    "description": null,
+    "genre": "Flight Simulator",
+    "developer": "Broderbund Software",
+    "publisher": null,
+    "year": "1970",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/118319-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "118319",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:00.294Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:00.989Z",
+    "createdAt": "2026-03-02T22:57:00.989Z"
+  },
+  "c64|spy vs spy 2": {
+    "key": "c64|spy vs spy 2",
+    "platform": "c64",
+    "gameName": "Spy vs Spy 2",
+    "normalizedName": "spy vs spy 2",
+    "canonicalTitle": "Spy vs. Spy",
+    "description": "The black Spy and the white Spy are out to beat each other before the time bell rings. Find the needed objects by digging through drawers, closets and furniture in the house. Foil your opponent by setting creative booby traps in the various rooms (a bomb in a dresser drawer, for instance).\r\n\r\nFights ensue when both spies enter the same room. Find hidden weapons in the rooms to help with those fights, since one of you will die if you run into each other.",
+    "genre": "Action, Strategy",
+    "developer": "First Star Software Inc",
+    "publisher": "Beyond",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6564-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6564",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:04.926Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:05.887Z",
+    "createdAt": "2026-03-02T22:57:05.887Z"
+  },
+  "c64|spy vs spy": {
+    "key": "c64|spy vs spy",
+    "platform": "c64",
+    "gameName": "Spy vs Spy",
+    "normalizedName": "spy vs spy",
+    "canonicalTitle": "Spy vs. Spy",
+    "description": "The black Spy and the white Spy are out to beat each other before the time bell rings. Find the needed objects by digging through drawers, closets and furniture in the house. Foil your opponent by setting creative booby traps in the various rooms (a bomb in a dresser drawer, for instance).\r\n\r\nFights ensue when both spies enter the same room. Find hidden weapons in the rooms to help with those fights, since one of you will die if you run into each other.",
+    "genre": "Action, Strategy",
+    "developer": "First Star Software Inc",
+    "publisher": "Beyond",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6564-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6564",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:20.540Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:20.654Z",
+    "createdAt": "2026-03-02T22:57:20.654Z"
+  },
+  "c64|spy hunter": {
+    "key": "c64|spy hunter",
+    "platform": "c64",
+    "gameName": "Spy Hunter",
+    "normalizedName": "spy hunter",
+    "canonicalTitle": "Spy Hunter",
+    "description": "Spy Hunter is an action/driving game with the player in the role of a spy driving an armed sportscar. The object of the game is to travel the freeway destroying as many enemy vehicles as possible while protecting civilian vehicles. The game is a top-down vertical scroller.",
+    "genre": "Action",
+    "developer": "Midway, Bally",
+    "publisher": "U.S. Gold Ltd.",
+    "year": "1983",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6409-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6409",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:24.256Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:25.129Z",
+    "createdAt": "2026-03-02T22:57:25.129Z"
+  },
+  "c64|spiderman": {
+    "key": "c64|spiderman",
+    "platform": "c64",
+    "gameName": "Spiderman",
+    "normalizedName": "spiderman",
+    "canonicalTitle": "Questprobe 2 - Featuring Spiderman",
+    "description": null,
+    "genre": "Adventure",
+    "developer": null,
+    "publisher": null,
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/48218-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "48218",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:27.109Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:27.751Z",
+    "createdAt": "2026-03-02T22:57:27.751Z"
+  },
+  "c64|space pilot": {
+    "key": "c64|space pilot",
+    "platform": "c64",
+    "gameName": "Space Pilot",
+    "normalizedName": "space pilot",
+    "canonicalTitle": "Space Pilot",
+    "description": "Space-Pilot is a multi-directionally scrolling shooter by Kingsoft from 1984. The player steers a figher jet, which has obviously been equipped with a time machine, through 5 time zones, in which he has to defend himself against hostile flying armed forces fitting the corresponding epoch. If 56 hostile machines have been destroyed, a mother ship appears which can be shot with 5 shots, whereupon the time jump to the next era follows. \r\nBonus points can be gained by collecting sky divers and destroying enemies in formation flight. \r\nAfter finishing the fifth and last time zone successfully, the game starts anew.\r\nTime zone 1 - 1919: The age of the double deckers. These are slower than the own jet but they defend themselves with bombs. To finish this epoch of WWI you need to shoot a zeppelin.\r\nTime zone 2 - 1940: \"Spitfires\" and \"Heinkels\" are now the enemies. These fly faster and have a stronger firepower. A bomber can also appear, which needs to be hit 3x to get a bonus of 1.500 points. At the end of this level a \"Junker\" appears.\r\nTime zone 3 - 1970: Here you meet combat helicopters that reach the speed of your own jet and shoot missiles. At the end of the level you need to shoot a Chinook transport helicopter, although the manual talks about a \"Gunship\" combat helicopter.\r\nTime zone 4 - 1984: The age of the fighting jets. They are very fast and agile and have a deadly armoury. This epoch is finished by shooting an oversized prototype.\r\nTime zone 5 - 2001: The attack of the flying saucers. In a meteorite field you need to make your way against the attackers and then destroy the mother ship.",
+    "genre": "Action, Shooter",
+    "developer": null,
+    "publisher": "Anirog Software",
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/29712-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "29712",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:30.387Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:30.901Z",
+    "createdAt": "2026-03-02T22:57:30.901Z"
+  },
+  "c64|soldier one": {
+    "key": "c64|soldier one",
+    "platform": "c64",
+    "gameName": "Soldier One",
+    "normalizedName": "soldier one",
+    "canonicalTitle": "Soldier One",
+    "description": "Different stages of a military attack.",
+    "genre": "Shooter",
+    "developer": "Action Software",
+    "publisher": null,
+    "year": "1986",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/51133-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "51133",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:33.345Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:34.347Z",
+    "createdAt": "2026-03-02T22:57:34.347Z"
+  },
+  "c64|soccer": {
+    "key": "c64|soccer",
+    "platform": "c64",
+    "gameName": "Soccer",
+    "normalizedName": "soccer",
+    "canonicalTitle": "Soccer",
+    "description": null,
+    "genre": "Sports",
+    "developer": null,
+    "publisher": null,
+    "year": "1970",
+    "players": "4",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/79679-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "79679",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:36.579Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:37.314Z",
+    "createdAt": "2026-03-02T22:57:37.314Z"
+  },
+  "c64|smurfen": {
+    "key": "c64|smurfen",
+    "platform": "c64",
+    "gameName": "Smurfen",
+    "normalizedName": "smurfen",
+    "canonicalTitle": "Comic Book Artist Series: Maak je eigen strip met de Smurfen (GER) (PAL)",
+    "description": null,
+    "genre": "Education",
+    "developer": null,
+    "publisher": null,
+    "year": "1995",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/84861-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "84861",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:40.135Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:41.028Z",
+    "createdAt": "2026-03-02T22:57:41.028Z"
+  },
+  "c64|slot machine": {
+    "key": "c64|slot machine",
+    "platform": "c64",
+    "gameName": "Slot Machine",
+    "normalizedName": "slot machine",
+    "canonicalTitle": "Slot Machine",
+    "description": "Use the red button on your Joystick Controller to place your\r\nbet.  You can bet up to five coins each time.  Games 3, 4,\r\n7, and 8 have a maximum of five paylines.  Each bet of one\r\ncoin increases the chances of adding to your bank.  For\r\nexample, bet three coins and you may win a jackpot on\r\neither the first, second, or third paylines.\r\n\r\nGames 1, 2, 5, and 6 only \"pay\" on the center line (or\r\npayline ).  In these games, the more you bet (up to five\r\ncoins) the more you can add to your bank.\r\n\r\nAfter placing your bet, pull back on your Joystick to spin\r\nthe reels of the Slot Machine.  In two-player games, both\r\nplayers must do this to spin the reels.  The game ends\r\nwhen one player's bank is \"broke\".  To continue play depress\r\nthe game reset switch once.  This adds 25 coins to each\r\nplayer's bank.  (The game may end with one player going\r\nbroke, while the other player has coins remaining.  When\r\nthe game reset switch is depressed once, the player who\r\nwent broke is given 25 coins, while the player with coins\r\nremaining receives 25 coins plus the amount left when the\r\ngame ended.)\r\n\r\nIn one-player games, you are competing against the computer.\r\nThe computer makes a random bet for each play.  The game\r\nends if you or the computer go broke.  To continue play\r\ndepress the game reset switch once.  This adds 25 coins to\r\neach bank.  As in two-player games, the player with coins\r\nremaining when the game ends does not lose those coins when\r\nthe game reset switch is depressed once those coins when the\r\ngame reset switch is depressed once.",
+    "genre": "Puzzle",
+    "developer": "Atari",
+    "publisher": "Atari, Inc.",
+    "year": "1979",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/41366-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "41366",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:43.386Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:44.121Z",
+    "createdAt": "2026-03-02T22:57:44.121Z"
+  },
+  "c64|slam dunk": {
+    "key": "c64|slam dunk",
+    "platform": "c64",
+    "gameName": "Slam Dunk",
+    "normalizedName": "slam dunk",
+    "canonicalTitle": "Slam Dunk",
+    "description": "Slam-Dunk is a two on two basketball game. Play against the computer or against another player. The game is divided into 4 quarters of three minutes each. The team with the highest score at the end of the final quarter wins. An overtime session can occur if the game ends in a tie. \r\n\r\nThe game provides a practice session. Here you can learn the moves and plays needed to beat your opponent.\r\n\r\nYou control one of your players on your team. Your teammate will be controlled by the computer, based on your movements of the controllable player. On offense, you control the man with the ball. On defense, you control the man guarding the ball. On defense, you can switch your controllable player by moving the joystick right while pressing the button. \r\n\r\nIn this fast paced game, fouling can occur if defense plays too close or offense shoves its way into a defensive man. After five fouls, free throws will be shot. If you're shooting free throws, simply hit the button to take the shot. Made free throws count as one point.\r\n\r\nKeep an eye on the shot clock. Don't get caught holding the ball. Remember that any shot taken and made outside the three-point line is worth three points.\r\n\r\nDescription borrowed from: http://www.mobygames.com/game/c64/slam-dunk_",
+    "genre": "Sports",
+    "developer": "Sculptured Software, Inc.",
+    "publisher": "Mastertronic Ltd.",
+    "year": "1988",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/55907-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "55907",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:46.044Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:46.974Z",
+    "createdAt": "2026-03-02T22:57:46.974Z"
+  },
+  "c64|skyjet": {
+    "key": "c64|skyjet",
+    "platform": "c64",
+    "gameName": "SkyJet",
+    "normalizedName": "skyjet",
+    "canonicalTitle": "Skyjet",
+    "description": null,
+    "genre": "Shooter",
+    "developer": null,
+    "publisher": "Mastertronic Ltd.",
+    "year": "1985",
+    "players": null,
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/45769-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "45769",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:48.986Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:49.732Z",
+    "createdAt": "2026-03-02T22:57:49.732Z"
+  },
+  "c64|skyfox": {
+    "key": "c64|skyfox",
+    "platform": "c64",
+    "gameName": "Skyfox",
+    "normalizedName": "skyfox",
+    "canonicalTitle": "Skyfox",
+    "description": "Aliens have invaded your beloved homeland, and you must help save it. You are flying the Skyfox, the most advanced attack fighter plane available to the Federation, from within the cockpit. Skyfox is complete with deflection shields, laser cannons, five guided and five heat-seeking missiles and a top speed of Mach IV. The 15 scenarios can be played at 5 skill levels. You will have to fight tanks, enemy planes and the mothership. Use the radar to locate enemy vehicles, and the long-range scanner to ensure that no wave reaches your base before you can take it out. Keep an eye on your shields, and on fuel levels - you can dock at the base to refuel.",
+    "genre": "Shooter, Flight Simulator",
+    "developer": "Raymond Tobey",
+    "publisher": "Ariolasoft UK",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6559-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6559",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:55.418Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:57:56.346Z",
+    "createdAt": "2026-03-02T22:57:56.346Z"
+  },
+  "c64|ski": {
+    "key": "c64|ski",
+    "platform": "c64",
+    "gameName": "Ski",
+    "normalizedName": "ski",
+    "canonicalTitle": "Ski / Skier / Slalom",
+    "description": "Obvious clone of the Taito arcade game \"Alpine Ski\". \r\n\r\nThe ULTIMAX mode of the C64 is an emulation of the Japanese CBM release called the \"MAX\". It is a predecessor of the C64 with only 2K of RAM, a VIC-6566, and a membrane keyboard. It had no kernel or BASIC of it's own and everything had to be supplied on cartridges. Several of the games for this system (1982 vintage) were rereleased in the U.S. and elsewhere as C64 cartridges. They were developed (or at least published?) by HAL Labs of Japan. Since the machine was also missing a character ROM, it was supplied by the cartridge.",
+    "genre": "Sports",
+    "developer": "HAL Laboratory",
+    "publisher": null,
+    "year": "1983",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/39490-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "39490",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:57:59.585Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:58:00.281Z",
+    "createdAt": "2026-03-02T22:58:00.281Z"
+  },
+  "c64|skate or die": {
+    "key": "c64|skate or die",
+    "platform": "c64",
+    "gameName": "Skate or Die!",
+    "normalizedName": "skate or die",
+    "canonicalTitle": "Skate or Die!",
+    "description": "Hop on your suped-up board and cruise into the wildest multi-event contest ever dreamed of by man or beast. Three of these twisted trials are cut from the concrete courses of pro competitions. Each pits you head to head with a friend, shooting ramps or racing downhill, while going for rock n' rolls, hand plants, aerials, rail slides and methods! Then blast into \"Mad Max on Wheels\", dueling to the death with Bionic Lester, the dirtiest dude in the jam and joust. And finally \"Skate and Destroy\", a challenge that'll turn you into a Samurai skater, karate chopping your way through a tough alley filled with thugs, trash and unmentionable traffic hazards. So squirt a little oil onto your ball bearings, and prepare to Skate or Die!",
+    "genre": "Racing, Sports",
+    "developer": "Electronic Arts, Inc.",
+    "publisher": "Electronic Arts",
+    "year": "1987",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6557-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6557",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:58:02.192Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:58:03.074Z",
+    "createdAt": "2026-03-02T22:58:03.074Z"
+  },
+  "c64|side arms": {
+    "key": "c64|side arms",
+    "platform": "c64",
+    "gameName": "Side Arms",
+    "normalizedName": "side arms",
+    "canonicalTitle": "SIDE ARMS",
+    "description": null,
+    "genre": "Adventure",
+    "developer": null,
+    "publisher": null,
+    "year": "1970",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/74003-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "74003",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:58:10.358Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:58:11.198Z",
+    "createdAt": "2026-03-02T22:58:11.198Z"
+  },
+  "c64|shinobi": {
+    "key": "c64|shinobi",
+    "platform": "c64",
+    "gameName": "Shinobi",
+    "normalizedName": "shinobi",
+    "canonicalTitle": "Shinobi",
+    "description": "Shinobi is about a ninja named Joe Musashi who has to stop a criminal organization called \"Zeed\" who are kidnapping the children of the Oboro clan. Through five missions, each with three or four stages, Musashi must make his way to Zeed's headquarters and free all the hostages before confronting the bosses at the final stage of each mission.\r\n\r\nThis is the disc version.",
+    "genre": "Platform",
+    "developer": "Sega",
+    "publisher": null,
+    "year": "1989",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6554-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6554",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:58:13.461Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:58:14.345Z",
+    "createdAt": "2026-03-02T22:58:14.345Z"
+  },
+  "c64|save disk": {
+    "key": "c64|save disk",
+    "platform": "c64",
+    "gameName": "Save Disk",
+    "normalizedName": "save disk",
+    "canonicalTitle": "Sabotage",
+    "description": "Sabotage is mainly a vertically-scrolling top-view shooter with the screen scrolling upwards constantly as you play the role of a mercenary hired by your own planet to repel attack waves from aliens over various levels. Each level has you moving around the screen avoiding and blasting the waves of aliens to try to reach the end-of-level guardian before landing on a runway. Once you land then you move around a maze looking for a 5th columnist rebel who has part of a blueprint for a code to lock-on your main weapon to the elusive Mothercraft. As you avoid and blast the aliens there are two power-ups that can be collected, one allows you immunity for a short time, while the other one pushes you up the level a short distance at a great speed. Getting hit by any of the aliens loses you one of six lives (four on the Amstrad) and you have to restart the whole level again (start in the same place you die on the Amstrad). Two players can play with each player taking it turns to play when the other player loses a life.",
+    "genre": "Action, Shooter",
+    "developer": null,
+    "publisher": "Zeppelin Games Limited",
+    "year": "1987",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/50573-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "50573",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-02T22:58:20.298Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-02T22:58:21.014Z",
+    "createdAt": "2026-03-02T22:58:21.014Z"
+  },
+  "c64|blackhawk": {
+    "key": "c64|blackhawk",
+    "platform": "c64",
+    "gameName": "BlackHawk",
+    "normalizedName": "blackhawk",
+    "canonicalTitle": "Black Hawk",
+    "description": "Black Hawk is a graphically simple Shoot'em Up. One unique feature is that the game is split into two modes: a bomb throwing mode, in which the player has to try to hit as many targets as possible and at the same time not let any enemies pass, and a close combat mode, into which is switched as soon as an enemy has passed through.",
+    "genre": "Shooter",
+    "developer": "Thorn EMI Video Ltd.",
+    "publisher": null,
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/51212-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "51212",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-03T00:43:08.819Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-03T00:43:09.541Z",
+    "createdAt": "2026-03-03T00:43:09.541Z"
+  },
+  "c64|blue max": {
+    "key": "c64|blue max",
+    "platform": "c64",
+    "gameName": "Blue Max",
+    "normalizedName": "blue max",
+    "canonicalTitle": "Blue Max",
+    "description": "As Blue Max, you go out on sorties—flying missions—attacking assigned targets. Targets include bridges, buildings, enemy planes, tanks, bridges, anti-aircraft batteries, vehicles and ships. You progress to new missions as you take out your targets.\r\n\r\nYou must drop bombs to take out the ground targets, and this action also represents a key danger for you. Unlike the modern bombers that drop bombs on targets far below, early aircraft engaged in semi-suicidal bombing runs. The pilots started at high altitude, then tipped the planes nose downward towards their ground-based target, and pulled up before they hit the ground. In the middle of the dive and pull up process, they released the bomb. There were problems of coordination, found in the game as well—if you time it wrong, or start too low, you will crash.",
+    "genre": "Shooter",
+    "developer": "Synsoft",
+    "publisher": "U.S. Gold Ltd.",
+    "year": "1983",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6698-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6698",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-03T00:43:15.626Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-03T00:43:16.208Z",
+    "createdAt": "2026-03-03T00:43:16.208Z"
+  },
+  "c64|bomb jack": {
+    "key": "c64|bomb jack",
+    "platform": "c64",
+    "gameName": "Bomb Jack",
+    "normalizedName": "bomb jack",
+    "canonicalTitle": "Bomb Jack",
+    "description": "Collecting bombs and defeating your enemy as you go makes this coin-op conversion one of the most high-scoring and exciting games available.\r\n\r\n- Totally addictive - Superb graphics - Screen after screen of challenging fun",
+    "genre": "Platform",
+    "developer": "Tehkan Ltd.",
+    "publisher": "Elite Systems Ltd.",
+    "year": "1985",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6389-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6389",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-03T00:43:21.194Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-03T00:43:22.619Z",
+    "createdAt": "2026-03-03T00:43:22.619Z"
+  },
+  "c64|frogger 2": {
+    "key": "c64|frogger 2",
+    "platform": "c64",
+    "gameName": "Frogger 2",
+    "normalizedName": "frogger 2",
+    "canonicalTitle": "Frogger II: Threeedeep!",
+    "description": "In Frogger II: ThreeeDeep!, you need to guide your frog to safety in three different locations. Starting out underwater, reach the top of the pond while avoiding dangerous alligators and fish (you can ride a turtle for safety!). Once on top of the pond, hop across logs, birds, and even a whale to the life preserver trailing behind a tugboat. In the third location you have to hop across a flock of birds to reach a cloud at the top of the screen. Each frog has a time limit to safely reach one of the homes on each of the three screens. You move on to the next level when a frog has safely reached each of the homes on all screens.",
+    "genre": "Action",
+    "developer": "Parker Brothers",
+    "publisher": "Parker Brothers",
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/51338-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "51338",
+      "matchConfidence": 0.33,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-03T03:45:15.249Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-03T03:45:16.475Z",
+    "createdAt": "2026-03-03T03:45:16.475Z"
+  },
+  "c64|frogger2": {
+    "key": "c64|frogger2",
+    "platform": "c64",
+    "gameName": "Frogger2",
+    "normalizedName": "frogger2",
+    "canonicalTitle": "Far Cry",
+    "description": "Far Cry is a First-Person Shooter developed by Crytek Studios and published by Ubisoft in 2004. In Far Cry an Ex-U.S. Special Forces operative named Jack Carver runs his own boat charter business in the south pacific after he quit his former job. One day he is contacted to escort a female journalist to a lonesome, tropical archipelago. But shortly after she arrives at the beach, she disappears and Jack nearly gets killed as mercenaries destroy their anchoring boat. Stranded on a remote beach, Jack decides to fight back against the mercenaries and to search for the missing journalist to find some answers. On his vendetta he explores beautiful beaches, dense rain forests, as well as mines, canyons and even volcanic forests to discover disturbing secrets - secrets that were buried in underground complexes and hidden facilities for a long, long time.",
+    "genre": "Shooter",
+    "developer": "Crytek GmbH",
+    "publisher": "Ubisoft Entertainment",
+    "year": "2004",
+    "players": "4",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/769-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "769",
+      "matchConfidence": 0.3,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-03T03:45:23.144Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-03T03:45:24.107Z",
+    "createdAt": "2026-03-03T03:45:24.107Z"
+  },
+  "c64|pitfall 2": {
+    "key": "c64|pitfall 2",
+    "platform": "c64",
+    "gameName": "Pitfall 2",
+    "normalizedName": "pitfall 2",
+    "canonicalTitle": "Pitfall!",
+    "description": "The player must maneuver a character known as Pitfall Harry through a maze-like jungle in an attempt to recover 32 treasures in a 20-minute time period. Along the way, he must negotiate numerous hazards, including pits, quicksand, rolling logs, fire, rattlesnakes, scorpions, and crocodiles. Harry may jump over or otherwise avoid these obstacles by climbing, running, or swinging on a vine to avoid them. Treasure includes gold and silver bars, diamond rings, and bags of money. Under the jungle there is a tunnel which Harry can access through ladders found at various places. This is required to get around some surface areas that have no way across otherwise. The tunnels are filled with dead-ends blocked by brick walls, forcing the player return to the surface at one of the ladders, and try to find a way around again. The tunnels also contain treasure and scorpions Harry must jump over.",
+    "genre": "Action",
+    "developer": "Activision",
+    "publisher": "Activision",
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6419-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6419",
+      "matchConfidence": 0.8,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-03T03:45:54.571Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-03T03:45:55.465Z",
+    "createdAt": "2026-03-03T03:45:55.465Z"
+  },
+  "c64|centipede": {
+    "key": "c64|centipede",
+    "platform": "c64",
+    "gameName": "Centipede",
+    "normalizedName": "centipede",
+    "canonicalTitle": "Centipede",
+    "description": "The player moves the character about the bottom area of the screen and fires laser shots at a centipede advancing from the top of the screen down through a field of mushrooms. Shooting any section of the centipede creates a mushroom; shooting one of the middle segments splits the centipede into two pieces at that point. Each piece then continues independently on its way down the board, with the first section of the rear piece becoming a new head. If the head is destroyed, the section behind it becomes the next head.",
+    "genre": "Action",
+    "developer": "Atarisoft",
+    "publisher": "Atarisoft",
+    "year": "1983",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6513-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6513",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-03T12:07:37.526Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-03T12:07:38.277Z",
+    "createdAt": "2026-03-03T12:07:38.277Z"
+  },
+  "c64|mario bros": {
+    "key": "c64|mario bros",
+    "platform": "c64",
+    "gameName": "Mario Bros",
+    "normalizedName": "mario bros",
+    "canonicalTitle": "Mario Bros.",
+    "description": "Mario and Luigi are doing some underground plumbing when all sorts of weird creatures come flying out of the pipes. Turtles, crabs - even fighterflies - attack the helpless Mario Bros. It's up to you to kick, punch, and knock out these sewer pests before time runs out! But beware. Just when you think you got rid of them, they come back for more! Play against the computer, or with a friend - either way, this is one underground classic you'll want to play time and time again!",
+    "genre": "Platform",
+    "developer": "Ocean Software Ltd., Ocean, Enigma Variations Ltd",
+    "publisher": "Ocean Software Ltd.",
+    "year": "1984",
+    "players": "2",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6395-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6395",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-04T02:19:59.797Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-04T02:20:01.154Z",
+    "createdAt": "2026-03-04T02:20:01.154Z"
+  },
+  "c64|ghost n goblins": {
+    "key": "c64|ghost n goblins",
+    "platform": "c64",
+    "gameName": "Ghost n Goblins",
+    "normalizedName": "ghost n goblins",
+    "canonicalTitle": "Ghost n Goblins",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "not_found",
+      "lastFetchedAt": "2026-03-04T02:20:12.740Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-04T02:20:12.740Z",
+    "createdAt": "2026-03-04T02:20:12.740Z"
+  },
+  "c64|gyruss": {
+    "key": "c64|gyruss",
+    "platform": "c64",
+    "gameName": "Gyruss",
+    "normalizedName": "gyruss",
+    "canonicalTitle": "Gyruss",
+    "description": "The gameplay is very similar to that of Galaga but with an added twist: the game is presented in a forced 3D perspective, with the player's ship facing 'into' the screen and able to move around the perimeter of an implicit circle - essentially, Gyruss was Galaga mapped onto a Tempest-like cylinder. This gameplay style is called a tube shooter, and Gyruss is one of the very few examples that exist. The familiar scrolling starfield of earlier space shooter games was arranged to fit the 3D perspective, with the stars coming into view at the centre of the screen and flying outward, giving the impression of the player's ship moving very fast through space.",
+    "genre": "Shooter",
+    "developer": "Konami",
+    "publisher": "Parker Brothers",
+    "year": "1984",
+    "players": "1",
+    "images": {
+      "boxFront": "https://cdn.thegamesdb.net/images/original/boxart/front/6542-1.jpg",
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": "6542",
+      "matchConfidence": 0.95,
+      "status": "fetched",
+      "lastFetchedAt": "2026-03-04T02:20:31.491Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-04T02:20:32.498Z",
+    "createdAt": "2026-03-04T02:20:32.498Z"
+  }
+}

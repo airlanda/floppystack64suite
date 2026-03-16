@@ -1,0 +1,63 @@
+.remove-btn { margin-right: 0.5rem; }
+
+.fade-enter { opacity: 0.01; }
+.fade-enter-active { opacity: 1; transition: opacity 1000ms ease-in; }
+.fade-exit { opacity: 1; }
+.fade-exit-active { opacity: 0.01; transition: opacity 1000ms ease-in; }
+
+.ag { margin-left: auto; }
+
+/* ✅ remove duplicate @font-face from App.css */
+
+.App{
+  color: var(--text);
+}
+
+.app-auth-error{
+  margin: 6px auto 0;
+  width: min(980px, calc(100% - 16px));
+  border: 1px solid color-mix(in srgb, #ff7f7f 55%, var(--border) 45%);
+  background: color-mix(in srgb, var(--panel-soft) 88%, #300 12%);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 11px;
+}
+
+.app-view-panel.is-hidden{
+  display: none;
+}
+
+@media (max-width: 768px){
+  .App{
+    height: 100dvh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .app-main-container{
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: hidden;
+    padding-bottom: 82px; /* reserved space for fixed bottom view bar */
+  }
+
+  .app-view-panel{
+    height: 100%;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 16px;
+  }
+}
+
+/* (rest of your legacy layout rules can stay as-is) */
+
+.background{
+  display: block;
+  position: absolute;
+  z-index: -1;
+  margin-left: .8rem; 
+  margin-right: auto; 
+}

@@ -1,0 +1,22 @@
+{
+  "name": "play",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/play/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "continuous": true,
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "apps/play",
+        "command": "rspack serve",
+        "args": ["--node-env=development"],
+        "env": {
+          "TS_NODE_COMPILER_OPTIONS": "{\"module\":\"CommonJS\",\"moduleResolution\":\"Node10\",\"customConditions\":null}"
+        },
+        "port": 4203
+      }
+    }
+  }
+}
