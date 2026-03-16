@@ -1,9 +1,9 @@
 {
   "name": "angular-host",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "angular-host/src",
+  "sourceRoot": "apps/angular-host/src",
   "tags": [],
   "targets": {
     "extract-i18n": {

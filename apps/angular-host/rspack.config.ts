@@ -8,7 +8,7 @@ const rspackConfig = createConfig(
     options: {
       root: __dirname,
       outputPath: {
-        base: '../dist/angular-host',
+        base: '../../dist/apps/angular-host',
       },
       index: './src/index.html',
       browser: './src/main.ts',
@@ -60,3 +60,4 @@ rspackConfig.plugins.push(new NxModuleFederationPlugin({ config }, { dts: false 
 rspackConfig.plugins.push(new NxModuleFederationDevServerPlugin({ config }));
 
 export default rspackConfig;
+
