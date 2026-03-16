@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FS64 Tutorial: Angular Host Loading React MFEs</title>
+  <style>
+    :root {
+      --bg: #0b1015;
+      --panel: #111922;
+      --panel-alt: #0c141c;
+      --text: #eef4fa;
+      --muted: #a7b6c7;
+      --accent: #ffb454;
+      --line: #294155;
+      --code: #081018;
+      --ok: #7bd5ad;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Segoe UI, Arial, sans-serif;
+      line-height: 1.5;
+    }
+    .page {
+      width: 1100px;
+      margin: 0 auto;
+      padding: 34px 42px 60px;
+    }
+    h1, h2, h3 { margin: 0 0 12px; line-height: 1.2; }
+    h1 { font-size: 30px; }
+    h2 {
+      font-size: 22px;
+      margin-top: 30px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+    }
+    h3 { font-size: 17px; margin-top: 18px; }
+    p, li { color: var(--muted); }
+    .lead {
+      max-width: 940px;
+      font-size: 16px;
+    }
+    .callout, .step, .card {
+      background: linear-gradient(180deg, var(--panel), var(--panel-alt));
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px 18px;
+      margin: 14px 0;
+    }
+    .callout strong, .card strong { color: var(--text); }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .step-no {
+      display: inline-block;
+      min-width: 30px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: #081018;
+      font-weight: 700;
+      margin-right: 10px;
+    }
+    pre {
+      margin: 12px 0 0;
+      padding: 14px;
+      background: var(--code);
+      color: #f7fbff;
+      border-radius: 14px;
+      border: 1px solid #183040;
+      font-size: 12.5px;
+      line-height: 1.45;
+      white-space: pre-wrap;
+      word-break: break-word;
+      overflow: hidden;
+    }
+    code { font-family: Consolas, monospace; }
+    .diagram {
+      margin: 16px 0;
+      background: linear-gradient(180deg, #0c1218, #091018);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    .table th, .table td {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 13px;
+    }
+    .table th { color: var(--text); background: #0d141b; }
+    .table td { color: var(--muted); }
+    .tag {
+      display: inline-block;
+      margin: 0 8px 8px 0;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      color: var(--text);
+      font-size: 12px;
+    }
+    .ok { color: var(--ok); }
+    .footer {
+      margin-top: 26px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--muted);
+    }
+    svg text { font-family: Segoe UI, Arial, sans-serif; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Tutorial: Load React Micro Front Ends from an Angular Host</h1>
+    <p class="lead">
+      This tutorial documents the working path used in the FS64 workspace to load two React MFEs from Angular:
+      <code>disks</code> through a React bridge and <code>games</code> through a Web Component wrapper.
+      It omits the dead ends and keeps only the steps that matter.
+    </p>
+
+    <div class="callout">
+      <strong>Target result</strong>
+      <p>
+        An Angular host on <code>:4300</code> loads React remotes dynamically from a manifest, mounts <code>disks</code>
+        inside an Angular view via an imperative bridge, and renders <code>games</code> via a custom element.
+      </p>
+    </div>
+
+    <h2>1. Final Architecture</h2>
+    <div class="diagram">
+      <svg viewBox="0 0 980 290" width="100%" height="290">
+        <defs>
+          <marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <path d="M0,0 L10,3 L0,6 z" fill="#ffb454"></path>
+          </marker>
+        </defs>
+        <rect x="35" y="95" width="230" height="95" rx="16" fill="#111922" stroke="#294155"></rect>
+        <text x="55" y="128" fill="#eef4fa" font-size="18" font-weight="700">Angular host</text>
+        <text x="55" y="152" fill="#a7b6c7" font-size="13">manifest + route shell</text>
+        <text x="55" y="172" fill="#a7b6c7" font-size="13">FederationLoaderService</text>
+
+        <rect x="375" y="35" width="235" height="95" rx="16" fill="#101820" stroke="#294155"></rect>
+        <text x="395" y="68" fill="#eef4fa" font-size="18" font-weight="700">disks remote</text>
+        <text x="395" y="92" fill="#a7b6c7" font-size="13">exposes ./AngularBridge</text>
+        <text x="395" y="112" fill="#a7b6c7" font-size="13">mount / unmount API</text>
+
+        <rect x="375" y="165" width="235" height="95" rx="16" fill="#101820" stroke="#294155"></rect>
+        <text x="395" y="198" fill="#eef4fa" font-size="18" font-weight="700">games remote</text>
+        <text x="395" y="222" fill="#a7b6c7" font-size="13">exposes ./WebComponent</text>
+        <text x="395" y="242" fill="#a7b6c7" font-size="13">custom element definition</text>
+
+        <rect x="715" y="95" width="220" height="95" rx="16" fill="#122016" stroke="#315248"></rect>
+        <text x="735" y="128" fill="#eef4fa" font-size="18" font-weight="700">Express backend</text>
+        <text x="735" y="152" fill="#a7b6c7" font-size="13">API + metadata + CORS</text>
+        <text x="735" y="172" fill="#a7b6c7" font-size="13">allows :4300</text>
+
+        <line x1="265" y1="120" x2="375" y2="80" stroke="#ffb454" stroke-width="3" marker-end="url(#arr)"></line>
+        <line x1="265" y1="165" x2="375" y2="214" stroke="#ffb454" stroke-width="3" marker-end="url(#arr)"></line>
+        <line x1="610" y1="85" x2="715" y2="118" stroke="#7bd5ad" stroke-width="3" marker-end="url(#arr)"></line>
+        <line x1="610" y1="214" x2="715" y2="168" stroke="#7bd5ad" stroke-width="3" marker-end="url(#arr)"></line>
+      </svg>
+    </div>
+
+    <h2>2. Prerequisites</h2>
+    <div class="grid-2">
+      <div class="card">
+        <strong>Workspace state</strong>
+        <ul>
+          <li>Nx workspace with React remotes already running under Rspack.</li>
+          <li>Angular support installed through Nx.</li>
+          <li>Shared registry/runtime helper available in a workspace library.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <strong>Ports used in this walkthrough</strong>
+        <div class="tag">Angular host: 4300</div>
+        <div class="tag">disks: 4201</div>
+        <div class="tag">games: 4202</div>
+        <div class="tag">backend: 5000</div>
+      </div>
+    </div>
+
+    <h2>3. Step-by-Step</h2>
+
+    <div class="step">
+      <h3><span class="step-no">1</span>Create an Angular host app</h3>
+      <p>Create a standalone Angular application in the Nx workspace. The host does not need to own business logic. It only needs to:</p>
+      <ul>
+        <li>load a remote manifest,</li>
+        <li>resolve remotes by id,</li>
+        <li>render routed demo pages.</li>
+      </ul>
+      <pre><code>npx nx g @nx/angular:application angular-host \
+  --bundler=rspack \
+  --routing \
+  --standalone \
+  --style=css \
+  --port=4300</code></pre>
+    </div>
+
+    <div class="step">
+      <h3><span class="step-no">2</span>Expose a React bridge from the disks remote</h3>
+      <p>
+        The <code>disks</code> MFE is a full React slice. Angular should not try to import it as a component directly.
+        Instead, expose an imperative bridge module that mounts the React app into a host DOM element.
+      </p>
+      <pre><code>// apps/disks/module-federation.config.ts
+exposes: {
+  './Module': './src/remote-entry.ts',
+  './AngularBridge': './src/angular-bridge.tsx',
+}</code></pre>
+      <pre><code>// apps/disks/src/angular-bridge.tsx
+export function mountFs64DisksBridge(element: Element, options?: { initialPath?: string }): void {
+  const root = createRoot(element);
+  root.render(
+    &lt;MemoryRouter initialEntries={[options?.initialPath || '/']}&gt;
+      &lt;App /&gt;
+    &lt;/MemoryRouter&gt;
+  );
+}
+
+export function unmountFs64DisksBridge(element: Element): void {
+  // tear down root
+}</code></pre>
+      <p><strong>Reason:</strong> this pattern gives Angular explicit mount and unmount control for a large embedded React app.</p>
+    </div>
+
+    <div class="step">
+      <h3><span class="step-no">3</span>Expose a Web Component wrapper from the games remote</h3>
+      <p>
+        The <code>games</code> slice also works well as a widget. For that case, a custom element is simpler than an imperative bridge.
+      </p>
+      <pre><code>// apps/games/module-federation.config.ts
+exposes: {
+  './Module': './src/remote-entry.ts',
+  './WebComponent': './src/web-component.tsx',
+}</code></pre>
+      <pre><code>// apps/games/src/web-component.tsx
+class Fs64GamesElement extends HTMLElement {
+  static get observedAttributes() {
+    return ['query'];
+  }
+
+  private renderReactTree() {
+    const query = this.getAttribute('query') || '';
+    const initialPath = query ? `/?q=${encodeURIComponent(query)}` : '/';
+
+    this.root.render(
+      &lt;MemoryRouter initialEntries={[initialPath]}&gt;
+        &lt;App /&gt;
+      &lt;/MemoryRouter&gt;
+    );
+  }
+}
+
+export function defineFs64GamesElement(tagName = 'fs64-games-widget'): void {
+  if (!customElements.get(tagName)) {
+    customElements.define(tagName, Fs64GamesElement);
+  }
+}</code></pre>
+      <p><strong>Reason:</strong> Angular can treat the remote like plain HTML once the element is registered.</p>
+    </div>
+
+    <div class="step">
+      <h3><span class="step-no">4</span>Use a shared manifest-driven loader in Angular</h3>
+      <p>
+        Do not hardcode remote URLs directly inside Angular page components. Put them in a manifest and resolve by id.
+      </p>
+      <pre><code>// angular-host/public/fs64-remotes.json
+{
+  "remotes": [
+    { "id": "disks", "entry": "http://localhost:4201/remoteEntry.js", "route": "/disks" },
+    { "id": "games", "entry": "http://localhost:4202/remoteEntry.js", "route": "/games" }
+  ]
+}</code></pre>
+      <pre><code>// angular-host/src/app/federation-loader.service.ts
+@Injectable({ providedIn: 'root' })
+export class FederationLoaderService {
+  async loadRemoteById&lt;T&gt;(id: string, exposedModule = './Module'): Promise&lt;T&gt; {
+    const remote = await this.getRemoteById(id, exposedModule);
+    return loadFs64RemoteModule&lt;T&gt;(remote);
+  }
+}</code></pre>
+    </div>
+
+    <div class="step">
+      <h3><span class="step-no">5</span>Create Angular pages for each interop style</h3>
+      <p>Keep each demo page focused on one integration pattern.</p>
+      <pre><code>// Disks bridge page
+async ngAfterViewInit() {
+  this.bridge = await this.loader.loadRemoteById&lt;DisksBridgeModule&gt;('disks', './AngularBridge');
+  this.bridge.mountFs64DisksBridge(this.mountPoint.nativeElement, {
+    initialPath: '/?diskId=1',
+  });
+}</code></pre>
+      <pre><code>// Games web-component page
+async ngAfterViewInit() {
+  const module = await this.loader.loadRemoteById&lt;GamesElementModule&gt;('games', './WebComponent');
+  module.defineFs64GamesElement();
+}</code></pre>
+      <pre><code>&lt;fs64-games-widget [attr.query]="query"&gt;&lt;/fs64-games-widget&gt;</code></pre>
+    </div>
+
+    <div class="step">
+      <h3><span class="step-no">6</span>Make the Angular host a real federation host</h3>
+      <p>
+        This is the critical step. A plain Angular/Rspack app is not enough. The React remotes expect a federation host runtime.
+      </p>
+      <pre><code>// angular-host/module-federation.config.ts
+const config: ModuleFederationConfig = {
+  name: 'angular-host',
+  remotes: [],
+};
+
+export default config;</code></pre>
+      <pre><code>// angular-host/rspack.config.ts
+import { NxModuleFederationPlugin } from '@nx/module-federation/src/plugins/nx-module-federation-plugin/angular/nx-module-federation-plugin';
+import { NxModuleFederationDevServerPlugin } from '@nx/module-federation/src/plugins/nx-module-federation-plugin/angular/nx-module-federation-dev-server-plugin';
+import config from './module-federation.config';
+
+rspackConfig.plugins.push(new NxModuleFederationPlugin({ config }, { dts: false }));
+rspackConfig.plugins.push(new NxModuleFederationDevServerPlugin({ config }));</code></pre>
+      <p>
+        <strong>Reason:</strong> without a real federation host runtime, the remotes fail during share-scope initialization.
+      </p>
+    </div>
+
+    <div class="step">
+      <h3><span class="step-no">7</span>Make the shared loader tolerant for this interop experiment</h3>
+      <p>
+        In this setup, Angular is an interop host first and a fully standardized federation host second.
+        The shared runtime loader should tolerate missing or partial share-init behavior and still initialize the container.
+      </p>
+      <pre><code>async function tryInitHostShareScope(): Promise&lt;void&gt; {
+  if (typeof __webpack_init_sharing__ !== 'function') {
+    return;
+  }
+
+  try {
+    await __webpack_init_sharing__('default');
+  } catch {
+    // Continue with an empty share scope for the interop experiment.
+  }
+}
+
+export async function loadFs64RemoteModule&lt;T&gt;(remote: Fs64ResolvedRemoteManifestEntry): Promise&lt;T&gt; {
+  await tryInitHostShareScope();
+  await loadRemoteEntry(remote);
+  await container.init(__webpack_share_scopes__?.default ?? {});
+  return factory() as T;
+}</code></pre>
+    </div>
+
+    <div class="step">
+      <h3><span class="step-no">8</span>Allow Angular host origin in backend CORS</h3>
+      <p>
+        The remotes still fetch their own data from the backend. Once they are rendered inside Angular, the origin becomes <code>:4300</code>.
+        If backend CORS does not allow that origin, you will see <code>Failed to fetch</code> even though the embedding works.
+      </p>
+      <pre><code>const allowedOrigins = new Set([
+  'http://localhost:4200',
+  'http://localhost:4201',
+  'http://localhost:4202',
+  'http://localhost:4300',
+  'http://127.0.0.1:4200',
+  'http://127.0.0.1:4201',
+  'http://127.0.0.1:4202',
+  'http://127.0.0.1:4300',
+]);</code></pre>
+    </div>
+
+    <div class="step">
+      <h3><span class="step-no">9</span>Run the minimum process set</h3>
+      <p>For this experiment, keep the process set small and explicit.</p>
+      <pre><code>npm run dev:backend
+npm run dev:angular-host
+npm run dev:disks
+npm run dev:games</code></pre>
+      <p>Then open:</p>
+      <pre><code>http://localhost:4300/</code></pre>
+      <p>Use the Angular host navigation to switch between:</p>
+      <ul>
+        <li><code>Disks Bridge</code></li>
+        <li><code>Games Web Component</code></li>
+      </ul>
+    </div>
+
+    <h2>4. Relationship and Flow</h2>
+    <div class="diagram">
+      <svg viewBox="0 0 980 360" width="100%" height="360">
+        <defs>
+          <marker id="arr2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+            <path d="M0,0 L10,3 L0,6 z" fill="#ffb454"></path>
+          </marker>
+        </defs>
+        <text x="70" y="28" fill="#eef4fa" font-size="14" font-weight="700">User</text>
+        <text x="245" y="28" fill="#eef4fa" font-size="14" font-weight="700">Angular route page</text>
+        <text x="470" y="28" fill="#eef4fa" font-size="14" font-weight="700">Manifest loader</text>
+        <text x="705" y="28" fill="#eef4fa" font-size="14" font-weight="700">Remote</text>
+
+        <line x1="80" y1="38" x2="80" y2="325" stroke="#294155" />
+        <line x1="290" y1="38" x2="290" y2="325" stroke="#294155" />
+        <line x1="525" y1="38" x2="525" y2="325" stroke="#294155" />
+        <line x1="760" y1="38" x2="760" y2="325" stroke="#294155" />
+
+        <text x="95" y="72" fill="#a7b6c7" font-size="13">open route from Angular shell</text>
+        <line x1="130" y1="80" x2="282" y2="80" stroke="#ffb454" stroke-width="2.5" marker-end="url(#arr2)" />
+
+        <text x="305" y="118" fill="#a7b6c7" font-size="13">resolve remote id from manifest</text>
+        <line x1="330" y1="126" x2="517" y2="126" stroke="#ffb454" stroke-width="2.5" marker-end="url(#arr2)" />
+
+        <text x="540" y="164" fill="#a7b6c7" font-size="13">inject remoteEntry + init container</text>
+        <line x1="565" y1="172" x2="752" y2="172" stroke="#ffb454" stroke-width="2.5" marker-end="url(#arr2)" />
+
+        <text x="540" y="216" fill="#a7b6c7" font-size="13">load ./AngularBridge or ./WebComponent</text>
+        <line x1="565" y1="224" x2="752" y2="224" stroke="#ffb454" stroke-width="2.5" marker-end="url(#arr2)" />
+
+        <text x="305" y="272" fill="#a7b6c7" font-size="13">bridge mount or custom element render</text>
+        <line x1="525" y1="280" x2="298" y2="280" stroke="#7bd5ad" stroke-width="2.5" marker-end="url(#arr2)" />
+      </svg>
+    </div>
+
+    <h2>5. Code Files Involved</h2>
+    <table class="table">
+      <thead>
+        <tr><th>File</th><th>Purpose</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>apps/disks/src/angular-bridge.tsx</code></td><td>Imperative React mount/unmount bridge for Angular.</td></tr>
+        <tr><td><code>apps/games/src/web-component.tsx</code></td><td>Custom element wrapper for the React games slice.</td></tr>
+        <tr><td><code>angular-host/src/app/federation-loader.service.ts</code></td><td>Manifest-driven remote resolution and dynamic module load.</td></tr>
+        <tr><td><code>angular-host/src/app/disks-bridge-page.component.ts</code></td><td>Angular page that mounts the disks bridge into a DOM node.</td></tr>
+        <tr><td><code>angular-host/src/app/games-webcomponent-page.component.ts</code></td><td>Angular page that registers and renders the games custom element.</td></tr>
+        <tr><td><code>angular-host/module-federation.config.ts</code></td><td>Turns Angular host into a federation host.</td></tr>
+        <tr><td><code>angular-host/rspack.config.ts</code></td><td>Adds the Angular-specific Nx federation plugins.</td></tr>
+        <tr><td><code>libs/fs64/registry/src/lib/runtime.ts</code></td><td>Shared dynamic remote loader used by the Angular host.</td></tr>
+        <tr><td><code>apps/backend/server.js</code></td><td>Adds CORS for <code>:4300</code> so embedded remotes can fetch data.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>6. When to Use Each Pattern</h2>
+    <div class="grid-2">
+      <div class="card">
+        <strong>Use a React bridge when</strong>
+        <ul>
+          <li>the remote is a full app slice,</li>
+          <li>you need explicit lifecycle control,</li>
+          <li>the host should mount/unmount the remote manually.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <strong>Use a Web Component when</strong>
+        <ul>
+          <li>the remote can behave like a widget,</li>
+          <li>the host should interact through attributes or DOM events,</li>
+          <li>you want a framework-neutral integration boundary.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>7. Success Criteria</h2>
+    <div class="card">
+      <p class="ok"><strong>Working result</strong></p>
+      <ul>
+        <li>Angular host opens at <code>http://localhost:4300/</code>.</li>
+        <li><code>Disks Bridge</code> renders the React <code>disks</code> slice inside Angular.</li>
+        <li><code>Games Web Component</code> renders the React <code>games</code> slice inside Angular.</li>
+        <li>Both embedded remotes can fetch live data from the backend.</li>
+      </ul>
+    </div>
+
+    <h2>8. Recommended Follow-Up</h2>
+    <ul>
+      <li>Move Angular host manifest loading to the backend manifest endpoint with local fallback.</li>
+      <li>Stabilize Angular host deep-link behavior so route refreshes work cleanly in dev.</li>
+      <li>Decide which interop style should be the standard for future non-React hosts.</li>
+      <li>Add a third Angular page to test <code>play</code> with the same approach.</li>
+    </ul>
+
+    <div class="footer">
+      Tutorial generated from the working path implemented in the FS64 monorepo. This is the “go path” only.
+    </div>
+  </div>
+</body>
+</html>

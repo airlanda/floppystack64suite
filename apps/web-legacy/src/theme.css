@@ -1,0 +1,607 @@
+:root {
+  --floppy-case: #c8c8c8;
+  --floppy-stroke: #888;
+  --floppy-disk: #222;
+  --floppy-slot: #111;
+  --floppy-detail: #444;
+/* Authentic 1541 stripe colors */
+--c1541-red:    #e53935;
+--c1541-orange: #f57c00;
+--c1541-yellow: #f2c94c;
+--c1541-ltgreen:#8bc34a;
+--c1541-green:  #2ecc71;
+--c1541-blue:   #1e88e5;
+}
+
+[data-theme="phosphor"]{
+  --floppy-case: #000000;
+  --floppy-stroke: #00ff88;
+  --floppy-disk: #00ff88;
+  --floppy-slot: #00ff88;
+  --floppy-detail: #00ff88;
+}
+
+[data-theme="amber"]{
+  --floppy-case: #1a1200;
+  --floppy-stroke: #ffb300;
+  --floppy-disk: #ffb300;
+  --floppy-slot: #ffb300;
+  --floppy-detail: #ffb300;
+}
+
+[data-theme="vader"]{
+  --floppy-case: #140707;
+  --floppy-stroke: #ff3b30;
+  --floppy-disk: #ff3b30;
+  --floppy-slot: #ff3b30;
+  --floppy-detail: #ff3b30;
+}
+
+[data-theme="c64-screen"]{
+  --floppy-case: #3f3a8d;
+  --floppy-stroke: #8f84d9;
+  --floppy-disk: #211b57;
+  --floppy-slot: #171243;
+  --floppy-detail: #b5adf2;
+}
+
+[data-theme="c128-screen"]{
+  --floppy-case: #2441a8;
+  --floppy-stroke: #8ec8ff;
+  --floppy-disk: #122263;
+  --floppy-slot: #0d184a;
+  --floppy-detail: #b7e4ff;
+}
+
+[data-theme="atari-2600"]{
+  --floppy-case: #2e2724;
+  --floppy-stroke: #d17a2f;
+  --floppy-disk: #131110;
+  --floppy-slot: #0d0c0b;
+  --floppy-detail: #b69262;
+}
+
+[data-theme="tron"]{
+  --floppy-case: #07101c;
+  --floppy-stroke: #00d4ff;
+  --floppy-disk: #061822;
+  --floppy-slot: #00121a;
+  --floppy-detail: #85f2ff;
+}
+
+[data-theme="star-wars"]{
+  --floppy-case: #131313;
+  --floppy-stroke: #ffd54a;
+  --floppy-disk: #050505;
+  --floppy-slot: #080808;
+  --floppy-detail: #ffe89a;
+}
+
+[data-theme="miami-night"]{
+  --floppy-case: #1c1231;
+  --floppy-stroke: #ff5fcf;
+  --floppy-disk: #130a20;
+  --floppy-slot: #0d0915;
+  --floppy-detail: #67e8ff;
+}
+
+[data-theme="c64-dark"]{
+  --floppy-case: #111;
+  --floppy-stroke: #666;
+  --floppy-disk: #000;
+  --floppy-slot: #222;
+  --floppy-detail: #666;
+}
+
+[data-theme="mono"]{
+  --floppy-case: #e5e5e5;
+  --floppy-stroke: #111;
+  --floppy-disk: #ccc;
+  --floppy-slot:  #ccc;
+  --floppy-detail:  #ccc;
+}
+
+:root{
+  --disk-label-bg: #ffffff;
+  --disk-label-border: #222;
+  --disk-label-text: #000;
+}
+
+[data-theme="phosphor"]{
+  --disk-label-bg: #000000;
+  --disk-label-border: #00ff88;
+  --disk-label-text: #eaf2ee;
+}
+
+[data-theme="amber"]{
+  --disk-label-bg: #140f00;
+  --disk-label-border: #ffb300;
+  --disk-label-text: #ffb300;
+}
+
+[data-theme="vader"]{
+  --disk-label-bg: #120606;
+  --disk-label-border: #ff3b30;
+  --disk-label-text: #ff3b30;
+}
+
+[data-theme="c64-screen"]{
+  --disk-label-bg: #362f7d;
+  --disk-label-border: #8f84d9;
+  --disk-label-text: #efeaff;
+}
+
+[data-theme="c128-screen"]{
+  --disk-label-bg: #1f3893;
+  --disk-label-border: #8ec8ff;
+  --disk-label-text: #e5f6ff;
+}
+
+[data-theme="atari-2600"]{
+  --disk-label-bg: #2a211b;
+  --disk-label-border: #d17a2f;
+  --disk-label-text: #f1d6b0;
+}
+
+[data-theme="tron"]{
+  --disk-label-bg: #04101a;
+  --disk-label-border: #00d4ff;
+  --disk-label-text: #bff7ff;
+}
+
+[data-theme="star-wars"]{
+  --disk-label-bg: #111111;
+  --disk-label-border: #ffd54a;
+  --disk-label-text: #ffe89a;
+}
+
+[data-theme="miami-night"]{
+  --disk-label-bg: #181028;
+  --disk-label-border: #ff5fcf;
+  --disk-label-text: #79ecff;
+}
+
+[data-theme="c64-dark"]{
+  --disk-label-bg: #111;
+  --disk-label-border: #888;
+  --disk-label-text: #fff;
+}
+
+[data-theme="mono"]{
+  --disk-label-bg: #f2f2f2;
+  --disk-label-border: #000;
+  --disk-label-text: #000;
+}
+
+[data-theme="phosphor"] .c64-label{
+  text-shadow: 0 0 6px #00ff88;
+}
+
+
+/* =========================
+   Base (shared tokens)
+   ========================= */
+:root{
+  /* Typography */
+  --text: #ffffff;
+
+  /* Surfaces */
+  --panel: rgba(0,0,0,0.55);
+  --panel-soft: rgba(0,0,0,0.45);
+  --panel-empty: rgba(0,0,0,0.35);
+
+  /* Borders / shadows */
+  --border: rgba(255,255,255,0.15);
+  --border-soft: rgba(255,255,255,0.12);
+  --shadow: rgba(0,0,0,0.6);
+
+  /* Accents */
+  --accent: #00ff9c;
+  --star: #ffd166;
+
+  /* Header label (“Side A/B”) */
+  --header-bg: #000;
+  --header-text: #fff;
+  --header-border: #fff;
+  --header-shadow: #444;
+
+  /* Background (default will be set by theme below) */
+  --bg: rgb(53, 78, 163);
+}
+
+/* =========================
+   Theme: C64 Blue (default)
+   ========================= */
+:root[data-theme="c64-blue"]{
+  --bg: rgb(53, 78, 163);
+  --text: #ffffff;
+
+  --accent: #00ff9c;
+  --header-bg: #000;
+  --header-text: #fff;
+  --header-border: #fff;
+  --header-shadow: #444;
+}
+
+/* =========================
+   Theme: C64 Screen (blue monitor)
+   ========================= */
+:root[data-theme="c64-screen"]{
+  --bg: #352879;
+  --text: #6c5eb5;
+
+  --panel: rgba(29,22,69,0.74);
+  --panel-soft: rgba(41,32,92,0.62);
+  --panel-empty: rgba(26,20,62,0.52);
+
+  --border: rgba(108,94,181,0.34);
+  --border-soft: rgba(108,94,181,0.22);
+  --accent: #8f84d9;
+
+  --header-bg: #2a205f;
+  --header-text: #c7bfff;
+  --header-border: #8f84d9;
+  --header-shadow: rgba(143,132,217,0.34);
+
+  --star: #d8d16f;
+}
+
+/* =========================
+   Theme: C128 Screen (80-col blue/cyan)
+   ========================= */
+:root[data-theme="c128-screen"]{
+  --bg: #1c3291;
+  --text: #91d6ff;
+
+  --panel: rgba(11,22,70,0.72);
+  --panel-soft: rgba(15,30,92,0.60);
+  --panel-empty: rgba(9,19,58,0.50);
+
+  --border: rgba(145,214,255,0.32);
+  --border-soft: rgba(145,214,255,0.20);
+  --accent: #8ec8ff;
+
+  --header-bg: #13266f;
+  --header-text: #d9f1ff;
+  --header-border: #8ec8ff;
+  --header-shadow: rgba(142,200,255,0.35);
+
+  --star: #fff0a6;
+}
+
+/* =========================
+   Theme: C64 Dark (same vibe, darker)
+   ========================= */
+:root[data-theme="c64-dark"]{
+  --bg: #0b0f12;
+  --text: #eaf2ff;
+
+  --panel: rgba(255,255,255,0.08);
+  --panel-soft: rgba(255,255,255,0.06);
+  --panel-empty: rgba(255,255,255,0.05);
+
+  --border: rgba(255,255,255,0.18);
+  --border-soft: rgba(255,255,255,0.12);
+  --accent: #7CFF6B;
+
+  --header-bg: #000;
+  --header-text: #d5d9e2;
+  --header-border: #9aa3b2;
+  --header-shadow: rgba(154,163,178,0.32);
+}
+
+/* =========================
+   Theme: Atari 2600 (wood/bronze)
+   ========================= */
+:root[data-theme="atari-2600"]{
+  --bg: #1f1a17;
+  --text: #ead8bd;
+
+  --panel: rgba(58,44,34,0.72);
+  --panel-soft: rgba(46,35,28,0.64);
+  --panel-empty: rgba(36,28,22,0.52);
+
+  --border: rgba(209,122,47,0.28);
+  --border-soft: rgba(209,122,47,0.18);
+  --accent: #d17a2f;
+
+  --header-bg: #120f0d;
+  --header-text: #f2c38f;
+  --header-border: #d17a2f;
+  --header-shadow: rgba(209,122,47,0.30);
+
+  --star: #f5b65d;
+}
+
+/* =========================
+   Theme: Tron (cyan neon)
+   ========================= */
+:root[data-theme="tron"]{
+  --bg: #040914;
+  --text: #d6f8ff;
+
+  --panel: rgba(0,16,28,0.66);
+  --panel-soft: rgba(0,20,34,0.56);
+  --panel-empty: rgba(0,13,24,0.46);
+
+  --border: rgba(0,212,255,0.34);
+  --border-soft: rgba(0,212,255,0.18);
+  --accent: #00d4ff;
+
+  --header-bg: #00070d;
+  --header-text: #9ff3ff;
+  --header-border: #00d4ff;
+  --header-shadow: rgba(0,212,255,0.34);
+
+  --star: #7bf4ff;
+}
+
+/* =========================
+   Theme: Star Wars (yellow on black)
+   ========================= */
+:root[data-theme="star-wars"]{
+  --bg: #050505;
+  --text: #ffe59a;
+
+  --panel: rgba(15,15,15,0.76);
+  --panel-soft: rgba(20,20,20,0.66);
+  --panel-empty: rgba(14,14,14,0.56);
+
+  --border: rgba(255,213,74,0.28);
+  --border-soft: rgba(255,213,74,0.16);
+  --accent: #ffd54a;
+
+  --header-bg: #000;
+  --header-text: #ffe082;
+  --header-border: #ffd54a;
+  --header-shadow: rgba(255,213,74,0.32);
+
+  --star: #fff1a8;
+}
+
+/* =========================
+   Theme: Green Phosphor (terminal)
+   ========================= */
+:root[data-theme="phosphor"]{
+  --bg: #06130b;
+  --text: #d6ffe9;
+
+  --panel: rgba(0,0,0,0.55);
+  --panel-soft: rgba(0,0,0,0.45);
+  --panel-empty: rgba(0,0,0,0.35);
+
+  --border: rgba(0,255,156,0.30);
+  --border-soft: rgba(0,255,156,0.18);
+  --accent: #00ff9c;
+
+  --header-bg: #000;
+  --header-text: #00ff9c;
+  --header-border: #00ff9c;
+  --header-shadow: rgba(0,255,156,0.35);
+
+  --star: #9dffb3;
+}
+
+/* =========================
+   Theme: Amber Monochrome (classic monitor)
+   ========================= */
+:root[data-theme="amber"]{
+  --bg: #140f06;
+  --text: #ffe7c2;
+
+  --border: rgba(255,170,64,0.30);
+  --border-soft: rgba(255,170,64,0.18);
+  --accent: #ffb454;
+
+  --header-bg: #000;
+  --header-text: #ffb454;
+  --header-border: #ffb454;
+  --header-shadow: rgba(255,180,84,0.35);
+
+  --star: #ffd18a;
+}
+
+/* =========================
+   Theme: Miami Night (synthwave contrast)
+   ========================= */
+:root[data-theme="miami-night"]{
+  --bg: #10081f;
+  --text: #ffe8ff;
+
+  --panel: rgba(28,10,44,0.70);
+  --panel-soft: rgba(34,12,52,0.58);
+  --panel-empty: rgba(24,9,36,0.48);
+
+  --border: rgba(255,95,207,0.28);
+  --border-soft: rgba(103,232,255,0.20);
+  --accent: #67e8ff;
+
+  --header-bg: #140a22;
+  --header-text: #ffb3f2;
+  --header-border: #ff5fcf;
+  --header-shadow: rgba(255,95,207,0.30);
+
+  --star: #ffd166;
+}
+
+/* =========================
+   Theme: Vader (red CRT)
+   ========================= */
+:root[data-theme="vader"]{
+  --bg: #0f0606;
+  --text: #ff5a52;
+
+  --panel: rgba(20,0,0,0.55);
+  --panel-soft: rgba(20,0,0,0.45);
+  --panel-empty: rgba(20,0,0,0.35);
+
+  --border: rgba(255,59,48,0.30);
+  --border-soft: rgba(255,59,48,0.18);
+  --accent: #ff3b30;
+
+  --header-bg: #000;
+  --header-text: #ff6b63;
+  --header-border: #ff3b30;
+  --header-shadow: rgba(255,59,48,0.35);
+
+  --star: #ff9a8f;
+}
+
+/* =========================
+   Theme: Mono (black/white minimal)
+   ========================= */
+:root[data-theme="mono"]{
+  --bg: #ffffff;
+  --text: #000000;
+
+  --panel: rgba(0,0,0,0.08);
+  --panel-soft: rgba(0,0,0,0.06);
+  --panel-empty: rgba(0,0,0,0.05);
+
+  --border: rgba(0,0,0,0.20);
+  --border-soft: rgba(0,0,0,0.12);
+
+  --accent: #000000;
+
+  --header-bg: #000;
+  --header-text: #fff;
+  --header-border: #000;
+  --header-shadow: rgba(0,0,0,0.25);
+
+  --star: #000000;
+}
+
+/* =========================
+   Brand tokens (derived from theme)
+   ========================= */
+:root{
+  /* Brand text + outline */
+  --brand-text: var(--text);
+  --brand-outline: var(--accent);
+
+  /* Optional: brand plate behind logo (if you want a subtle badge) */
+  --brand-plate-bg: transparent;
+  --brand-plate-border: transparent;
+
+  /* 1541-style groove lines under the text (defaults) */
+  --brand-line-1: rgba(255,255,255,0.70);
+  --brand-line-2: rgba(255,255,255,0.45);
+  --brand-line-3: rgba(255,255,255,0.25);
+
+  /* Make the lines inherit the theme in a controlled way */
+  /* If you prefer theme-colored grooves, switch these to use --accent mixes. */
+}
+
+/* =========================
+   Theme-specific 1541 groove tuning
+   ========================= */
+
+/* =========================
+   C64 BLUE — FLOPPYSTACK LOGO
+   Real 1541 rainbow stripe
+   ========================= */
+
+:root[data-theme="c64-blue"]{
+
+/* Authentic 1541 stripe colors */
+
+  /* logo text */
+  --brand-text: #ffffff;
+  --brand-outline: #6c84ff; /* subtle C64 blue outline */
+
+  /* 1541 simplified stripe */
+  --brand-line-1: #e53935;  /* red */
+  --brand-line-2: #f2c94c;  /* yellow */
+  --brand-line-3: #2aa198;  /* teal (green+blue merged) */
+}
+
+:root[data-theme="c64-screen"]{
+  --brand-text: #d8d0ff;
+  --brand-outline: #8f84d9;
+  --brand-line-1: rgba(143,132,217,0.86);
+  --brand-line-2: rgba(108,94,181,0.62);
+  --brand-line-3: rgba(108,94,181,0.30);
+}
+
+:root[data-theme="c128-screen"]{
+  --brand-text: #dff4ff;
+  --brand-outline: #8ec8ff;
+  --brand-line-1: rgba(142,200,255,0.88);
+  --brand-line-2: rgba(145,214,255,0.56);
+  --brand-line-3: rgba(145,214,255,0.28);
+}
+
+:root[data-theme="c64-dark"]{
+  --brand-outline: #8f99aa;
+  --brand-line-1: rgba(255,255,255,0.55);
+  --brand-line-2: rgba(255,255,255,0.32);
+  --brand-line-3: rgba(255,255,255,0.18);
+}
+
+:root[data-theme="atari-2600"]{
+  --brand-text: #f0dcc1;
+  --brand-outline: #d17a2f;
+  --brand-line-1: rgba(209,122,47,0.85);
+  --brand-line-2: rgba(242,195,143,0.52);
+  --brand-line-3: rgba(182,146,98,0.28);
+}
+
+:root[data-theme="tron"]{
+  --brand-text: #d6f8ff;
+  --brand-outline: #00d4ff;
+  --brand-line-1: rgba(0,212,255,0.85);
+  --brand-line-2: rgba(0,212,255,0.48);
+  --brand-line-3: rgba(0,212,255,0.24);
+}
+
+:root[data-theme="phosphor"]{
+  /* Grooves become “phosphor reflections” */
+  --brand-line-1: rgba(0,255,156,0.80);
+  --brand-line-2: rgba(0,255,156,0.45);
+  --brand-line-3: rgba(0,255,156,0.25);
+}
+
+:root[data-theme="amber"]{
+  --brand-line-1: rgba(255,180,84,0.80);
+  --brand-line-2: rgba(255,180,84,0.45);
+  --brand-line-3: rgba(255,180,84,0.25);
+}
+
+:root[data-theme="vader"]{
+  --brand-text: #ffe8e6;
+  --brand-outline: #ff5a52;
+  --brand-line-1: rgba(255,59,48,0.85);
+  --brand-line-2: rgba(255,59,48,0.50);
+  --brand-line-3: rgba(255,59,48,0.28);
+}
+
+:root[data-theme="star-wars"]{
+  --brand-text: #ffeaa9;
+  --brand-outline: #ffd54a;
+  --brand-line-1: rgba(255,213,74,0.85);
+  --brand-line-2: rgba(255,213,74,0.48);
+  --brand-line-3: rgba(255,213,74,0.24);
+}
+
+:root[data-theme="miami-night"]{
+  --brand-text: #ffe8ff;
+  --brand-outline: #67e8ff;
+  --brand-line-1: rgba(255,95,207,0.85);
+  --brand-line-2: rgba(103,232,255,0.55);
+  --brand-line-3: rgba(255,95,207,0.26);
+}
+
+:root[data-theme="mono"]{
+  --brand-line-1: rgba(0,0,0,0.65);
+  --brand-line-2: rgba(0,0,0,0.40);
+  --brand-line-3: rgba(0,0,0,0.22);
+}
+
+/* Keep navbar branding readable on the dark navbar in Mono theme */
+:root[data-theme="mono"]{
+  --brand-text: #ffffff;
+  --brand-outline: #8a8a8a;
+  --brand-line-1: rgba(255,255,255,0.85);
+  --brand-line-2: rgba(255,255,255,0.55);
+  --brand-line-3: rgba(255,255,255,0.30);
+}

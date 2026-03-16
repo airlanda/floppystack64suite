@@ -1,0 +1,50 @@
+{
+  "default|1|sideB|0|parallax": {
+    "rating": 4,
+    "updatedAt": "2026-02-23T03:17:54.878Z"
+  },
+  "default|1|sideA|0|1942": {
+    "rating": 2.5,
+    "updatedAt": "2026-02-23T03:09:01.292Z"
+  },
+  "default|56|sideB|1|skyjet": {
+    "rating": 4,
+    "updatedAt": "2026-02-23T03:05:47.640Z"
+  },
+  "default|2|sideA|0|acrojet": {
+    "rating": 2,
+    "updatedAt": "2026-02-23T03:06:32.916Z"
+  },
+  "default|4|sideA|0|antiriad": {
+    "rating": 3.5,
+    "updatedAt": "2026-02-23T04:52:37.516Z"
+  },
+  "default|4|sideA|3|archon ii": {
+    "rating": 2.5,
+    "updatedAt": "2026-02-23T04:53:00.919Z"
+  },
+  "default|8|sideA|0|aussie games": {
+    "rating": 3,
+    "updatedAt": "2026-02-24T15:35:41.619Z"
+  },
+  "default|9|sideA|3|popeye": {
+    "rating": 4,
+    "updatedAt": "2026-02-25T22:58:28.633Z"
+  },
+  "orocovs|1|sideB|0|pitstop ii": {
+    "rating": 3,
+    "updatedAt": "2026-02-28T02:54:49.680Z"
+  },
+  "orocovs|1|sideB|1|quest for tires": {
+    "rating": 3.5,
+    "updatedAt": "2026-02-28T02:54:51.814Z"
+  },
+  "orig|81|sideA|0|the amazing spiderman and capt america in dr doom's revenge": {
+    "rating": 2.5,
+    "updatedAt": "2026-02-28T16:49:09.392Z"
+  },
+  "orig|80|sideA|0|the last ninja": {
+    "rating": 3,
+    "updatedAt": "2026-02-28T16:49:16.995Z"
+  }
+}

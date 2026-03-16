@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Draft: Multi-Framework Micro Front End Architectures</title>
+  <style>
+    :root {
+      --bg: #0b1015;
+      --panel: #111922;
+      --panel-alt: #0d141b;
+      --text: #edf3f9;
+      --muted: #a8b6c7;
+      --accent: #ffb454;
+      --line: #294155;
+      --code: #081018;
+      --good: #7bd5ad;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Segoe UI, Arial, sans-serif;
+      line-height: 1.55;
+    }
+    .page {
+      width: 1080px;
+      margin: 0 auto;
+      padding: 36px 42px 64px;
+    }
+    h1, h2, h3 { margin: 0 0 12px; line-height: 1.2; }
+    h1 { font-size: 32px; }
+    h2 {
+      font-size: 23px;
+      margin-top: 32px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+    }
+    h3 { font-size: 18px; margin-top: 20px; }
+    p, li { color: var(--muted); }
+    .lead { font-size: 16px; max-width: 920px; }
+    .card {
+      background: linear-gradient(180deg, var(--panel), var(--panel-alt));
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 16px 18px;
+      margin: 14px 0;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+    .pill {
+      display: inline-block;
+      margin: 0 8px 8px 0;
+      padding: 4px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 12px;
+      color: var(--text);
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+    .table th, .table td {
+      border: 1px solid var(--line);
+      padding: 10px 12px;
+      vertical-align: top;
+      text-align: left;
+      font-size: 13px;
+    }
+    .table th { background: #0d141b; color: var(--text); }
+    .table td { color: var(--muted); }
+    .quote {
+      border-left: 4px solid var(--accent);
+      padding: 10px 14px;
+      margin: 14px 0;
+      background: rgba(255,180,84,0.08);
+      border-radius: 0 12px 12px 0;
+      color: var(--text);
+    }
+    .footer {
+      margin-top: 30px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--muted);
+    }
+    ol { padding-left: 20px; }
+    ul { padding-left: 18px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Draft: Multi-Framework Micro Front End Architectures</h1>
+    <p class="lead">
+      This draft frames micro front ends as both an architectural strategy and an implementation problem, with special attention to
+      heterogeneous frontend environments where different teams or products use different frameworks. The paper is grounded in a
+      practical case study based on the FS64 workspace, where React remotes are consumed both by a React host and by an Angular host
+      through two different interoperability patterns.
+    </p>
+
+    <div class="grid-2">
+      <div class="card">
+        <strong>Primary theme</strong>
+        <p>How multi-framework micro front end architectures should be evaluated beyond simple deployability claims.</p>
+      </div>
+      <div class="card">
+        <strong>Case study anchor</strong>
+        <p>FS64: React remotes, dynamic manifest-driven federation, Angular host integration, shared backend, and multiple host/remote boundaries.</p>
+      </div>
+    </div>
+
+    <h2>1. Working Title Options</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Option A:</strong> <em>Multi-Framework Micro Front Ends: Architectural Tradeoffs, Runtime Integration Patterns, and a Comparative Case Study</em></li>
+        <li><strong>Option B:</strong> <em>Loading React Micro Front Ends from Heterogeneous Hosts: A Study of Architecture, Performance, and Developer Experience</em></li>
+        <li><strong>Option C:</strong> <em>Micro Front Ends Across Framework Boundaries: Comparing Federation, Bridges, and Web Components in Practice</em></li>
+      </ul>
+    </div>
+
+    <h2>2. Draft Abstract</h2>
+    <div class="card">
+      <p>
+        Micro front end architectures are often presented as a natural extension of backend microservices, promising independent deployment,
+        team autonomy, and improved scalability of frontend development. In practice, however, many organizations operate in heterogeneous
+        frontend environments where framework diversity is unavoidable rather than intentional. This raises a harder architectural question:
+        how should micro front ends be designed, integrated, and evaluated when hosts and remotes do not share the same framework runtime?
+      </p>
+      <p>
+        This paper examines multi-framework micro front end architectures from both an architectural and implementation perspective.
+        It first surveys the major composition strategies used in industry, including static and dynamic module federation, framework bridges,
+        Web Components, and host-controlled runtime manifests. It then evaluates these strategies using a concrete case study based on the FS64
+        workspace, where React micro front ends are loaded by both a React host and an Angular host. Two cross-framework integration strategies
+        are compared in detail: an imperative React bridge for a large remote and a Web Component wrapper for a widget-style remote.
+      </p>
+      <p>
+        The analysis focuses on performance, developer experience, reusability, routing ownership, operational complexity, and backend integration.
+        The paper argues that the principal difficulty in multi-framework micro front ends is not simply remote loading, but the definition of a
+        robust boundary between architectural independence and runtime interoperability. It concludes with practical guidance for choosing between
+        bridge-based, Web Component-based, and manifest-driven federation strategies depending on the size, autonomy, and coupling of the remote.
+      </p>
+    </div>
+
+    <h2>3. Detailed Outline</h2>
+    <div class="card">
+      <ol>
+        <li><strong>Introduction</strong>
+          <ul>
+            <li>Why frontend scale and team autonomy matter.</li>
+            <li>Why multi-framework reality appears in long-lived systems.</li>
+            <li>Research problem: architecture is easy to describe, harder to evaluate.</li>
+          </ul>
+        </li>
+        <li><strong>Background and Related Architectural Models</strong>
+          <ul>
+            <li>Frontend monoliths and modular monoliths.</li>
+            <li>Micro front ends as a decomposition strategy.</li>
+            <li>Static host-remote coupling vs dynamic runtime composition.</li>
+            <li>Composition boundaries: iframe, module federation, Web Components, server-side assembly.</li>
+          </ul>
+        </li>
+        <li><strong>Why Multi-Framework MFEs Exist</strong>
+          <ul>
+            <li>Incremental migration.</li>
+            <li>Organizational autonomy.</li>
+            <li>Acquisition or product-line integration.</li>
+            <li>Legacy retention and rewrite avoidance.</li>
+          </ul>
+        </li>
+        <li><strong>Architectural Evaluation Criteria</strong>
+          <ul>
+            <li>Performance.</li>
+            <li>Developer experience.</li>
+            <li>Reusability and portability.</li>
+            <li>Operational complexity.</li>
+            <li>Runtime safety and failure isolation.</li>
+            <li>Routing and state ownership.</li>
+          </ul>
+        </li>
+        <li><strong>Implementation Patterns for Multi-Framework Integration</strong>
+          <ul>
+            <li>Framework-specific host/remotes under module federation.</li>
+            <li>Imperative bridge modules.</li>
+            <li>Web Components as a neutral boundary.</li>
+            <li>Manifest-driven remote discovery.</li>
+            <li>Shared backend vs per-remote BFF.</li>
+          </ul>
+        </li>
+        <li><strong>Case Study: FS64</strong>
+          <ul>
+            <li>Workspace overview.</li>
+            <li>React host and React remotes.</li>
+            <li>Angular host consuming React remotes.</li>
+            <li><code>disks</code> via bridge.</li>
+            <li><code>games</code> via Web Component.</li>
+            <li>Shared backend and CORS implications.</li>
+          </ul>
+        </li>
+        <li><strong>Empirical Evaluation</strong>
+          <ul>
+            <li>Runtime startup characteristics.</li>
+            <li>Integration friction during implementation.</li>
+            <li>Host and remote ownership boundaries.</li>
+            <li>Code reuse vs coupling.</li>
+          </ul>
+        </li>
+        <li><strong>Discussion</strong>
+          <ul>
+            <li>When micro front ends improve architecture.</li>
+            <li>When they merely redistribute complexity.</li>
+            <li>How multi-framework hosts change the cost model.</li>
+          </ul>
+        </li>
+        <li><strong>Recommendations</strong>
+          <ul>
+            <li>When to use bridges.</li>
+            <li>When to use Web Components.</li>
+            <li>When to prefer a single-framework host.</li>
+            <li>How to manage dynamic registries and backend contracts.</li>
+          </ul>
+        </li>
+        <li><strong>Conclusion</strong>
+          <ul>
+            <li>Summary of findings.</li>
+            <li>Practical contribution.</li>
+            <li>Future work.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+
+    <h2>4. Research Questions</h2>
+    <div class="grid-2">
+      <div class="card">
+        <strong>RQ1</strong>
+        <p>Under what conditions do multi-framework micro front ends provide meaningful architectural benefits over a modular monolith?</p>
+      </div>
+      <div class="card">
+        <strong>RQ2</strong>
+        <p>How do bridge-based and Web Component-based integration strategies compare in performance, DX, and reusability?</p>
+      </div>
+      <div class="card">
+        <strong>RQ3</strong>
+        <p>Does dynamic manifest-driven federation improve extensibility enough to justify the additional runtime complexity?</p>
+      </div>
+      <div class="card">
+        <strong>RQ4</strong>
+        <p>How should backend boundaries evolve when frontend remotes are owned and loaded independently but still depend on shared data contracts?</p>
+      </div>
+    </div>
+
+    <h2>5. Proposed Experiment and Evaluation Matrix</h2>
+    <div class="card">
+      <p>
+        The case study can compare three concrete runtime configurations in the same workspace:
+      </p>
+      <div class="pill">A. React host -> React remotes</div>
+      <div class="pill">B. Angular host -> React disks via bridge</div>
+      <div class="pill">C. Angular host -> React games via Web Component</div>
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Dimension</th>
+          <th>What to measure</th>
+          <th>How to measure</th>
+          <th>Why it matters</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Startup performance</td>
+          <td>Time to first render, remote mount latency, additional network requests</td>
+          <td>Browser DevTools, navigation timing, network waterfall</td>
+          <td>Shows the runtime cost of remote composition and cross-framework integration</td>
+        </tr>
+        <tr>
+          <td>Bundle behavior</td>
+          <td>Host bundle size, remoteEntry size, duplicate framework payloads</td>
+          <td>Rspack build output, bundle analyzer if added</td>
+          <td>Shows cost of heterogeneous framework reuse or duplication</td>
+        </tr>
+        <tr>
+          <td>Developer experience</td>
+          <td>Startup commands, number of processes, debugging clarity, frequency of integration errors</td>
+          <td>Implementation log, issue count, qualitative notes</td>
+          <td>DX is often where MFE strategies fail first in practice</td>
+        </tr>
+        <tr>
+          <td>Reusability</td>
+          <td>How much host-specific code is required for each remote</td>
+          <td>Code inspection, API surface analysis</td>
+          <td>Shows whether remotes are truly portable or only locally reusable</td>
+        </tr>
+        <tr>
+          <td>Routing ownership</td>
+          <td>How search params, in-app navigation, and route state are controlled</td>
+          <td>Architecture trace, route responsibility map</td>
+          <td>Routing conflicts are a common hidden cost in MFE systems</td>
+        </tr>
+        <tr>
+          <td>Backend coupling</td>
+          <td>CORS requirements, contract sharing, BFF pressure</td>
+          <td>API inspection and integration notes</td>
+          <td>Shows how frontend decomposition shifts backend assumptions</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>6. Case Study Framing for FS64</h2>
+    <div class="card">
+      <p>
+        FS64 is a strong case study because it contains both architectural and implementation diversity in a single workspace:
+      </p>
+      <ul>
+        <li>React-based MFEs with dynamic manifest-driven runtime loading.</li>
+        <li>An Angular host consuming those remotes through two different interop boundaries.</li>
+        <li>A shared Express backend serving API and metadata endpoints.</li>
+        <li>Cross-framework integration issues that are realistic rather than hypothetical: share-scope initialization, host runtime mismatch, CORS, and route ownership.</li>
+      </ul>
+    </div>
+
+    <div class="quote">
+      The paper should emphasize that the difficult part of multi-framework MFEs is not merely loading code from another bundle. It is defining an integration boundary that is operationally stable, development-friendly, and reusable across hosts.
+    </div>
+
+    <h2>7. Suggested Methodology</h2>
+    <div class="card">
+      <ol>
+        <li>Describe the architectural patterns under comparison.</li>
+        <li>Implement each pattern in the same monorepo so the backend and domain remain constant.</li>
+        <li>Measure runtime and developer-facing characteristics using the same hardware and dev setup.</li>
+        <li>Compare the implementation cost and the resulting runtime behavior.</li>
+        <li>Derive recommendations for when each pattern is justified.</li>
+      </ol>
+    </div>
+
+    <h2>8. Draft Contribution Statement</h2>
+    <div class="card">
+      <p>
+        This paper contributes a practical evaluation framework for multi-framework micro front end architectures and demonstrates that interoperability strategy,
+        not just module federation itself, is a primary determinant of runtime simplicity, reusability, and developer experience.
+      </p>
+    </div>
+
+    <h2>9. Next Writing Moves</h2>
+    <div class="card">
+      <div class="pill">Write full introduction</div>
+      <div class="pill">Expand related work</div>
+      <div class="pill">Add figures for host/remote boundaries</div>
+      <div class="pill">Run performance captures</div>
+      <div class="pill">Convert evaluation matrix into results section</div>
+    </div>
+
+    <div class="footer">
+      Draft prepared from the FS64 workspace state in the FloppyStack monorepo. This is a paper draft skeleton, not the final paper text.
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,543 @@
+@font-face {
+  font-family: 'commodore';
+  src: url('../assets/C64_Pro-STYLE.ttf') format('truetype');
+  font-display: swap;
+}
+
+.fs64-play-root {
+  display: grid;
+  gap: 1rem;
+  color: var(--fs64-text);
+  font-family: 'commodore', Arial, sans-serif;
+}
+
+.fs64-play-hero {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem;
+  border: 1px solid var(--fs64-border);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--fs64-panel-alt) 90%, transparent);
+}
+
+.fs64-play-kicker {
+  font-size: 0.72rem;
+  color: var(--fs64-muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.fs64-play-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.fs64-play-subtitle {
+  margin: 0;
+  color: var(--fs64-muted);
+  line-height: 1.4;
+}
+
+.fs64-play-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.fs64-play-main-btn {
+  appearance: none;
+  border: 1px solid var(--fs64-accent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--fs64-accent) 24%, var(--fs64-panel) 76%);
+  color: var(--fs64-text);
+  min-height: 48px;
+  padding: 0 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.fs64-play-main-btn.is-stop {
+  border-color: #ff7f7f;
+}
+
+.fs64-play-mode-note {
+  color: var(--fs64-muted);
+  font-size: 0.76rem;
+}
+
+.fs64-play-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.fs64-play-chip {
+  appearance: none;
+  border: 1px solid var(--fs64-border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--fs64-panel) 92%, transparent);
+  color: var(--fs64-text);
+  padding: 0.55rem 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.fs64-play-chip.is-active {
+  border-color: var(--fs64-accent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--fs64-accent) 25%, transparent);
+}
+
+.fs64-play-message {
+  border: 1px solid var(--fs64-border);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  background: color-mix(in srgb, var(--fs64-panel) 92%, transparent);
+}
+
+.fs64-play-message.is-error {
+  border-color: #ff7f7f;
+}
+
+.fs64-now-playing-card,
+.fs64-play-mode-panel,
+.fs64-play-game-panel,
+.fs64-rank-section {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1rem;
+  border: 1px solid var(--fs64-border);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--fs64-panel) 90%, transparent);
+}
+
+.fs64-meta-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.fs64-meta-provider-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.fs64-meta-provider-label {
+  color: var(--fs64-muted);
+  font-size: 0.72rem;
+}
+
+.fs64-meta-provider-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.fs64-meta-provider-chip,
+.fs64-meta-refresh-btn {
+  appearance: none;
+  border: 1px solid var(--fs64-border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--fs64-panel-alt) 88%, transparent);
+  color: var(--fs64-text);
+  min-height: 34px;
+  padding: 0 0.8rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.fs64-meta-provider-chip.is-active,
+.fs64-meta-refresh-btn {
+  border-color: var(--fs64-accent);
+}
+
+.fs64-now-playing-layout,
+.fs64-play-game-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 160px;
+  gap: 1rem;
+  align-items: start;
+}
+
+.fs64-now-playing-main {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.fs64-now-playing-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.8rem;
+  align-items: flex-start;
+}
+
+.fs64-now-playing-title,
+.fs64-play-game-title,
+.fs64-rank-title {
+  font-size: 1.15rem;
+}
+
+.fs64-now-playing-meta,
+.fs64-play-game-meta,
+.fs64-now-playing-description,
+.fs64-play-game-description,
+.fs64-rank-note {
+  color: var(--fs64-muted);
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.fs64-challenge-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0 0.75rem;
+  border: 1px solid var(--fs64-border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--fs64-panel-alt) 88%, black 8%);
+  font-size: 0.72rem;
+}
+
+.fs64-challenge-badge.is-timed {
+  border-color: var(--fs64-accent);
+}
+
+.fs64-now-playing-timer-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.fs64-now-playing-timer {
+  min-width: 120px;
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--fs64-accent);
+  border-radius: 12px;
+  font-size: 1rem;
+  text-align: center;
+  background: color-mix(in srgb, var(--fs64-panel-alt) 84%, transparent);
+}
+
+.fs64-now-playing-timer.is-warning {
+  border-color: #ff7f7f;
+  color: #ffd7d7;
+}
+
+.fs64-now-playing-progress {
+  color: var(--fs64-muted);
+  font-size: 0.76rem;
+}
+
+.fs64-now-playing-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+}
+
+.fs64-mini-stat {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.8rem;
+  border: 1px solid var(--fs64-border);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--fs64-panel-alt) 88%, transparent);
+}
+
+.fs64-mini-stat span,
+.fs64-rank-summary-card span {
+  color: var(--fs64-muted);
+  font-size: 0.72rem;
+}
+
+.fs64-mini-stat b,
+.fs64-rank-summary-card b {
+  font-size: 0.9rem;
+}
+
+.fs64-now-playing-actions,
+.fs64-mode-actions,
+.fs64-target-nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.fs64-now-playing-art-panel {
+  border: 1px solid var(--fs64-border);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--fs64-panel-alt) 88%, transparent);
+  overflow: hidden;
+  min-height: 200px;
+}
+
+.fs64-now-playing-art,
+.fs64-play-game-thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fs64-play-game-thumb {
+  max-height: 180px;
+  border: 1px solid var(--fs64-border);
+  border-radius: 12px;
+}
+
+.fs64-now-playing-art-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  color: var(--fs64-muted);
+  font-size: 0.78rem;
+}
+
+.fs64-action-btn {
+  appearance: none;
+  border: 1px solid var(--fs64-accent);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--fs64-panel-alt) 88%, transparent);
+  color: var(--fs64-text);
+  min-height: 46px;
+  padding: 0 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.fs64-action-btn.is-muted {
+  border-color: var(--fs64-border);
+}
+
+.fs64-play-mode-grid,
+.fs64-rank-summary,
+.fs64-rank-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.8rem;
+}
+
+.fs64-mode-card,
+.fs64-rank-summary-card,
+.fs64-rank-card {
+  display: grid;
+  gap: 0.4rem;
+  text-align: left;
+  padding: 0.95rem;
+  border: 1px solid var(--fs64-border);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--fs64-panel-alt) 88%, transparent);
+  color: var(--fs64-text);
+  font-family: inherit;
+}
+
+.fs64-mode-card {
+  cursor: pointer;
+}
+
+.fs64-mode-card.is-active,
+.fs64-rank-summary-card.is-current,
+.fs64-rank-card.is-current {
+  border-color: var(--fs64-accent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--fs64-accent) 28%, transparent);
+}
+
+.fs64-rank-card.is-unlocked {
+  border-color: color-mix(in srgb, var(--fs64-accent) 60%, var(--fs64-border) 40%);
+}
+
+.fs64-mode-card-label {
+  font-size: 0.92rem;
+}
+
+.fs64-mode-card-meta,
+.fs64-rank-summary-card small,
+.fs64-rank-state,
+.fs64-rank-chip {
+  color: var(--fs64-muted);
+  font-size: 0.72rem;
+}
+
+.fs64-rank-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.fs64-rank-chip {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  padding: 0 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--fs64-border);
+}
+
+.fs64-mode-settings {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.fs64-mode-field {
+  display: grid;
+  gap: 0.45rem;
+  max-width: 220px;
+}
+
+.fs64-mode-field span {
+  color: var(--fs64-muted);
+  font-size: 0.72rem;
+}
+
+.fs64-mode-field input {
+  min-height: 42px;
+  border: 1px solid var(--fs64-border);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--fs64-panel-alt) 90%, transparent);
+  color: var(--fs64-text);
+  font-family: inherit;
+  padding: 0 0.75rem;
+}
+
+.fs64-play-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.9rem;
+}
+
+.fs64-standing-card {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem;
+  border: 1px solid var(--fs64-border);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--fs64-panel) 90%, transparent);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.22);
+}
+
+.fs64-standing-card.is-gold {
+  border-color: #f2c14d;
+}
+
+.fs64-standing-card.is-silver {
+  border-color: #b9c3d0;
+}
+
+.fs64-standing-card.is-bronze {
+  border-color: #c78b52;
+}
+
+.fs64-standing-rank {
+  font-size: 1.8rem;
+  color: var(--fs64-accent);
+}
+
+.fs64-standing-callsign {
+  font-size: 1.05rem;
+}
+
+.fs64-standing-name {
+  color: var(--fs64-muted);
+  font-size: 0.82rem;
+}
+
+.fs64-standing-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 32px;
+  padding: 0 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--fs64-border);
+  background: color-mix(in srgb, var(--fs64-panel-alt) 88%, black 8%);
+  font-size: 0.72rem;
+}
+
+.fs64-standing-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  color: var(--fs64-muted);
+  font-size: 0.74rem;
+}
+
+.fs64-play-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.85rem;
+}
+
+.fs64-play-stats-grid.is-compact {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.fs64-play-stat-card {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid var(--fs64-border);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--fs64-panel) 90%, transparent);
+}
+
+.fs64-play-stat-card span {
+  color: var(--fs64-muted);
+  font-size: 0.74rem;
+}
+
+.fs64-play-stat-card b {
+  font-size: 1.3rem;
+}
+
+.fs64-play-history-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.fs64-play-history-item {
+  display: grid;
+  gap: 0.4rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--fs64-border);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--fs64-panel) 90%, transparent);
+}
+
+.fs64-play-history-title {
+  font-size: 0.95rem;
+}
+
+.fs64-play-history-meta,
+.fs64-play-history-result {
+  color: var(--fs64-muted);
+  font-size: 0.74rem;
+}
+
+@media (max-width: 768px) {
+  .fs64-play-board,
+  .fs64-play-stats-grid,
+  .fs64-play-mode-grid,
+  .fs64-now-playing-stats,
+  .fs64-now-playing-layout,
+  .fs64-play-game-header,
+  .fs64-rank-summary,
+  .fs64-rank-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fs64-now-playing-header,
+  .fs64-now-playing-timer-wrap,
+  .fs64-rank-card-top,
+  .fs64-meta-toolbar {
+    align-items: stretch;
+  }
+}
+

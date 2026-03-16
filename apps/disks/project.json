@@ -1,0 +1,22 @@
+{
+  "name": "disks",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/disks/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "continuous": true,
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "apps/disks",
+        "command": "rspack serve",
+        "args": ["--node-env=development"],
+        "env": {
+          "TS_NODE_COMPILER_OPTIONS": "{\"module\":\"CommonJS\",\"moduleResolution\":\"Node10\",\"customConditions\":null}"
+        },
+        "port": 4201
+      }
+    }
+  }
+}
