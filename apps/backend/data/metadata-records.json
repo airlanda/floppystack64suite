@@ -3739,5 +3739,34 @@
     },
     "updatedAt": "2026-03-04T02:20:32.498Z",
     "createdAt": "2026-03-04T02:20:32.498Z"
+  },
+  "c64|axis assassin": {
+    "key": "c64|axis assassin",
+    "platform": "c64",
+    "gameName": "Axis Assassin",
+    "normalizedName": "axis assassin",
+    "canonicalTitle": "Axis Assassin",
+    "description": null,
+    "genre": null,
+    "developer": null,
+    "publisher": null,
+    "year": null,
+    "players": null,
+    "images": {
+      "boxFront": null,
+      "label": null,
+      "screenshot": null,
+      "logo": null
+    },
+    "source": {
+      "provider": "thegamesdb",
+      "sourceId": null,
+      "matchConfidence": null,
+      "status": "not_configured",
+      "lastFetchedAt": "2026-03-28T13:04:19.009Z",
+      "debugSnippet": null
+    },
+    "updatedAt": "2026-03-28T13:04:19.009Z",
+    "createdAt": "2026-03-28T13:04:15.009Z"
   }
 }

@@ -8,7 +8,7 @@
     "badges": [],
     "activeChallenge": null,
     "events": [],
-    "updatedAt": "2026-03-17T02:13:33.312Z",
+    "updatedAt": "2026-03-28T12:57:58.556Z",
     "gamification": {
       "activeChallenge": null,
       "recentSelections": [
@@ -125,53 +125,56 @@
     "badges": [],
     "activeChallenge": null,
     "events": [],
-    "updatedAt": "2026-03-18T11:43:00.026Z",
+    "updatedAt": "2026-03-28T12:54:54.919Z",
     "gamification": {
       "activeChallenge": {
-        "id": "challenge-1773717892227",
+        "id": "challenge-1774702494539",
         "type": "three-in-60",
-        "createdAt": "2026-03-17T03:24:52.227Z",
-        "expiresAt": "2026-03-17T03:25:52.227Z",
+        "createdAt": "2026-03-28T12:54:54.539Z",
+        "expiresAt": "2026-03-28T12:55:54.539Z",
         "status": "active",
         "targets": [
           {
-            "diskId": "35",
+            "diskId": "69",
             "datasetKey": "orig",
             "side": "sideA",
             "sideLabel": "Side A",
-            "gameIndex": 2,
-            "gameName": "Sumando"
+            "gameIndex": 1,
+            "gameName": "Dessert Fox"
           },
           {
-            "diskId": "2",
+            "diskId": "7",
             "datasetKey": "orig",
             "side": "sideB",
             "sideLabel": "Side B",
             "gameIndex": 0,
-            "gameName": "Airborne Ranger"
+            "gameName": "Silent Service"
           },
           {
-            "diskId": "6",
+            "diskId": "27",
             "datasetKey": "orig",
-            "side": "sideA",
-            "sideLabel": "Side A",
-            "gameIndex": 5,
-            "gameName": "Monster Smash"
+            "side": "sideB",
+            "sideLabel": "Side B",
+            "gameIndex": 1,
+            "gameName": "F15 Strike Eagle"
           }
         ],
         "totalTargets": 3,
         "currentIndex": 0,
         "completedCount": 0,
         "target": {
-          "diskId": "35",
+          "diskId": "69",
           "datasetKey": "orig",
           "side": "sideA",
           "sideLabel": "Side A",
-          "gameIndex": 2,
-          "gameName": "Sumando"
+          "gameIndex": 1,
+          "gameName": "Dessert Fox"
         }
       },
       "recentSelections": [
+        "orig|69|sideA|1|Dessert Fox",
+        "orig|7|sideB|0|Silent Service",
+        "orig|27|sideB|1|F15 Strike Eagle",
         "orig|35|sideA|2|Sumando",
         "orig|2|sideB|0|Airborne Ranger",
         "orig|6|sideA|5|Monster Smash",
@@ -198,12 +201,23 @@
         "orig|58|sideB|2|ParkPatrol",
         "orig|54|sideA|0|Skate or Die!",
         "orig|55|sideB|0|Fighting Warriors",
-        "orig|14|sideB|0|Thanatos",
-        "orig|9|sideB|0|Cobra",
-        "orig|57|sideB|3|Ole",
-        "orig|3|sideB|0|Fast Hackem"
+        "orig|14|sideB|0|Thanatos"
       ],
       "playSessions": [
+        {
+          "id": "session-1774702494539",
+          "target": {
+            "diskId": "69",
+            "datasetKey": "orig",
+            "side": "sideA",
+            "sideLabel": "Side A",
+            "gameIndex": 1,
+            "gameName": "Dessert Fox"
+          },
+          "startedAt": "2026-03-28T12:54:54.539Z",
+          "endedAt": null,
+          "result": "played"
+        },
         {
           "id": "session-1773717892228",
           "target": {
@@ -1289,7 +1303,7 @@
         "threeInSixtyMinutesPerTarget": 1
       },
       "stats": {
-        "totalPlayed": 77,
+        "totalPlayed": 78,
         "totalWins": 16
       }
     }

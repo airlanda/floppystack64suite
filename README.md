@@ -52,7 +52,8 @@ npm install
 ### Angular Apps And Experiments
 
 - `angular-host`
-  - Older Angular host experiment
+  - Multi-framework Angular host experiment
+  - Used to explore loading React remotes into an Angular host with two different integration approaches
   - Port: `4300`
   - Run with: `npm run dev:angular-host`
 
@@ -129,9 +130,9 @@ If you want a clean port reset first:
 npm run dev:angular-mfes:clean
 ```
 
-### Older Angular Interop Stack
+### Angular Interop Stack
 
-Starts the older Angular host experiment plus the existing `disks` and `games` apps:
+Starts the Angular multi-framework host experiment plus the existing React `disks` and `games` remotes:
 
 ```sh
 npm run dev:angular-interop
@@ -184,7 +185,7 @@ npx nx run backend:check
 - `4201` React disks
 - `4202` React games
 - `4203` play
-- `4300` older Angular host
+- `4300` Angular interop host experiment
 - `4301` Angular disks
 - `4302` Angular games
 

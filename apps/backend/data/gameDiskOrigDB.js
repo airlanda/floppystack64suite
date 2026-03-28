@@ -1087,7 +1087,7 @@ const gameDiskData = [
         "rating": 4
       },
       {
-        "gameName": "Axis Assasisn",
+        "gameName": "Axis Assassin",
         "rating": 1
       }
     ]
