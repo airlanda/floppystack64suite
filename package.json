@@ -24,7 +24,12 @@
     "dev:play": "nx serve play",
     "dev:angular-host": "nx serve angular-host",
     "dev:angular-interop": "nx run-many -t serve -p angular-host,disks,games --parallel=3",
-    "dev:angular-interop:clean": "npm run clean:dev-ports && npm run dev:angular-interop"
+    "dev:angular-interop:clean": "npm run clean:dev-ports && npm run dev:angular-interop",
+    "dev:angular-shell": "nx serve angular-shell",
+    "dev:angular-disks": "nx serve angularDisks",
+    "dev:angular-games": "nx serve angularGames",
+    "dev:angular-mfes": "nx run-many -t serve -p angular-shell,angularDisks,angularGames --parallel=10",
+    "dev:angular-mfes:clean": "npm run clean:dev-ports && npm run dev:angular-mfes"
   },
   "private": true,
   "devDependencies": {
@@ -37,7 +42,6 @@
     "@angular/language-service": "~21.1.0",
     "@eslint/js": "^9.8.0",
     "@module-federation/enhanced": "^0.21.2",
-    "@nx/angular": "^22.5.4",
     "@nx/angular-rspack": "22.5.4",
     "@nx/devkit": "22.5.4",
     "@nx/eslint": "22.5.4",
@@ -49,6 +53,7 @@
     "@nx/react": "^22.5.4",
     "@nx/rspack": "22.5.4",
     "@nx/web": "22.5.4",
+    "@nx/webpack": "22.5.4",
     "@nx/workspace": "22.5.4",
     "@playwright/test": "^1.36.0",
     "@rspack/cli": "1.6.8",
@@ -107,6 +112,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "6.30.3",
-    "rxjs": "~7.8.0"
+    "rxjs": "~7.8.0",
+    "@nx/angular": "^22.5.4"
   }
 }

@@ -8,7 +8,7 @@
     "badges": [],
     "activeChallenge": null,
     "events": [],
-    "updatedAt": "2026-03-14T14:33:35.784Z",
+    "updatedAt": "2026-03-17T02:13:33.312Z",
     "gamification": {
       "activeChallenge": null,
       "recentSelections": [
@@ -125,10 +125,56 @@
     "badges": [],
     "activeChallenge": null,
     "events": [],
-    "updatedAt": "2026-03-04T01:51:48.044Z",
+    "updatedAt": "2026-03-18T11:43:00.026Z",
     "gamification": {
-      "activeChallenge": null,
+      "activeChallenge": {
+        "id": "challenge-1773717892227",
+        "type": "three-in-60",
+        "createdAt": "2026-03-17T03:24:52.227Z",
+        "expiresAt": "2026-03-17T03:25:52.227Z",
+        "status": "active",
+        "targets": [
+          {
+            "diskId": "35",
+            "datasetKey": "orig",
+            "side": "sideA",
+            "sideLabel": "Side A",
+            "gameIndex": 2,
+            "gameName": "Sumando"
+          },
+          {
+            "diskId": "2",
+            "datasetKey": "orig",
+            "side": "sideB",
+            "sideLabel": "Side B",
+            "gameIndex": 0,
+            "gameName": "Airborne Ranger"
+          },
+          {
+            "diskId": "6",
+            "datasetKey": "orig",
+            "side": "sideA",
+            "sideLabel": "Side A",
+            "gameIndex": 5,
+            "gameName": "Monster Smash"
+          }
+        ],
+        "totalTargets": 3,
+        "currentIndex": 0,
+        "completedCount": 0,
+        "target": {
+          "diskId": "35",
+          "datasetKey": "orig",
+          "side": "sideA",
+          "sideLabel": "Side A",
+          "gameIndex": 2,
+          "gameName": "Sumando"
+        }
+      },
       "recentSelections": [
+        "orig|35|sideA|2|Sumando",
+        "orig|2|sideB|0|Airborne Ranger",
+        "orig|6|sideA|5|Monster Smash",
         "orig|5|sideA|7|Quix",
         "orig|6|sideB|1|James Bond",
         "orig|81|sideA|0|The Amazing Spiderman and Capt America in Dr Doom's Revenge",
@@ -155,12 +201,23 @@
         "orig|14|sideB|0|Thanatos",
         "orig|9|sideB|0|Cobra",
         "orig|57|sideB|3|Ole",
-        "orig|3|sideB|0|Fast Hackem",
-        "orig|14|sideB|3|Tribbles",
-        "orig|61|sideA|0|Tapper",
-        "orig|61|sideB|0|Bomb jack Flash"
+        "orig|3|sideB|0|Fast Hackem"
       ],
       "playSessions": [
+        {
+          "id": "session-1773717892228",
+          "target": {
+            "diskId": "35",
+            "datasetKey": "orig",
+            "side": "sideA",
+            "sideLabel": "Side A",
+            "gameIndex": 2,
+            "gameName": "Sumando"
+          },
+          "startedAt": "2026-03-17T03:24:52.228Z",
+          "endedAt": null,
+          "result": "played"
+        },
         {
           "id": "session-1772589105415",
           "target": {
@@ -1232,7 +1289,7 @@
         "threeInSixtyMinutesPerTarget": 1
       },
       "stats": {
-        "totalPlayed": 76,
+        "totalPlayed": 77,
         "totalWins": 16
       }
     }

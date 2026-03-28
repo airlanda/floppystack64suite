@@ -6,8 +6,7 @@
     "callsign": "CHEWIE",
     "passwordHash": "scrypt$2ed47f3d0675aec2929014e967c795c9$ef4c1a7731d197cb421e80f52f23204e528d834b5623312462bb21dd9fa324f5076f5dd7f5912f344f339bdd1caf25c101cedaeb454ba3aca179d8cfac32a849",
     "createdAt": "2026-03-02T04:02:52.796Z",
-    "lastLoginAt": "2026-03-03T12:01:30.155Z",
-    "callsign": "CHEWIE"
+    "lastLoginAt": "2026-03-17T02:09:52.400Z"
   },
   {
     "id": "f8ba54a3-b6cb-4f41-b11d-64b3a4561d5e",
@@ -16,8 +15,7 @@
     "callsign": "WOOKIE",
     "passwordHash": "scrypt$e2fae9843ea72005445e0c4b26f291a4$3df6f3cf5f1eda5e5343c572b88ac7ccf48b42b3ec913fa77ee151885331574e6a47d2d6a2ddd97c4efecd006676e7278b70c0bed325f01ba9f6dc75085ee514",
     "createdAt": "2026-03-03T01:53:22.144Z",
-    "lastLoginAt": "2026-03-03T03:07:10.383Z",
-    "callsign": "WOOKIE"
+    "lastLoginAt": "2026-03-17T02:15:45.203Z"
   },
   {
     "id": "65ed66ee-a5f5-425b-aabd-7b0b478de725",
@@ -26,7 +24,6 @@
     "callsign": "SPICEQUEEN",
     "passwordHash": "scrypt$992f2f650656d9448be7ec1fc1fbc419$21033468a3eb7b218db21ee4ea457ea5f89b80b34363e3839b65f7f2846f4b875724c1d5f8e4a9ac7cdcefdb2c1a486327d27a366967d5f071d004e11d98d6d1",
     "createdAt": "2026-03-04T02:04:20.992Z",
-    "lastLoginAt": null,
-    "callsign": "SPICEQUEEN"
+    "lastLoginAt": null
   }
 ]

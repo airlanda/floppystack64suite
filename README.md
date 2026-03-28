@@ -1,77 +1,199 @@
 # WookieStack
 
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
+WookieStack is an Nx monorepo with a shared backend plus multiple frontend surfaces:
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
+- React micro frontends for the current host/disks/games/play experience
+- Angular experiments and Angular micro frontends
+- A legacy web app
+- A mobile app
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/getting-started/intro#learn-nx?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
+## Prerequisites
 
-## Finish your remote caching setup
+- Node.js 20+
+- npm
 
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/ILO4ri0jxQ)
-
-
-## Run tasks
-
-To run tasks with Nx use:
-
-```sh
-npx nx <target> <project-name>
-```
-
-For example:
+Install dependencies with:
 
 ```sh
-npx nx build myproject
+npm install
 ```
 
-These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
+## Apps In This Workspace
 
-[More about running tasks in the docs &raquo;](https://nx.dev/features/run-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+### Backend
 
-## Add new projects
+- `backend`
+  - Express API used by the frontend apps
+  - Default port: `5000`
+  - Run with: `npm run dev:backend`
 
-While you could add new projects to your workspace manually, you might want to leverage [Nx plugins](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) and their [code generation](https://nx.dev/features/generate-code?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) feature.
+### React Micro Frontends
 
-To install a new plugin you can use the `nx add` command. Here's an example of adding the React plugin:
+- `host`
+  - Main React host shell
+  - Port: `4200`
+  - Run with: `npm run dev:host`
+
+- `disks`
+  - React disks micro frontend
+  - Port: `4201`
+  - Run with: `npm run dev:disks`
+
+- `games`
+  - React games micro frontend
+  - Port: `4202`
+  - Run with: `npm run dev:games`
+
+- `play`
+  - React play app / frontend surface
+  - Port: `4203`
+  - Run with: `npm run dev:play`
+
+### Angular Apps And Experiments
+
+- `angular-host`
+  - Older Angular host experiment
+  - Port: `4300`
+  - Run with: `npm run dev:angular-host`
+
+- `angular-shell`
+  - New Angular shell for dynamic remote loading
+  - Port: `4200`
+  - Run with: `npm run dev:angular-shell`
+
+- `angularDisks`
+  - New Angular disks micro frontend
+  - Port: `4301`
+  - Run with: `npm run dev:angular-disks`
+
+- `angularGames`
+  - New Angular games micro frontend
+  - Port: `4302`
+  - Run with: `npm run dev:angular-games`
+
+### Other Apps
+
+- `web-legacy`
+  - Legacy web app
+  - Run with: `npm run dev:web-legacy`
+
+- `mobile`
+  - Mobile app
+  - Run with: `npm run dev:mobile`
+  - Expo entry: `npm run dev:mobile:expo`
+
+### E2E Projects
+
+- `host-e2e`
+- `disks-e2e`
+
+## Common Run Flows
+
+### Backend Only
+
 ```sh
-npx nx add @nx/react
+npm run dev:backend
 ```
 
-Use the plugin's generator to create new projects. For example, to create a new React app or library:
+### Current React Frontend Stack
+
+Starts `host`, `disks`, `games`, and `play` together:
 
 ```sh
-# Generate an app
-npx nx g @nx/react:app demo
-
-# Generate a library
-npx nx g @nx/react:lib some-lib
+npm run dev:frontend
 ```
 
-You can use `npx nx list` to get a list of installed plugins. Then, run `npx nx list <plugin-name>` to learn about more specific capabilities of a particular plugin. Alternatively, [install Nx Console](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) to browse plugins and generators in your IDE.
+If you want the backend too, run it in a separate terminal:
 
-[Learn more about Nx plugins &raquo;](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) | [Browse the plugin registry &raquo;](https://nx.dev/plugin-registry?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+```sh
+npm run dev:backend
+```
 
+### Angular Micro Frontend Stack
 
-[Learn more about Nx on CI](https://nx.dev/ci/intro/ci-with-nx#ready-get-started-with-your-provider?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+Starts the new Angular shell plus the two new Angular remotes:
 
-## Install Nx Console
+```sh
+npm run dev:angular-mfes
+```
 
-Nx Console is an editor extension that enriches your developer experience. It lets you run tasks, generate code, and improves code autocompletion in your IDE. It is available for VSCode and IntelliJ.
+Run the backend in a separate terminal:
 
-[Install Nx Console &raquo;](https://nx.dev/getting-started/editor-setup?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+```sh
+npm run dev:backend
+```
 
-## Useful links
+If you want a clean port reset first:
 
-Learn more:
+```sh
+npm run dev:angular-mfes:clean
+```
 
-- [Learn more about this workspace setup](https://nx.dev/getting-started/intro#learn-nx?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects)
-- [Learn about Nx on CI](https://nx.dev/ci/intro/ci-with-nx?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [Releasing Packages with Nx release](https://nx.dev/features/manage-releases?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
-- [What are Nx plugins?](https://nx.dev/concepts/nx-plugins?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+### Older Angular Interop Stack
 
-And join the Nx community:
-- [Discord](https://go.nx.dev/community)
-- [Follow us on X](https://twitter.com/nxdevtools) or [LinkedIn](https://www.linkedin.com/company/nrwl)
-- [Our Youtube channel](https://www.youtube.com/@nxdevtools)
-- [Our blog](https://nx.dev/blog?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects)
+Starts the older Angular host experiment plus the existing `disks` and `games` apps:
+
+```sh
+npm run dev:angular-interop
+```
+
+### Start Everything For Local React Development
+
+```sh
+npm run start-all:dev:clean
+```
+
+## Useful Commands
+
+### Show all Nx projects
+
+```sh
+npx nx show projects
+```
+
+### Run a target directly
+
+```sh
+npx nx <target> <project>
+```
+
+Example:
+
+```sh
+npx nx build angular-shell
+```
+
+### Build the Angular micro frontends
+
+```sh
+npx nx build angular-shell
+npx nx build angularDisks
+npx nx build angularGames
+```
+
+### Check the backend entrypoint
+
+```sh
+npx nx run backend:check
+```
+
+## Ports Summary
+
+- `5000` backend
+- `4200` React host or Angular shell, depending on what you start
+- `4201` React disks
+- `4202` React games
+- `4203` play
+- `4300` older Angular host
+- `4301` Angular disks
+- `4302` Angular games
+
+## Notes
+
+- `host` and `angular-shell` both want port `4200`. Run one stack at a time unless you change ports.
+- The Angular micro frontends reuse the same backend APIs as the React apps.
+- If ports are stuck from prior runs, use:
+
+```sh
+npm run clean:dev-ports
+```

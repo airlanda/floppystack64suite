@@ -68,17 +68,14 @@ export type Fs64GamificationState = {
   stats?: {
     totalPlayed?: number;
     totalWins?: number;
-    [key: string]: unknown;
   };
   preferences?: {
     defaultMode?: string;
     threeInSixtyMinutesPerTarget?: number;
-    [key: string]: unknown;
   };
   recentSelections?: string[];
   playSessions?: Fs64PlaySession[];
   activeChallenge?: Fs64PlayChallenge | null;
-  [key: string]: unknown;
 };
 
 function readJsonStorage(key: string) {
@@ -145,14 +142,20 @@ function sanitizeGamificationState(input: unknown): Fs64GamificationState {
   return {
     ...defaults,
     ...parsed,
-    stats: parsed.stats && typeof parsed.stats === 'object' ? { ...defaults.stats, ...(parsed.stats as Record<string, unknown>) } : defaults.stats,
+    stats:
+      parsed['stats'] && typeof parsed['stats'] === 'object'
+        ? { ...defaults.stats, ...(parsed['stats'] as Record<string, unknown>) }
+        : defaults.stats,
     preferences:
-      parsed.preferences && typeof parsed.preferences === 'object'
-        ? { ...defaults.preferences, ...(parsed.preferences as Record<string, unknown>) }
+      parsed['preferences'] && typeof parsed['preferences'] === 'object'
+        ? { ...defaults.preferences, ...(parsed['preferences'] as Record<string, unknown>) }
         : defaults.preferences,
-    recentSelections: Array.isArray(parsed.recentSelections) ? (parsed.recentSelections as string[]) : [],
-    playSessions: Array.isArray(parsed.playSessions) ? (parsed.playSessions as Fs64PlaySession[]) : [],
-    activeChallenge: parsed.activeChallenge && typeof parsed.activeChallenge === 'object' ? (parsed.activeChallenge as Fs64PlayChallenge) : null,
+    recentSelections: Array.isArray(parsed['recentSelections']) ? (parsed['recentSelections'] as string[]) : [],
+    playSessions: Array.isArray(parsed['playSessions']) ? (parsed['playSessions'] as Fs64PlaySession[]) : [],
+    activeChallenge:
+      parsed['activeChallenge'] && typeof parsed['activeChallenge'] === 'object'
+        ? (parsed['activeChallenge'] as Fs64PlayChallenge)
+        : null,
   };
 }
 
