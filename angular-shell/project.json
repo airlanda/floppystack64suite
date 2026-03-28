@@ -1,15 +1,15 @@
 {
-  "name": "angular-host",
+  "name": "angular-shell",
   "$schema": "../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "angular-host/src",
+  "sourceRoot": "angular-shell/src",
   "tags": [],
   "targets": {
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "angular-host:build"
+        "buildTarget": "angular-shell:build"
       }
     },
     "lint": {
@@ -19,14 +19,14 @@
       "continuous": true,
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "angular-host:build",
-        "port": 4300,
+        "buildTarget": "angular-shell:build",
+        "port": 4200,
         "spa": true
       }
     },
     "serve": {
       "options": {
-        "port": 4300
+        "port": 4200
       }
     }
   }

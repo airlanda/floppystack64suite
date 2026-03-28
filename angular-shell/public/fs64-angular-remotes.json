@@ -1,0 +1,24 @@
+{
+  "remotes": [
+    {
+      "id": "angular-disks",
+      "name": "Angular Disks",
+      "route": "/disks",
+      "remoteName": "angularDisks",
+      "remoteEntry": "http://localhost:4301/",
+      "exposedModule": "mountAngularDisks",
+      "order": 10,
+      "description": "Angular disk inventory experience backed by the existing stores and disk APIs."
+    },
+    {
+      "id": "angular-games",
+      "name": "Angular Games",
+      "route": "/games",
+      "remoteName": "angularGames",
+      "remoteEntry": "http://localhost:4302/",
+      "exposedModule": "mountAngularGames",
+      "order": 20,
+      "description": "Angular game search and metadata browser backed by the existing games API."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "angularDisks",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "app",
+  "sourceRoot": "apps/angular-disks/src",
+  "tags": [],
+  "targets": {
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "angularDisks:build"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "serve-static": {
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "buildTarget": "angularDisks:build",
+        "port": 4301,
+        "watch": false
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "angularDisks:build:development"
+        },
+        "production": {
+          "buildTarget": "angularDisks:build:production"
+        }
+      }
+    },
+    "serve": {
+      "options": {
+        "port": 4301
+      }
+    }
+  }
+}

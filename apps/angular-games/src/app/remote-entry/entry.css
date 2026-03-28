@@ -1,0 +1,167 @@
+:host {
+  color: #f8f2ea;
+  display: block;
+}
+
+.page-shell {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.page-header,
+.search-panel,
+.results-summary,
+.result-card {
+  background: rgba(31, 16, 12, 0.78);
+  border: 1px solid rgba(255, 218, 147, 0.18);
+  border-radius: 1.25rem;
+}
+
+.page-header {
+  padding: 1.4rem;
+}
+
+.eyebrow {
+  color: #ffda93;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.page-header h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 0;
+}
+
+.lede,
+.result-copy p,
+.result-meta dd,
+.results-summary p,
+.location-list {
+  color: #e1d1bf;
+}
+
+.search-panel {
+  align-items: end;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr auto;
+  padding: 1.15rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.field span,
+.result-kicker,
+.result-meta dt {
+  color: #ffda93;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.field input {
+  background: rgba(14, 8, 6, 0.9);
+  border: 1px solid rgba(255, 218, 147, 0.22);
+  border-radius: 0.8rem;
+  color: #f8f2ea;
+  padding: 0.85rem 0.95rem;
+}
+
+.search-panel button {
+  background: #ffda93;
+  border: 0;
+  border-radius: 999px;
+  color: #22140f;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.8rem 1.1rem;
+}
+
+.results-summary {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem 1.15rem;
+}
+
+.error-banner,
+.loading-state {
+  background: rgba(102, 25, 25, 0.55);
+  border: 1px solid rgba(255, 140, 140, 0.35);
+  border-radius: 1rem;
+  padding: 1rem 1.1rem;
+}
+
+.loading-state {
+  background: rgba(31, 16, 12, 0.78);
+  border-color: rgba(255, 218, 147, 0.18);
+}
+
+.results-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.result-card {
+  display: grid;
+  gap: 1rem;
+  min-height: 280px;
+  padding: 1.2rem;
+}
+
+.result-card h2 {
+  margin: 0.3rem 0 0;
+}
+
+.result-meta {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0;
+}
+
+.result-meta div {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.result-meta dd {
+  margin: 0;
+}
+
+.location-list {
+  display: grid;
+  gap: 0.55rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.location-list li {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: space-between;
+}
+
+.location-list strong {
+  color: #82d7ff;
+}
+
+@media (max-width: 720px) {
+  .search-panel,
+  .results-summary,
+  .result-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .results-summary {
+    flex-direction: column;
+  }
+}

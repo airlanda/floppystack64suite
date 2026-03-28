@@ -121,7 +121,7 @@ export function App() {
     if (nextIndex >= 0 && nextIndex !== currentDiskIndex) {
       setCurrentDiskIndex(nextIndex);
     }
-  }, [location.search, filteredDisks, currentDiskIndex]);
+  }, [location.search, filteredDisks]);
 
   const cssVars = {
     ['--fs64-background' as string]: theme.background,

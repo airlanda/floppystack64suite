@@ -18,6 +18,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@fs64/angular-data": [
+        "libs/fs64/angular-data/src/index.ts"
+      ],
       "@fs64/theme": [
         "libs/fs64/theme/src/index.ts"
       ],
@@ -32,6 +35,12 @@
       ],
       "@fs64/registry": [
         "libs/fs64/registry/src/index.ts"
+      ],
+      "angularDisks/Routes": [
+        "apps/angular-disks/src/app/remote-entry/entry.routes.ts"
+      ],
+      "angularGames/Routes": [
+        "apps/angular-games/src/app/remote-entry/entry.routes.ts"
       ]
     }
   },

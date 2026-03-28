@@ -1,0 +1,42 @@
+{
+  "name": "angularGames",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "app",
+  "sourceRoot": "apps/angular-games/src",
+  "tags": [],
+  "targets": {
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "angularGames:build"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "serve-static": {
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "buildTarget": "angularGames:build",
+        "port": 4302,
+        "watch": false
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "angularGames:build:development"
+        },
+        "production": {
+          "buildTarget": "angularGames:build:production"
+        }
+      }
+    },
+    "serve": {
+      "options": {
+        "port": 4302
+      }
+    }
+  }
+}
